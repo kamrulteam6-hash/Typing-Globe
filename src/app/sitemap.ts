@@ -5,6 +5,7 @@ import { poems } from "@/data/poems";
 import { lyrics } from "@/data/lyrics";
 import { courseLevels } from "@/data/course";
 import { games } from "@/data/games";
+import { mockExams } from "@/data/mockExams";
 import { getPublishedPosts } from "@/lib/blog/queries";
 
 const BASE_URL = "https://www.typingglobe.com";
@@ -80,6 +81,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.65,
   }));
 
+  const examRoutes: MetadataRoute.Sitemap = mockExams.map((exam) => ({
+    url: `${BASE_URL}/exam/${exam.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
   const posts = await getPublishedPosts();
   const postRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,
@@ -97,6 +105,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...lyricRoutes,
     ...courseRoutes,
     ...gameRoutes,
+    ...examRoutes,
     ...postRoutes,
   ];
 }

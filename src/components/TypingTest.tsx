@@ -30,10 +30,25 @@ function computeStats(typed: string, target: string, elapsedMs: number) {
   const minutes = Math.max(elapsedMs / 60000, 1 / 60000);
   const wpm = Math.round(correct / 5 / minutes);
   const accuracy = typed.length === 0 ? 100 : Math.round((correct / typed.length) * 100);
-  return { correct, incorrect, wpm: Math.max(wpm, 0), accuracy: Math.max(accuracy, 0) };
+  const wordCount = typed.trim().length === 0 ? 0 : typed.trim().split(/\s+/).length;
+  return {
+    correct,
+    incorrect,
+    wpm: Math.max(wpm, 0),
+    accuracy: Math.max(accuracy, 0),
+    typedLength: typed.length,
+    wordCount,
+  };
 }
 
-export type TypingStats = { wpm: number; accuracy: number; correct: number; incorrect: number };
+export type TypingStats = {
+  wpm: number;
+  accuracy: number;
+  correct: number;
+  incorrect: number;
+  typedLength: number;
+  wordCount: number;
+};
 
 export function TypingTest({
   lang,
@@ -46,6 +61,7 @@ export function TypingTest({
   theme = "default",
   poemMeta,
   examConfig,
+  restrictBackspace = false,
 }: {
   lang?: Language;
   mode?: Mode;
@@ -58,6 +74,8 @@ export function TypingTest({
   poemMeta?: { title: string; author: string; year: string };
   /** Only used when mode === "exam" — overrides the default single-attempt exam settings. */
   examConfig?: { duration: number; difficulty: Difficulty };
+  /** Blocks deletions entirely — mirrors exams (e.g. RRB NTPC) that disable backspace during the real test. */
+  restrictBackspace?: boolean;
 }) {
   const isRtl = lang?.rtl ?? rtl;
   const isFixedLength = mode === "practice" || !!customText;
@@ -125,6 +143,7 @@ export function TypingTest({
 
   const handleChange = (value: string) => {
     if (finished) return;
+    if (restrictBackspace && value.length < typed.length) return;
     if (!startTime) setStartTime(Date.now());
     setTyped(value);
 

@@ -1,93 +1,118 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ComingSoonPage } from "@/components/ComingSoonPage";
+import { mockExams } from "@/data/mockExams";
+import { Card, SectionLabel } from "@/components/ui/Card";
+import { Badge } from "@/components/ui/Badge";
 import { SeoHeading } from "@/components/seo/SeoHeading";
 import { DataTable } from "@/components/seo/DataTable";
 import { Callout } from "@/components/seo/Callout";
 import { SeoFaqBlock } from "@/components/seo/SeoFaqBlock";
 
 export const metadata: Metadata = {
-  title: "Exam Hall — Government Exam Typing Practice",
+  title: "Exam Hall — Government & Competitive Exam Typing Tests",
   description:
-    "Timed, exam-format typing simulations for SSC, CPCT, RRB, and state PSC typing rounds. Coming soon to Typing Globe.",
+    "Free mock typing tests built to the exact format of real government and competitive exams — SSC CHSL, SSC CGL DEST, RRB NTPC, CPCT, UPSSSC, and more. Real pass/fail scoring.",
   alternates: { canonical: "/government-exam-typing-test" },
 };
 
 const faqItems = [
   {
-    question: "Which exams typically include a typing test?",
+    question: "Are these mock tests officially affiliated with SSC, RRB, or other exam boards?",
     answer:
-      "In India and Bangladesh, common examples include SSC (Steno/CHSL/CGL typing rounds), CPCT, RRB clerical exams, and various state PSC clerical and stenographer posts. Requirements vary by board and post, so always confirm the exact WPM and accuracy threshold on your specific exam notification.",
+      "No — these are independent practice simulations built from publicly available exam notifications and prep resources, matching the real duration, passage style, and pass/fail thresholds as closely as possible. Always confirm exact requirements on your official exam notification before test day.",
   },
   {
-    question: "Will Exam Hall replicate the exact scoring rules of my exam?",
+    question: "How is this different from a regular timed typing test?",
     answer:
-      "That's the goal — exam-format simulations built to match the timing, passage length, and pass/fail thresholds of specific exam boards, rather than a generic timed test. This feature is still in development, so exact board coverage will expand over time.",
+      "Regular tests measure raw WPM and accuracy. These mocks additionally enforce the specific exam's real rules — minimum word counts, category-based error tolerance, disabled backspace, KDPH scoring — and tell you PASS or FAIL against that exam's actual cutoff, not just a generic score.",
   },
   {
-    question: "What can I use right now to prepare for a typing exam?",
+    question: "More exams are coming, right?",
     answer:
-      "Our Typing Certificate exam is the closest live equivalent today — a proctored-style 3-stage timed exam (60s, 90s, 120s) that produces a verifiable, downloadable result, which is good practice for the pass/fail pressure of a real exam typing round. For open-ended practice, our standard timed tests also let you set the duration to match your exam's typing round length and track net WPM and accuracy the same way an exam would score you.",
+      "Yes — this is the first batch covering the highest-search exams. More boards and posts are being added over time.",
   },
 ];
 
-export default function ExamPage() {
+const countries = Array.from(new Set(mockExams.map((e) => e.country)));
+
+export default function ExamHallPage() {
   return (
     <>
-      <ComingSoonPage
-        label="Exam Hall"
-        title="Government Exam Typing Practice"
-        description="Exam-format typing simulations that mirror the timing, passage length, and scoring rules of SSC, CPCT, RRB, and state PSC typing rounds."
-        bullets={[
-          "Exam-accurate timing and passage formats",
-          "Pass/fail thresholds matched to real exam boards",
-          "Practice in English, Hindi, and other exam-recognized languages",
-        ]}
-      />
+      <div className="mx-auto max-w-3xl px-4 pt-16 pb-10 text-center sm:px-6 lg:px-8">
+        <SectionLabel>Exam Hall</SectionLabel>
+        <h1 className="mt-4 text-3xl font-bold text-foreground sm:text-4xl">
+          Government &amp; Competitive Exam Typing Tests
+        </h1>
+        <p className="mx-auto mt-4 max-w-xl leading-relaxed text-muted">
+          Free mock typing tests built to the exact format of real exams — same timing, same passage
+          style, same pass/fail rules. Find out if you&apos;d pass before test day.
+        </p>
+      </div>
+
+      <div className="mx-auto max-w-5xl px-4 pb-6 sm:px-6 lg:px-8">
+        {countries.map((country) => (
+          <div key={country} className="mb-10">
+            <h2 className="mb-4 text-sm font-bold uppercase tracking-wide text-muted-2">{country}</h2>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {mockExams
+                .filter((e) => e.country === country)
+                .map((exam) => (
+                  <Card key={exam.slug} hover className="flex flex-col">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-primary">{exam.authority}</p>
+                    <h3 className="mt-1 text-base font-bold text-foreground">{exam.name}</h3>
+                    <p className="mt-2 flex-1 text-sm text-muted">{exam.postName}</p>
+                    <div className="mt-3 flex flex-wrap gap-1.5">
+                      <Badge tone="primary">{Math.round(exam.durationSeconds / 60)} min</Badge>
+                      <Badge tone="accent">{exam.languageRules.map((r) => r.code.toUpperCase()).join(" / ")}</Badge>
+                    </div>
+                    <Link
+                      href={`/exam/${exam.slug}`}
+                      className="mt-4 inline-flex items-center justify-center rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-all hover:brightness-110"
+                    >
+                      Start Mock Test →
+                    </Link>
+                  </Card>
+                ))}
+            </div>
+          </div>
+        ))}
+      </div>
 
       <div className="mx-auto max-w-3xl px-4 pb-16 sm:px-6 lg:px-8">
         <section className="flex flex-col gap-10 border-t border-border pt-12">
           <div>
             <SeoHeading id="what-is-exam-typing">What Is a Government Exam Typing Test?</SeoHeading>
             <p className="mt-3 leading-relaxed text-muted">
-              Many government recruitment exams include a timed typing round as part of the selection
-              process — a fixed passage, a strict time limit, and a minimum net WPM and accuracy
-              threshold you must clear to pass. Unlike a casual typing test, these rounds are
+              Many government and competitive-exam recruitment processes include a timed typing round
+              as part of selection — a fixed passage, a strict time limit, and a minimum net WPM and
+              accuracy threshold you must clear to pass. Unlike a casual typing test, these rounds are
               pass/fail: falling short by even a few WPM can mean disqualification regardless of how
               well you did on the written portion of the exam.
             </p>
           </div>
 
           <div>
-            <SeoHeading id="common-exams">Common Exams With a Typing Component</SeoHeading>
-            <p className="mt-3 text-sm text-muted">
-              Requirements below are general references, not official figures — always confirm exact
-              thresholds on your specific exam&apos;s official notification.
-            </p>
+            <SeoHeading id="available-exams">Available Mock Exams</SeoHeading>
             <div className="mt-4">
               <DataTable
-                headers={["Exam / Post Type", "Typical Focus", "Region"]}
-                rows={[
-                  ["SSC CHSL / CGL (typing posts)", "English or Hindi typing speed test", "India"],
-                  ["CPCT (Computer Proficiency)", "Typing speed + accuracy certification", "Madhya Pradesh, India"],
-                  ["RRB clerical / stenographer posts", "English or Hindi typing round", "India (Railways)"],
-                  ["State PSC clerical posts", "Regional language + English typing", "Various Indian states"],
-                  ["BCS / bank recruitment typing rounds", "Bengali or English typing speed", "Bangladesh"],
-                ]}
+                headers={["Exam", "Authority", "Duration", "Pass Mark"]}
+                rows={mockExams.map((e) => [
+                  e.name,
+                  e.authority,
+                  `${Math.round(e.durationSeconds / 60)} min`,
+                  e.languageRules.map((r) => `${r.passWpm} WPM (${r.code.toUpperCase()})`).join(" / "),
+                ])}
               />
             </div>
           </div>
 
           <Callout icon="🎯" title="Practice with intent" tone="gold">
-            While Exam Hall is in development, our{" "}
+            For a broader typing credential (not tied to one exam), our{" "}
             <Link href="/typing-certificate" className="text-primary underline underline-offset-2">
               Typing Certificate
             </Link>{" "}
-            exam is a genuinely useful stand-in — it&apos;s already timed, multi-stage, and pass/fail
-            in spirit. For open-ended drilling, set a standard typing test to the exact duration your
-            exam uses (often 10 or 15 minutes) and track your <strong>net</strong> WPM specifically —
-            most exam boards score net WPM, not gross WPM, and the difference matters more than most
-            candidates expect.
+            exam is a genuinely useful complement — a proctored-style 3-stage timed exam that produces
+            a verifiable, downloadable result.
           </Callout>
 
           <div>
