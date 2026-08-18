@@ -9,32 +9,42 @@ import { RandomTypingTeaser } from "@/components/content/RandomTypingTeaser";
 import { stories } from "@/data/stories";
 
 export const metadata: Metadata = {
-  title: "Aesop Fables Typing Test — Practice with Classic Stories",
+  title: "Aesop Fables Typing Test | Free Story WPM Practice",
   description:
-    "Free Aesop fables typing test — practice typing with classic moral stories like The Tortoise and the Hare. Measure your WPM, accuracy, and improve fast.",
+    "Practice typing with Aesop fables and check your WPM and accuracy. Type six classic moral stories with natural punctuation, dialogue, and varied sentence rhythm.",
   alternates: { canonical: "/aesop-fables-typing-test" },
 };
 
 const faqItems = [
   {
-    question: "Are these real Aesop's fables, word for word?",
+    question: "Is the Aesop Fables Typing Test free?",
     answer:
-      "The stories, characters, and morals are the same ones you'd recognize — Aesop's original fables are in the public domain and have been freely reproducible for centuries. Our versions are original retellings written specifically for typing practice, not copied from any single historic translation.",
+      "Yes. Typing Globe currently lets you open the Aesop fable story pages and type them in the browser while tracking WPM and accuracy. The collection page also lets you browse the available stories and open each fable as its own typing test.",
   },
   {
-    question: "How long are the Aesop fable typing passages?",
+    question: "Which Aesop fables are available on Typing Globe?",
     answer:
-      "Most fables on our test run between 150–320 words. At 40 WPM, that's roughly 3–8 minutes per fable. Story mode is untimed by default, so you can also set a timer separately if you want a speed benchmark instead.",
+      "The current collection includes The Tortoise and the Hare, The Fox and the Grapes, The Boy Who Cried Wolf, The Ant and the Grasshopper, The Lion and the Mouse, and The Crow and the Pitcher. The live collection currently labels three as easy and three as medium.",
   },
   {
-    question: "Is this typing test good for kids?",
+    question: "How long are the Aesop typing passages?",
     answer:
-      "Yes — Aesop fables are some of the best typing practice material for children roughly ages 8–14. The vocabulary is age-appropriate, the stories are engaging, and the moral lessons make the practice feel meaningful rather than mechanical.",
+      "The six current Typing Globe passages range from 173 to 263 words. The Fox and the Grapes is the shortest at 173 words, while The Boy Who Cried Wolf is the longest at 263 words. The other four stories fall between those two lengths.",
   },
   {
-    question: "Will my Aesop WPM match my standard typing test score?",
+    question: "Should I repeat the same fable or always choose a new one?",
     answer:
-      "Your Aesop WPM will usually run a bit higher than your score on random-word or advanced literary text, since familiar vocabulary and predictable sentence structure reduce cognitive load. Use it as a confidence benchmark alongside your standard test score, not a replacement for it.",
+      "Use both approaches. Repeating the same fable is useful for fixing punctuation and difficult key patterns, while a fresh story gives you a better check of how your skill transfers to unfamiliar wording. Familiarity can make later attempts on the same passage easier.",
+  },
+  {
+    question: "Are Typing Globe's passages copied from an old Aesop translation?",
+    answer:
+      "No. The story pages describe them as traditional fables that have been retold. The ancient fable tradition has many public-domain editions, but exact modern translations can have separate copyright, so original retellings are the safer and more distinctive approach for the site.",
+  },
+  {
+    question: "Will my Aesop WPM match my normal typing-test WPM?",
+    answer:
+      "Not necessarily. Story familiarity, vocabulary, dialogue, punctuation, passage length, and how predictable the sentences feel can all change your result. Use Aesop fables as one practice format and keep a standard unfamiliar typing test as a separate benchmark.",
   },
 ];
 
@@ -52,13 +62,10 @@ export default function StoriesPage() {
           Type timeless moral stories. Build real-world speed, accuracy, and rhythm — one fable at a time.
         </p>
         <p className="mx-auto mt-4 max-w-2xl text-balance text-sm leading-relaxed text-muted">
-          There&apos;s a reason Aesop&apos;s fables have survived for over 2,500 years. The Tortoise and
-          the Hare. The Lion and the Mouse. The Ant and the Grasshopper. The Fox and the Grapes. These
-          aren&apos;t just children&apos;s stories — they&apos;re some of the most perfectly constructed
-          short texts ever written: clear sentences, natural rhythm, meaningful punctuation, and a moral
-          that keeps your brain engaged right to the end. That&apos;s exactly what makes them some of the
-          best typing practice material around — pick a fable below and find your real WPM in under two
-          minutes.
+          Random word tests are useful for raw keyboard drills, but sometimes you want a passage that actually keeps moving somewhere. Our Aesop Fables Typing Test lets you practice WPM and accuracy with complete short stories, so every sentence gives you a reason to keep reading while your fingers keep working.
+        </p>
+        <p className="mx-auto mt-3 max-w-2xl text-balance text-sm leading-relaxed text-muted">
+          Choose one of the six fables on Typing Globe, click into the story, and begin typing the passage exactly as it appears. You will work through natural sentences, quotation marks, apostrophes, commas, capitalization, and changing sentence lengths while the test tracks your WPM and accuracy.
         </p>
       </div>
 
