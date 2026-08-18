@@ -1,13 +1,21 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Croatian Typing Test — Besplatni Test Brzine Tipkanja (WPM)",
+  seoTitle: "Free Croatian Typing Test · Hrvatski | WPM & Accuracy",
   seoDescription:
-    "Free Croatian typing test — measure your real WPM typing Hrvatski, including č, ć, đ, š, ž. Practice for office jobs and data entry. No signup required.",
+    "Take our free Croatian typing test to check WPM and accuracy. Practice Hrvatski with č, ć, đ, š, ž and the Croatian keyboard layout.",
   researchedKeywords: [
     "croatian typing test",
+    "croatian typing speed test",
+    "croatian wpm test",
+    "croatian keyboard test",
+    "croatian typing practice",
     "test brzine tipkanja",
-    "hrvatski test kucanja",
+    "test tipkanja hrvatski",
+    "brzina tipkanja",
+    "vježbanje tipkanja",
+    "hrvatska tipkovnica",
+    "test brzine pisanja",
     "wpm test hrvatski",
     "hrvatska tipkovnica",
     "kucanje na hrvatskom",

@@ -1,191 +1,229 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "German Typing Speed Test — Tippgeschwindigkeitstest Deutsch",
+  seoTitle: "Free German Typing Test · Deutsch | WPM, APM & Accuracy",
   seoDescription:
-    "Free German typing speed test — Tippgeschwindigkeitstest Deutsch. QWERTZ layout, WPM & APM (Anschläge pro Minute). Standards for DACH office jobs. No signup.",
+    "Take a free German typing test and check WPM, APM and accuracy. Practice ä, ö, ü, ß, capital nouns, compounds and the German QWERTZ keyboard.",
   researchedKeywords: [
     "german typing test",
-    "tippgeschwindigkeitstest deutsch",
-    "schreibgeschwindigkeit test",
-    "qwertz typing test",
+    "german typing speed test",
+    "german wpm test",
+    "german apm test",
+    "german keyboard test",
+    "typing test deutsch",
+    "tippgeschwindigkeitstest",
+    "schreibgeschwindigkeit",
     "anschläge pro minute",
-    "zehnfingersystem test",
-    "german typing test online free",
-    "apm to wpm",
+    "tippgeschwindigkeit test",
+    "zehnfingersystem",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
-        "Germany has one of the highest keyboard-proficiency expectations in the world. German employers don't just want fast typists — they expect Zehnfingersystem (10-finger touch typing) as a baseline skill, measured in Anschläge pro Minute (APM) rather than WPM. Whether you're job hunting in the DACH region, learning German, or benchmarking your Schreibgeschwindigkeit — our free German typing speed test gives you your real numbers in under a minute.",
-        "Testen Sie jetzt Ihre Tippgeschwindigkeit auf Deutsch — wählen Sie Ihr Layout, starten Sie den Timer, und erhalten Sie sofort Ihre WPM, APM und Genauigkeit.",
+        "German typing is not difficult because it uses an unfamiliar script. It is difficult because a familiar Latin keyboard suddenly changes its habits: Y and Z trade places on QWERTZ, ä/ö/ü and ß become everyday keys, nouns require capitals, and long compounds can keep your fingers moving much longer before the next space.",
+        "Start the German Typing Test above and type at the pace that feels natural today. Typing Globe currently offers 15, 30, 60, and 120-second tests, easy, medium, and hard passages, one- or two-paragraph options, shuffle, custom text, and live WPM plus accuracy feedback.",
       ],
     },
-    { type: "heading", text: "Two Metrics, One Test — WPM and APM Explained", id: "wpm-vs-apm" },
+    { type: "heading", text: "What Is a German Typing Test?", id: "what-is" },
     {
       type: "paragraph",
-      text: "This is where German typing is genuinely different from English. In Germany, Austria, and Switzerland, the professional standard metric isn't WPM — it's APM (Anschläge pro Minute), meaning keystrokes per minute. Every key press counts, including Shift for capital letters. Here's how they connect:",
+      text: "A German typing test measures how quickly and accurately you can reproduce text written in Deutsch. People may search for the same tool as German typing speed test, German WPM test, German APM test, Tippgeschwindigkeitstest, Schreibgeschwindigkeit, Anschläge pro Minute, or simply deutsche Tastatur practice. The useful result is not speed alone. German spelling makes umlauts, ß, capitalization, and exact letter sequences meaningful. A fast passage that turns Straße into Strasse, Häuser into Hauser, or Arbeit into arbeit is not an exact transcription even if every other character is correct.",
     },
+    { type: "heading", text: "WPM and APM: Two Ways to Read Typing Speed", id: "wpm-apm" },
+    {
+      type: "paragraph",
+      text: "WPM means words per minute and is commonly standardized by treating five typed characters as one word. APM means Anschläge pro Minute, or keystrokes per minute. German-speaking typing courses and assessments often discuss keystrokes, so APM can be a familiar local way to describe keyboard output. The two metrics are related but should not be treated carelessly. If a system defines one standardized word as five counted characters, 200 counted characters per minute correspond mathematically to 40 WPM. Real APM rules can differ when Shift, spaces, corrections, or special keys are counted separately.",
+    },
+    { type: "heading", text: "Do Not Assume Every German APM System Counts Keys the Same Way", id: "apm-variation" },
+    {
+      type: "paragraph",
+      text: "The current Typing Globe page states that capital letters count as two Anschläge because Shift and the letter are both counted. That can be a valid convention in some training or assessment systems, but it should not be presented as the one universal German rule unless the exact target exam or employer uses it. For personal progress, the safest method is consistency. Compare Typing Globe results with Typing Globe results, using the same duration and difficulty. If you are preparing for a specific vocational, school, government, or employer assessment, follow that assessment's published counting method separately.",
+    },
+    { type: "heading", text: "The German QWERTZ Keyboard", id: "qwertz-layout" },
+    {
+      type: "paragraph",
+      text: "Microsoft maintains a dedicated German Windows keyboard, identifier 00000407. The layout is commonly described as QWERTZ because Z occupies the position where an English QWERTY typist expects Y, while Y moves to the lower row. That swap is one of the first habits English typists notice. German QWERTZ also gives direct access to the characters needed constantly in German text, including ä, ö, ü and ß. If you write German every day, the native layout is generally more practical than entering these characters through repeated menus or copy-and-paste.",
+    },
+    { type: "heading", text: "QWERTZ vs. QWERTY: What Actually Changes Your Rhythm", id: "layout-differences" },
     {
       type: "table",
-      headers: ["Metric", "German Term", "Formula", "What It Measures"],
+      headers: ["Feature", "German QWERTZ", "Typing Impact"],
       rows: [
-        ["WPM", "Wörter pro Minute (WpM)", "Total characters ÷ 5 ÷ minutes", "Net typing speed (standard global)"],
-        ["APM / CPM", "Anschläge pro Minute", "Total keystrokes ÷ minutes", "Gross keystroke rate — the German professional standard"],
-        ["Net WPM", "WpM netto", "Gross WPM − errors", "Real speed after deductions"],
-        ["Accuracy", "Genauigkeit", "% correct characters", "Quality under pressure"],
+        ["Y / Z", "Swapped on German QWERTZ", "Words such as Zeit, zwischen, zehn, zurück"],
+        ["Ä / Ö / Ü", "Dedicated German keys", "Common everyday words"],
+        ["ß", "Dedicated on standard German layout", "Straße, groß, weiß, Fuß"],
+        ["Punctuation", "Several symbol positions differ", "Emails, quotes, numbers, technical text"],
       ],
     },
     {
       type: "paragraph",
-      text: "The conversion is direct: 200 APM = 40 WPM. So when a German job listing says \"230 Anschläge pro Minute,\" that's roughly 46 WPM. Our test shows you both numbers so you're never confused about where you stand.",
+      text: "If you constantly switch between German QWERTZ and English QWERTY, do not be surprised when Y/Z errors appear for a few minutes after the change. Keep your benchmark tied to the layout you actually use, and confirm the active input profile before starting a timed test.",
     },
-    {
-      type: "callout",
-      icon: "📌",
-      title: "How Anschläge are counted",
-      text: "In official German typing competitions and exams, capital letters count as 2 Anschläge — the letter stroke plus the Shift key. Spaces count as 1 Anschlag. Our test follows this standard.",
-    },
-    { type: "heading", text: "The QWERTZ Keyboard — What Makes German Typing Different", id: "qwertz" },
+    { type: "heading", text: "Ä, Ö, and Ü Are Real German Letters in Practice", id: "umlauts" },
     {
       type: "paragraph",
-      text: "The standard German keyboard layout is QWERTZ — and if you're used to QWERTY, there are several things that will immediately trip you up:",
+      text: "German uses the umlaut letters ä, ö, and ü throughout ordinary vocabulary. Duden identifies ä, ö, and ü as the graphemes used for umlauts. In accurate typing, für, können, über, größer, ändern, hören, and müde should keep the proper character when the source contains it. Practice the letters inside real words rather than as isolated key drills. Use phrases such as für später, größere Änderung, schöne Lösung, über München, and fünf Gründe. Whole-word repetition helps the special key become part of normal German rhythm.",
     },
+    { type: "heading", text: "Ae, Oe, and Ue Are Fallbacks, Not Automatic Replacements", id: "umlaut-fallback" },
     {
-      type: "table",
-      headers: ["Difference", "QWERTZ (German)", "QWERTY (English)", "Why It Matters"],
-      rows: [
-        ["Z and Y swapped", "Z is top row, Y is bottom", "Y is top row, Z is bottom", "Z is far more common in German — words like zwischen, zehn, Zeit hit instantly"],
-        ["Umlauts on home row", "Ä, Ö, Ü have dedicated keys", "No dedicated umlaut keys", "German text uses umlauts constantly — they're right where your fingers rest"],
-        ["Eszett (ß) key", "Dedicated key on right side", "Not available", "straße, heiß, groß — the ß appears regularly in everyday German"],
-        ["Numbers require Shift", "Top row shows symbols/umlauts by default", "Numbers are default", "Typing numbers in German text slows you down more than in English"],
-        ["M key position", "Shifted one position right", "Standard position", "Catches QWERTY typists off guard"],
-      ],
+      type: "paragraph",
+      text: "German can use ae, oe, and ue as fallback spellings when umlaut characters are unavailable, especially in technical or legacy contexts. That does not mean you should replace every ä, ö, or ü during an exact typing test when your keyboard can produce the real characters. If the source says Müller, type Müller; if an official name or system says Mueller, copy Mueller. The typing-test rule should be source fidelity rather than automatically normalizing one spelling into the other while the timer is running.",
+    },
+    { type: "heading", text: "ß and ẞ: The Eszett Deserves Its Own Practice", id: "eszett" },
+    {
+      type: "paragraph",
+      text: "The Eszett, ß, appears in many common German words such as Straße, groß, weiß, Fuß, heißen, and Spaß. On a standard German keyboard it has a dedicated key, so frequent copy-and-paste is unnecessary once your layout is configured correctly. Modern German orthography also allows the capital letter ẞ. The Rat für deutsche Rechtschreibung states that capital ẞ can be used alongside the traditional SS solution in uppercase writing. Duden likewise gives forms such as STRASSE and STRAẞE as valid uppercase options.",
+    },
+    { type: "heading", text: "When Should You Type ß and When Should You Type ss?", id: "ss-vs-eszett" },
+    {
+      type: "paragraph",
+      text: "In standard German spelling, ß and ss are not simply interchangeable choices in ordinary lowercase text. Their use follows spelling rules connected to the preceding vowel and sound pattern. For typing practice, however, you do not need to solve the rule from scratch: reproduce the source passage exactly. This is especially important for learners who type from memory. If the passage shows Straße, do not turn it into Strasse just because your fingers reach s more easily. Accurate copying trains both keyboard control and visual attention to the written form.",
+    },
+    { type: "heading", text: "Swiss German Text Often Uses ss Instead of ß", id: "swiss-spelling" },
+    {
+      type: "paragraph",
+      text: "German used in Switzerland normally writes ss where Germany and Austria may use ß. That means a Swiss German passage can legitimately contain Strasse instead of Straße. Do not 'correct' Swiss spelling into a German-Germany form during an exact typing test. The keyboard environment can differ too. Microsoft provides a separate Swiss German keyboard profile rather than treating every German-speaking region as one identical layout. If your work is based in Switzerland, practice the spelling and keyboard convention you actually use there.",
+    },
+    { type: "heading", text: "German Nouns Create Extra Shift-Key Work", id: "noun-capitalization" },
+    {
+      type: "paragraph",
+      text: "German capitalizes nouns, so ordinary prose contains more internal capitals than English. Arbeit, Tastatur, Geschwindigkeit, Sprache, Computer, Unternehmen, and Genauigkeit all require a capital even when they appear in the middle of a sentence. This makes Shift-key coordination an important German typing skill. Practice pressing Shift with the opposite hand from the letter when that feels comfortable, but focus on clean, repeatable movement rather than forcing a rigid technique that makes you tense.",
+    },
+    { type: "heading", text: "Capitalization Is a Typing Issue, Not Just a Grammar Issue", id: "caps-typing" },
+    {
+      type: "paragraph",
+      text: "A typist who knows the noun rule but repeatedly misses the Shift key still loses accuracy. German learners can also make the opposite mistake by capitalizing words that are not nouns. A typing test exposes both problems because the visual source and your output must match character for character. Practice sentences with many nouns, such as \"Die Mitarbeiter prüfen jeden Bericht vor dem Versand an den Kunden.\" Keep your eyes on the text and let each noun capital become part of the phrase rather than a stop before the word.",
+    },
+    { type: "heading", text: "German Compound Words Can Be Long but Predictable", id: "compound-words" },
+    {
+      type: "paragraph",
+      text: "German forms compound nouns by joining words, so normal professional writing can contain long forms such as Kundenservice, Datenschutzrichtlinie, Arbeitszeitmodell, Qualitätsmanagement, Benutzeroberfläche, and Unternehmenskommunikation. These words can look intimidating even when their parts are familiar. Read compounds as meaningful chunks while preserving the continuous spelling. For example, Benutzeroberfläche contains Benutzer and Oberfläche, while Arbeitszeitmodell contains Arbeit, Zeit, and Modell. Chunk recognition helps your eyes stay ahead without inserting spaces that do not belong.",
+    },
+    { type: "heading", text: "Long Words Are Useful Accuracy Drills", id: "long-word-practice" },
+    {
+      type: "paragraph",
+      text: "A long compound gives your fingers more opportunities to lose one letter before reaching the next space. That makes compounds useful for diagnosing repeated errors. If you regularly mistype Qualitätsmanagement, practice that word several times, then place it back inside a sentence. Do not chase novelty words simply because German is famous for long compounds. Everyday workplace vocabulary is enough. The best practice text resembles the documents, messages, study material, or customer communication you actually type.",
+    },
+    { type: "heading", text: "Windows Has More Than One German Keyboard Layout", id: "keyboard-variants" },
+    {
+      type: "paragraph",
+      text: "Microsoft currently lists German, German (IBM), German Extended (E1), and German Extended (E2) among Windows keyboard layouts. The standard German layout is 00000407, while German (IBM) uses 00010407 and the Extended layouts use separate identifiers. For most ordinary users, the standard German keyboard is the sensible reference. If your workplace or specialist workflow uses another layout, keep that layout consistent during practice. Different key maps should not be compared as though they were the same motor task.",
+    },
+    { type: "heading", text: "How to Add the German Keyboard in Windows", id: "windows-setup" },
+    {
+      type: "paragraph",
+      text: "Windows manages language and keyboard input through Settings > Time & language > Language & region. Add German if needed, open the language options, and choose the German keyboard. If several layouts are installed, confirm the active one before starting a timed test. Windows key + Space is a quick way to switch between installed layouts. That shortcut is especially useful for bilingual German-English typists, but accidental switching can produce Y/Z mistakes and punctuation errors that have nothing to do with your actual language ability.",
+    },
+    { type: "heading", text: "How Typing Globe Measures German Typing", id: "wpm-calculation" },
+    {
+      type: "paragraph",
+      text: "Typing Globe's live German page currently offers 15, 30, 60, and 120-second tests, easy, medium, and hard passages, one or two paragraphs, shuffle, and a custom-text option. The test displays WPM and accuracy while you type. The current SEO copy also discusses APM. If Typing Globe displays or adds APM in the interface, keep the exact calculation documented near the result so users know whether Shift, spaces, corrected errors, and other keystrokes are included.",
+    },
+    { type: "heading", text: "What Is a Good German Typing Speed?", id: "good-speed" },
+    {
+      type: "paragraph",
+      text: "There is no transparent universal APM or WPM table proving that every German office worker, student, translator, secretary, developer, or administrator should fall into one fixed beginner-to-expert band. The current page presents several exact professional ranges without showing a transparent dataset behind them. Use your first clean result as a personal baseline. If you begin at 39 WPM with 93% accuracy, for example, aim to make the same pace cleaner before pushing higher. That is a progress example, not an official German employment or vocational-exam standard.",
+    },
+    { type: "heading", text: "Do Not Assume German Must Be 10-20% Slower Than English", id: "speed-comparison" },
+    {
+      type: "paragraph",
+      text: "Your German score may be lower when you are new to QWERTZ, umlauts, noun capitalization, or German vocabulary, but there is no reason to publish one fixed percentage as a universal language penalty without controlled comparative data. Compare your own German results with your own German results first. If you also test in English, treat the difference as diagnostic information. Keyboard familiarity, reading fluency, passage difficulty, punctuation, and vocabulary can all influence the gap.",
+    },
+    { type: "heading", text: "Accuracy First, Then Speed", id: "accuracy-first" },
+    {
+      type: "paragraph",
+      text: "If Y/Z swaps, missing umlauts, or noun capitals are still causing corrections, forcing more speed usually creates more backspacing than improvement. Slow, exact repetition teaches a movement pattern your fingers can reuse automatically once the key sequence becomes familiar. Try a sentence such as \"Die Qualität der täglichen Arbeit verbessert sich durch regelmäßiges Üben.\" Type it carefully first, keeping every capital and umlaut, then repeat it slightly faster. The goal is to preserve correct German spelling while the movement becomes smoother.",
+    },
+    { type: "heading", text: "Practice Real German Words", id: "real-words" },
+    {
+      type: "paragraph",
+      text: "Start with common words such as Arbeit, Zeit, Straße, schön, für, können, über, heute, Menschen, and Sprache. Then add longer vocabulary such as Geschwindigkeit, Verantwortung, Benutzeroberfläche, Kundenservice, Geschäftsführung, Datenverarbeitung, and Qualitätsmanagement. When one word repeatedly causes an error, stop and type it correctly several times before returning to the full passage. This targeted approach reveals whether the problem is a special character, capital letter, Y/Z position, compound boundary, or simply unfamiliar vocabulary.",
+    },
+    { type: "heading", text: "A 6-Week German Typing Practice Plan", id: "six-week-plan" },
+    {
+      type: "paragraph",
+      text: "Weeks 1–2: Make QWERTZ and Umlauts Automatic. Focus on the German keyboard layout you actually use. Practice Y/Z switching, ä, ö, ü, ß, and short sentences with capitalized nouns. Reduce how often you look down and prioritize clean output instead of chasing a personal-record WPM.",
     },
     {
       type: "paragraph",
-      text: "These differences mean your German WPM will typically run 10–20% lower than your English WPM when you first switch layouts — especially for nouns (every German noun is capitalized, requiring constant Shift use). Give yourself 2–4 weeks of daily practice before comparing scores across languages.",
+      text: "Weeks 3–4: Add Compounds, Capitals, and Punctuation. Deliberately practice longer compounds, noun-heavy sentences, numbers, apostrophes, quotation marks, and harder vocabulary. Keep a short list of words that caused repeated mistakes in earlier tests and reuse them in Custom Typing Test sessions.",
     },
-    { type: "heading", text: "German Typing Speed Benchmarks — Wie Schnell Sind Sie?", id: "benchmarks" },
     {
       type: "paragraph",
-      text: "German professional standards are significantly higher than the global average. Here's the full benchmark table used in German-speaking workplaces and education:",
+      text: "Weeks 5–6: Build Sustained Rhythm. Mix short 30-second checks with 60- and 120-second tests. Longer passages reveal whether accuracy falls once the opening burst of concentration fades. Review recurring errors after each attempt, drill those patterns separately, then return to a fresh German passage.",
     },
-    {
-      type: "table",
-      headers: ["APM (Anschläge/min)", "WPM (approx.)", "Level", "Deutsch Level", "Real-World Standard"],
-      rows: [
-        ["Below 100", "<20", "Beginner", "Anfänger", "Learning phase, no professional use"],
-        ["100–180", "20–36", "Basic", "Grundkenntnisse", "Vocational school minimum (Abschrift: 180 APM)"],
-        ["180–230", "36–46", "Average", "Durchschnittlich", "Office assistant, general Bürojob"],
-        ["230–300", "46–60", "Good", "Gut", "Büromanagement exam standard (230 APM required)"],
-        ["300–400", "60–80", "Professional", "Professionell", "Sekretärin, executive assistant, 10-Finger certified"],
-        ["400–550", "80–110", "Fast", "Schnell", "Europasekretärin certification (300+ APM error-free)"],
-        ["550+", "110+", "Elite", "Elite", "Competition level — Deutsche Meisterschaften standard"],
-      ],
-    },
-    {
-      type: "callout",
-      icon: "🏆",
-      title: "Real data point",
-      text: "At the 2010 German Typing Championships (Deutsche Meisterschaften), the winner achieved 542 APM (≈108 WPM) error-free over 10 minutes. The current world record, held by Helena Matouskova, stands at 955 APM (≈191 WPM).",
-    },
-    { type: "heading", text: "Professional Requirements in the DACH Region", id: "job-requirements" },
+    { type: "heading", text: "A Simple 20-Minute German Typing Routine", id: "practice-routine" },
     {
       type: "paragraph",
-      text: "If you're job hunting in Germany, Austria, or Switzerland, here's what employers and certification bodies actually expect:",
+      text: "Use the first few minutes as a relaxed warm-up with QWERTZ, umlauts, ß, and capital nouns. Spend several minutes on the words or key transitions that caused problems in your previous test. Then take one normal-speed test without restarting because of an imperfect opening. Finish by reviewing errors instead of immediately chasing another score. If Y/Z is the issue, drill words containing both. If ß slows you down, practice a small group of ß words. If compounds break rhythm, practice reading and typing them in chunks.",
     },
-    {
-      type: "table",
-      headers: ["Role / Certification", "APM Required", "WPM (approx.)", "Notes"],
-      rows: [
-        ["Bürojob (general office)", "180–230 APM", "36–46 WPM", "Standard minimum for office work"],
-        ["Kaufmann/-frau für Büromanagement", "230 APM", "~46 WPM", "Official exam requirement, 10-min test"],
-        ["Sekretärin / Secretary", "250–300 APM", "50–60 WPM", "Error-free expected"],
-        ["Europasekretärin", "300+ APM", "60+ WPM", "Certification requires 300 APM, fehlerlos"],
-        ["Berufsschule / VHS course minimum", "180 APM", "~36 WPM", "End-of-course Abschrift standard"],
-        ["Data entry / Dateneingabe", "300–400 APM", "60–80 WPM", "High accuracy required, 95%+"],
-        ["Transcription / Protokoll", "400+ APM", "80+ WPM", "Near-perfect accuracy, fast turnaround"],
-      ],
-    },
-    { type: "heading", text: "The Zehnfingersystem — Why Germany Takes It Seriously", id: "zehnfingersystem" },
+    { type: "heading", text: "German Typing for Work, Study, and Multilingual Writing", id: "use-cases" },
     {
       type: "paragraph",
-      text: "In German-speaking countries, Zehnfingersystem (10-finger touch typing) isn't just a productivity tip — it's a formal skill taught in Berufsschulen (vocational schools) and listed on CVs. The system is based on strict home-row technique:",
+      text: "Accurate German typing can be useful in administration, education, translation, customer support, technical documentation, journalism, software teams, public-sector communication, and everyday office work. It also matters for multilingual users who switch between German and English or another language. If you are preparing for a specific employer or exam, check the current official instructions instead of relying on a generic internet APM table. Some assessments may count keystrokes, others WPM, accuracy, corrections, or a fixed transcription task.",
     },
+    { type: "heading", text: "Use Custom Text for Your Own German Vocabulary", id: "custom-text" },
+    {
+      type: "paragraph",
+      text: "Typing Globe's Custom Typing Test is useful when the standard passages do not contain the vocabulary you need. Practice your own customer-support phrases, technical terms, study notes, administrative text, or workplace vocabulary so long as you have the right to use the material. Keep a standard German passage as a separate benchmark because familiar custom material can become easier through repetition. Custom text is excellent for fixing a specific weak sequence; fresh passages are better for checking whether the improvement transfers to new wording.",
+    },
+    { type: "heading", text: "Common German Typing Mistakes to Watch", id: "common-mistakes" },
     {
       type: "list",
       items: [
-        "Left hand rests on A-S-D-F (QWERTZ: A-S-D-F)",
-        "Right hand rests on J-K-L-Ö",
-        "Every key is assigned to a specific finger — no guessing, no looking",
-        "Shift is always pressed with the opposite hand from the letter",
+        "Swapping Y and Z after moving between QWERTY and QWERTZ",
+        "Typing a, o, or u when the source requires ä, ö, or ü",
+        "Replacing ß with ss automatically even when the source uses German-Germany spelling",
+        "Changing Swiss ss spelling into ß during an exact transcription",
+        "Missing Shift on nouns in the middle of a sentence",
+        "Rushing long compounds and dropping a letter before the next space",
+        "Treating unsupported APM/WPM professional bands as official German job standards",
       ],
     },
     {
       type: "paragraph",
-      text: "The hard ceiling for non-touch typists in German is around 150–180 APM (30–36 WPM) — because constant noun capitalization, umlaut access, and the ß key all become bottlenecks without proper 10-finger technique. The payoff for learning the system properly: practiced Zehnfingerschreiber comfortably reach 200–400 APM in everyday use.",
+      text: "You do not need to fix every weakness in one session. Choose the mistake that appears most often, practice the exact key sequence behind it, and then retest. Removing one repeated German-specific error can improve real typing more than a small artificial WPM gain.",
     },
-    { type: "heading", text: "German Special Characters — Das Müssen Sie Beherrschen", id: "special-characters" },
-    {
-      type: "paragraph",
-      text: "Our test passages include all the characters that define real German typing proficiency:",
-    },
-    {
-      type: "list",
-      items: [
-        "Umlauts — ä, ö, ü (and capitalized: Ä, Ö, Ü) — appear in für, können, über, Österreich",
-        "Eszett (ß) — Straße, heiß, Spaß, Fuß — dedicated key on QWERTZ, right of Ö",
-        "Capitalized nouns — every noun in German gets a capital: Tisch, Arbeit, Tastatur — that's a Shift press for the majority of content words",
-        "Swiss exception — Switzerland uses ss instead of ß entirely. Swiss QWERTZ keyboards don't have a ß key. If you're in Switzerland, ss is always correct.",
-      ],
-    },
-    { type: "heading", text: "Who Is This Test Built For?", id: "who-its-for" },
-    {
-      type: "list",
-      items: [
-        "💼 DACH job applicants — Germany, Austria, Switzerland office, admin, and secretarial roles",
-        "🎓 Berufsschule and VHS students — preparing for the 10-minute Abschrift exam",
-        "📋 Kaufmann/-frau für Büromanagement candidates — targeting the 230 APM certification requirement",
-        "🌍 German language learners — building keyboard fluency alongside language skills",
-        "🇨🇭 Swiss professionals — QWERTZ with ss instead of ß, specific to Swiss standard",
-        "✍️ Translators and technical writers — working in German for EU, automotive, engineering, and pharma sectors",
-        "💻 Developers working in German-speaking companies — IDE, documentation, email all in Deutsch",
-      ],
-    },
-    { type: "heading", text: "Frequently Asked Questions", id: "faq" },
+    { type: "heading", text: "Frequently Asked Questions About German Typing", id: "faq" },
     {
       type: "faq",
       items: [
         {
-          question: "What's a good German typing speed?",
+          question: "What is the difference between WPM and APM?",
           answer:
-            "230 APM (about 46 WPM) meets the official Kaufmann/-frau für Büromanagement exam standard. 300+ APM (60+ WPM) is professional secretarial level, and 400+ APM (80+ WPM) is fast, near-transcription-level typing. The German competitive world record is 955 APM (≈191 WPM).",
+            "WPM means words per minute, usually based on standardized five-character words. APM means Anschläge pro Minute, or keystrokes per minute. The exact APM count can depend on whether a system includes Shift, spaces, corrections, and other keys, so compare results using the same method.",
         },
         {
-          question: "What's the difference between WPM and APM?",
+          question: "Why does German use QWERTZ instead of QWERTY?",
           answer:
-            "WPM (Wörter pro Minute) counts every 5 characters as one word. APM (Anschläge pro Minute) counts every individual keystroke, including the Shift key for capital letters — the standard metric in German, Austrian, and Swiss professional typing. Roughly, 200 APM equals 40 WPM.",
+            "The standard German Windows keyboard is a QWERTZ-style layout in which Y and Z occupy different positions from US QWERTY. It also gives direct access to ä, ö, ü and ß, which makes ordinary German text easier to enter.",
         },
         {
-          question: "Why is my German typing speed lower than my English speed?",
+          question: "Can I type ss instead of ß?",
           answer:
-            "QWERTZ moves several keys compared to QWERTY, umlauts (ä, ö, ü) and ß need dedicated keystrokes, and every German noun is capitalized — all of which add real Shift-key overhead. Expect your German WPM to run 10–20% lower than English at first; this gap closes with 2–4 weeks of practice.",
+            "Not automatically in an exact German-Germany transcription. Standard spelling distinguishes ss and ß. Switzerland commonly uses ss instead of ß, so the correct choice depends on the source and regional spelling convention. During a typing test, reproduce the passage exactly.",
         },
         {
-          question: "Do Swiss keyboards use ß?",
-          answer: "No — Switzerland uses ss instead of ß entirely, and Swiss QWERTZ keyboards don't even have a dedicated ß key. If you're testing for a Swiss role, ss is always the correct form.",
+          question: "Is ẞ a real capital letter?",
+          answer:
+            "Yes. The Rat für deutsche Rechtschreibung allows capital ẞ alongside the traditional SS solution in uppercase writing. Duden gives both STRASSE and STRAẞE as acceptable uppercase forms in the relevant contexts.",
         },
         {
-          question: "Is this German typing test free?",
-          answer: "Yes — completely free, no signup, no download, and no limit on how many times you can test.",
+          question: "Does every German-speaking country use the same keyboard?",
+          answer:
+            "No. Windows provides separate profiles such as German and Swiss German, and spelling conventions differ as well. Practice on the keyboard and regional text convention you genuinely use rather than assuming one Germany-specific setup applies everywhere.",
+        },
+        {
+          question: "What is a good German typing speed?",
+          answer:
+            "There is no transparent universal German WPM or APM benchmark for every person or job. Use your own baseline for progress and use a specific employer's, school's, or examination body's published requirement when one exists.",
         },
       ],
     },
     {
       type: "cta",
-      text: "Wählen Sie oben Ihr Layout — QWERTZ oder QWERTY — stellen Sie Ihren Timer ein, und beginnen Sie zu tippen. Ihre Tippgeschwindigkeit (WPM + APM) und Genauigkeit werden sofort angezeigt. Set your timer, pick your layout, and start typing — your APM and WPM are ready in seconds.",
+      text: "Test Your German Typing Speed Now. Start the German Typing Test · Deutsch above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which QWERTZ positions, umlauts, ß forms, capital nouns, compounds, or punctuation marks interrupted your rhythm. Return after a few focused practice sessions and test again using the same layout, duration, and similar difficulty. The goal is not to beat an invented German professional band. It is to make your Tippgeschwindigkeit cleaner, steadier, and more comfortable every time you come back.",
     },
   ],
 };
