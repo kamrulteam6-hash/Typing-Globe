@@ -9,37 +9,47 @@ import { RandomTypingTeaser } from "@/components/content/RandomTypingTeaser";
 import { poems } from "@/data/poems";
 
 export const metadata: Metadata = {
-  title: "Poetry Typing Test — Practice Poems from World Literature",
+  title: "Poetry Typing Test | Practice Famous Poems Online",
   description:
-    "Free poetry typing test — practice typing famous public-domain poems by Shakespeare, Frost, Dickinson, Blake & more. Improve your WPM, accuracy, and rhythm.",
+    "Practice typing famous poems online and track WPM and accuracy. Type Shakespeare, Dickinson, Frost, Blake, Wordsworth and more with real line breaks and punctuation.",
   alternates: { canonical: "/poetry-typing-test" },
 };
 
 const faqItems = [
   {
-    question: "Are the poems on this site free to use?",
+    question: "How many poems are currently available?",
     answer:
-      "Yes. Every poem in our library is in the public domain — classic works by poets like Shakespeare, Wordsworth, Blake, Dickinson, and Frost, whose copyright has long expired. They're freely reproducible and safe to type, share, and quote.",
+      "Typing Globe currently lists ten poems in the Poetry Typing Test library. The collection includes work by Elizabeth Barrett Browning, William Shakespeare, William Blake, William Wordsworth, Percy Bysshe Shelley, William Ernest Henley, Emily Dickinson, Robert Frost, and Rudyard Kipling.",
   },
   {
     question: "Do I need to press Enter at the end of each line?",
     answer:
-      "Yes. Poetry typing here preserves the poem's real line breaks, so pressing Enter at the right point is part of the exercise — it's tracked exactly like any other character, and shown as a small ↵ marker when it's your turn to press it.",
+      "Yes. Typing Globe preserves poem line breaks and shows a small return marker when Enter is required. The line ending is treated as part of the transcription, so pressing Enter in the correct place helps preserve the structure of the poem.",
   },
   {
-    question: "Will poetry typing improve my regular WPM score?",
+    question: "Is the poetry test timed?",
     answer:
-      "It transfers well. The punctuation fluency, irregular-line-break training, and Shift-key reflex you build typing poetry carry over directly to standard prose and word-list typing tests — most of what slows typists down in real text is punctuation and capitalization, not raw letters.",
+      "The current poem pages are untimed by default. You type the complete poem at your own pace while WPM and accuracy are tracked. If you want a timed exercise, Typing Globe's Custom Typing Test is the better place to create a separate timed benchmark.",
   },
   {
-    question: "What poem should a beginner start with?",
+    question: "Which poem should a beginner start with?",
     answer:
-      "Start with something short with simple, direct language — Invictus by William Ernest Henley or How Do I Love Thee? by Elizabeth Barrett Browning are both under 16 lines with a steady rhythm, good first poems to build confidence before moving to longer or more syntactically dense pieces like If— by Rudyard Kipling.",
+      "Start with a shorter easy poem such as Invictus, Stopping by Woods on a Snowy Evening, or How Do I Love Thee? The current library labels all three easy, and each is much shorter than If—, which is the longest and is labeled hard.",
   },
   {
-    question: "Is there a timer on poetry typing?",
+    question: "Should I repeat the same poem?",
     answer:
-      "No — poem pages run in untimed practice mode by default, with real-time error highlighting and no countdown, so you can focus on precision and rhythm rather than racing the clock. If you want a timed benchmark using the same text, paste any poem into the Custom Typing Test and pick a duration there.",
+      "Yes, when you are fixing a specific weakness. Repetition can reduce hesitation around line breaks or punctuation, but familiarity also makes the passage easier to anticipate. Use repeat attempts for drills and unfamiliar poems when you want a cleaner test of transfer.",
+  },
+  {
+    question: "Are all of the poems public domain everywhere?",
+    answer:
+      "Do not assume that automatically. Typing Globe uses historical texts it identifies as public-domain material, and several are clearly available in U.S. public-domain collections. Copyright rules vary by country, so the status of an exact edition should be checked where necessary.",
+  },
+  {
+    question: "Will poetry typing improve my normal WPM?",
+    answer:
+      "It can practice useful skills such as punctuation, Shift-key control, Enter transitions, and reading ahead, but the transfer will differ by typist. Keep an ordinary prose test as a separate benchmark instead of assuming every increase on a familiar poem will appear everywhere else.",
   },
 ];
 
@@ -57,17 +67,16 @@ export default function PoetryPage() {
       <div className="mb-10 text-center">
         <SectionLabel>Classical Rhythm</SectionLabel>
         <h1 className="mt-4 text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-          Poetry Typing Test — Practice Poems from World Literature
+          Poetry Typing Test — Practice Famous Poems Online
         </h1>
         <p className="mx-auto mt-3 max-w-xl text-balance text-muted">
-          Type Shakespeare, Blake, Wordsworth, Dickinson, Frost, and more — real public-domain poems,
-          each with its title, poet, and publication year, typed at your own pace.
+          Most typing tests give you random words or ordinary paragraphs. Poetry makes the keyboard behave differently.
         </p>
         <p className="mx-auto mt-4 max-w-2xl text-balance text-sm leading-relaxed text-muted">
-          Most typing tests give you the same forgettable paragraphs about office furniture, random word
-          lists, or lorem ipsum text that your brain processes and immediately discards. Poetry is
-          different — every poem here is a real, celebrated work, presented with its actual title, author,
-          and year, so you always know exactly what you&apos;re typing and who wrote it.
+          A line may stop in the middle of a thought, punctuation can be unusually dense, and a single poem may ask you to use Enter, Shift, apostrophes, dashes, commas, semicolons, and quotation marks within a few minutes.
+        </p>
+        <p className="mx-auto mt-3 max-w-2xl text-balance text-sm leading-relaxed text-muted">
+          Typing Globe's Poetry Typing Test turns those details into focused practice. Choose a poem from the current library, type it at your own pace, and preserve the line breaks while the page tracks WPM and accuracy. The result feels less like a race and more like precision training with real literary text.
         </p>
       </div>
 
