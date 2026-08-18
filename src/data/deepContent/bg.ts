@@ -1,132 +1,281 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Bulgarian Typing Test — Free Тест за Скорост на Писане Online",
+  seoTitle: "Free Bulgarian Typing Test · Български | WPM & Accuracy",
   seoDescription:
-    "Free Bulgarian typing test — check your real WPM on the Cyrillic BDS keyboard layout instantly. Practice for office jobs, exams, and Cyrillic typing fluency.",
+    "Take our free Bulgarian typing test and check your WPM and accuracy instantly. Practice Български with BDS or phonetic keyboard typing online.",
   researchedKeywords: [
     "bulgarian typing test",
-    "тест за скорост на писане",
-    "bulgarian keyboard layout bds",
-    "cyrillic typing test",
+    "bulgarian typing speed test",
     "bulgarian wpm test",
-    "бърз печат тест",
-    "клавиатура българска подредба",
-    "typing speed test bulgaria",
+    "bulgarian keyboard test",
+    "cyrillic typing test",
+    "тест за писане на български",
+    "тест за скорост на писане",
+    "българска клавиатура",
+    "писане на кирилица",
+    "българска фонетична клавиатура",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
-        "Bulgarian is the native language of roughly 8–9 million people, spoken mainly in Bulgaria and by sizeable communities across North Macedonia, Serbia, Ukraine, Moldova, and diaspora populations in Germany, Spain, the UK, and the United States. It is a South Slavic language written in the Cyrillic script — and notably, Bulgaria's own Cyril and Methodius tradition is the historical root of the script itself, which later spread to Russian, Serbian, and other Slavic languages.",
-        "Typing speed in Bulgarian matters most concretely in administrative and clerical work: government offices, notary and legal-assistant roles, and call-centre or back-office jobs in Sofia, Plovdiv, and Varna commonly expect fast, accurate Cyrillic typing, especially since Bulgaria has become a regional outsourcing hub for BPO and shared-services companies handling multilingual support. Students at Bulgarian universities also type extensively for coursework, and fluency with the BDS (Bulgarian standard) keyboard layout is a practical skill many people build only after they start using a computer regularly.",
-        "This test measures that skill directly — live, on real Bulgarian sentences in Cyrillic — so your WPM reflects how you'd actually perform typing Bulgarian day to day.",
+        "If you type quickly in English but slow down the moment you switch to Български, the problem is usually not your fingers. Bulgarian uses Cyrillic and a different keyboard map, so movements that feel automatic on QWERTY may suddenly require conscious thought until your hands learn the new pattern.",
+        "Start the Bulgarian Typing Test above, choose the duration and difficulty that fit your session, and type at a natural pace. Typing Globe shows WPM and accuracy while you work with real Bulgarian sentences, giving you a useful baseline without pretending that one speed target fits every student, office worker, or professional.",
       ],
     },
-    { type: "heading", text: "How Bulgarian Typing Speed Is Measured", id: "wpm-explained" },
     {
-      type: "paragraph",
-      text: "Bulgarian typing speed is measured in WPM (words per minute), the same standardized metric used for Latin-script languages: every five typed characters, including spaces and punctuation, counts as one word. Because Cyrillic letters map one-to-one to keys on the Bulgarian layout rather than requiring extra keystrokes, WPM works cleanly as a comparison metric, just as it does in English or Russian.",
-    },
-    { type: "heading", text: "Keyboard Layout and Special Characters", id: "keyboard" },
-    {
-      type: "paragraph",
-      text: "Bulgaria uses its own standardized keyboard layout, BDS (Български Държавен Стандарт), which arranges the 30 Cyrillic letters differently from both the Russian ЙЦУКЕН layout and the Latin QWERTY layout — it was actually designed for typing speed and comfort on mechanical typewriters, not for matching Latin key positions. Most Bulgarian computers ship with BDS pre-installed as a system input language, so switching layouts rather than remapping keys is the standard approach.",
-    },
-    {
-      type: "table",
-      headers: ["Task", "Windows", "Mac"],
-      rows: [
-        ["Add Bulgarian (BDS) keyboard", "Settings → Time & Language → Language & region → Add a language → Bulgarian → Add keyboard (choose Bulgarian)", "System Settings → Keyboard → Input Sources → Edit → + → Bulgarian"],
-        ["Switch input language quickly", "Win + Space or Alt + Shift", "Control + Space"],
-        ["Type Cyrillic without BDS muscle memory", "Some users use the 'Bulgarian (Phonetic)' layout, which maps Cyrillic letters to their closest-sounding Latin QWERTY key", "Same phonetic option available under Bulgarian input sources"],
-      ],
-    },
-    { type: "heading", text: "Bulgarian Typing Speed Benchmarks (WPM)", id: "benchmarks" },
-    {
-      type: "table",
-      headers: ["WPM", "Level", "Real-World Context"],
-      rows: [
-        ["Below 15 WPM", "Beginner", "Still learning BDS key positions, which don't match Latin QWERTY"],
-        ["15–30 WPM", "Below Average", "Functional but slower than most administrative job screens"],
-        ["30–40 WPM", "Average", "Where most untrained adult typists in Bulgaria land"],
-        ["40–55 WPM", "Good", "Meets most office, call-centre, and data-entry job requirements"],
-        ["55–70 WPM", "Professional", "Comfortable for legal assistants, transcribers, and BPO agents"],
-        ["70+ WPM", "Expert", "Fast, accurate Cyrillic typing at a dedicated professional level"],
-      ],
-    },
-    { type: "heading", text: "Real Jobs That Value Bulgarian Typing Speed", id: "requirements" },
-    {
-      type: "table",
-      headers: ["Country", "Role or Sector", "Typical Requirement"],
-      rows: [
-        ["Bulgaria", "Government and municipal administrative clerks", "Fast, accurate BDS typing is a practical expectation for document processing"],
-        ["Bulgaria", "BPO / shared-services and call-centre agents (Sofia, Plovdiv)", "Speed and accuracy are commonly assessed during hiring for back-office and support roles"],
-        ["Bulgaria", "Legal and notary assistants", "High accuracy typing of formal documents is a core daily task"],
-        ["Regional diaspora (Germany, Spain, UK)", "Bilingual administrative and translation work", "Comfortable switching between Latin and Cyrillic typing is a practical asset"],
-      ],
-    },
-    { type: "heading", text: "Bulgarian Around the World", id: "diaspora" },
-    {
-      type: "table",
-      headers: ["Country / Region", "Context"],
-      rows: [
-        ["Bulgaria", "The vast majority of native speakers; sole official language and the origin point of the Cyrillic script's development"],
-        ["North Macedonia", "Close linguistic relative, with mutual intelligibility and shared historical roots"],
-        ["Ukraine & Moldova (Bessarabia)", "Long-established ethnic Bulgarian minority communities"],
-        ["Germany, Spain, UK", "Large modern emigrant communities from post-1990s and EU-era migration"],
-      ],
+      type: "heading",
+      text: "What Does a Bulgarian Typing Test Measure?",
+      id: "what-measures",
     },
     {
       type: "paragraph",
-      text: "Bulgaria's connection to the Cyrillic script runs deep: the script was developed by disciples of Saints Cyril and Methodius at the Preslav and Ohrid literary schools in the 9th–10th centuries, and Bulgaria still celebrates May 24th as the Day of Bulgarian Education and Culture and the Slavonic Alphabet — a national holiday honoring that written heritage, which makes typing fluently in Cyrillic a small but real link to that tradition.",
+      text: "A Bulgarian typing test measures how quickly and accurately you can reproduce text written in Bulgarian Cyrillic. People search for the same tool as Bulgarian typing speed test, тест за писане на български, тест за скорост на писане, Bulgarian WPM test, or българска клавиатура тест, but the basic goal is the same.",
     },
-    { type: "heading", text: "Who Is This Test Built For", id: "who-its-for" },
+    {
+      type: "paragraph",
+      text: "We recommend looking at WPM and accuracy together. A fast score can be misleading if you are constantly correcting ъ, щ, ж, ч, ю, я, punctuation, or capitalization. Your first test is most useful when it shows both how fast you type and exactly where your rhythm begins to break.",
+    },
+    {
+      type: "heading",
+      text: "Why Bulgarian Typing Feels Different From English",
+      id: "why-different",
+    },
+    {
+      type: "paragraph",
+      text: "Bulgarian uses a 30-letter Cyrillic alphabet, so a typist moving from Latin QWERTY has to build a new relationship between sounds, letters, and physical key positions. The language itself is familiar to a native speaker; the challenge is getting your fingers to produce those familiar words without stopping to search the keyboard.",
+    },
+    {
+      type: "paragraph",
+      text: "Words such as България, образование, възможност, съобщение, здравеопазване, сътрудничество, and отговорност are useful practice because they combine common letters in patterns that can expose weak positions quickly. Once those patterns become automatic, longer Bulgarian sentences stop feeling like a sequence of separate key-finding decisions.",
+    },
+    {
+      type: "heading",
+      text: "BDS vs. Bulgarian Phonetic Keyboard",
+      id: "keyboard-comparison",
+    },
+    {
+      type: "paragraph",
+      text: "Bulgarian typists commonly encounter two broad approaches: the traditional Bulgarian layout often associated with BDS, and phonetic layouts that place Cyrillic letters near Latin keys with similar sounds. Windows and other modern platforms support Bulgarian keyboard choices, so you do not need a physically different keyboard just to type in Cyrillic.",
+    },
+    {
+      type: "paragraph",
+      text: "If you already use BDS for work, study, or daily writing, keep practicing BDS. If Bulgarian phonetic is the layout you actually use, train on that instead. Switching constantly between systems can make progress harder to judge because your fingers are trying to memorize two different maps at the same time.",
+    },
+    {
+      type: "heading",
+      text: "Quick Layout Comparison",
+      id: "layout-comparison",
+    },
+    {
+      type: "table",
+      headers: ["Layout", "How It Feels", "Best Use"],
+      rows: [
+        [
+          "Bulgarian / BDS-style",
+          "Fixed Cyrillic positions that require dedicated muscle memory",
+          "When your school, work, or existing setup already uses the traditional Bulgarian layout",
+        ],
+        [
+          "Bulgarian Phonetic",
+          "Cyrillic letters mapped more closely to familiar Latin sounds",
+          "When you already type QWERTY comfortably and prefer a phonetic mapping",
+        ],
+        [
+          "Bulgarian Phonetic Traditional",
+          "A recognized phonetic variant available in modern keyboard ecosystems",
+          "When this is the specific layout already installed in your normal workflow",
+        ],
+      ],
+    },
+    {
+      type: "heading",
+      text: "How Typing Globe Tests Bulgarian Speed",
+      id: "how-tested",
+    },
+    {
+      type: "paragraph",
+      text: "The live Bulgarian test currently offers 15-second, 30-second, 60-second, and 120-second sessions, along with easy, medium, and hard text choices. That gives you room to use a short warm-up when you only want a quick check or a longer session when you want to see whether accuracy holds up.",
+    },
+    {
+      type: "paragraph",
+      text: "WPM means words per minute, but speed should always be interpreted with passage difficulty and accuracy in mind. A short easy paragraph may produce a higher result than a harder text filled with longer words and punctuation. For cleaner progress tracking, compare tests with similar duration and difficulty whenever possible.",
+    },
+    {
+      type: "heading",
+      text: "What Is a Good Bulgarian Typing Speed?",
+      id: "good-speed",
+    },
+    {
+      type: "paragraph",
+      text: "There is no single trustworthy Bulgarian WPM number that every learner, administrator, translator, student, or office worker must reach. Different layouts, passage difficulty, test length, and years of keyboard experience can change the result significantly, so we avoid presenting an unsupported \"Bulgarian average\" as if it were an official national benchmark.",
+    },
+    {
+      type: "paragraph",
+      text: "Use your first result as your baseline. If you start at 27 WPM with 92% accuracy, for example, your next goal can simply be a slightly faster score with fewer corrections. That example is a progress model, not a claim about what Bulgarian employers or government offices universally require.",
+    },
+    {
+      type: "heading",
+      text: "Accuracy First, Then Speed",
+      id: "accuracy-first",
+    },
+    {
+      type: "paragraph",
+      text: "A higher WPM is useful only when the text remains clean enough to use. If you rush through a Bulgarian sentence and then spend half the time fixing the same letters, your practical speed is lower than the headline number suggests. We recommend building reliable movements first and increasing pace after the difficult keys feel familiar.",
+    },
+    {
+      type: "paragraph",
+      text: "Try a sentence such as \"Обичам да пиша на български всеки ден.\" slowly and correctly, then repeat it at a slightly quicker pace. When the sentence becomes easy, replace it with a more demanding one. Clean repetition teaches the keyboard pattern; random rushing mostly teaches you to repeat the same hesitation faster.",
+    },
+    {
+      type: "heading",
+      text: "Bulgarian Letters Worth Practicing Deliberately",
+      id: "difficult-letters",
+    },
+    {
+      type: "paragraph",
+      text: "Your personal weak letters matter more than a generic list, but Bulgarian typists often notice hesitation around characters that do not exist on an English keyboard map, including ъ, щ, ж, ч, ш, ц, ю, я, and й. The accented form ѝ can also matter when you type formal Bulgarian text that requires the distinction.",
+    },
+    {
+      type: "paragraph",
+      text: "Practice those characters inside real words rather than drilling random keys forever. Phrases such as \"важно съобщение,\" \"български език,\" \"чудесна възможност,\" and \"добро образование\" make the movements easier to connect with normal writing. The goal is to recognize a whole word pattern before your fingers start searching letter by letter.",
+    },
+    {
+      type: "heading",
+      text: "A 6-Week Bulgarian Typing Practice Plan",
+      id: "practice-plan",
+    },
+    {
+      type: "paragraph",
+      text: "Weeks 1–2: Build Layout Confidence",
+    },
+    {
+      type: "paragraph",
+      text: "Spend the first two weeks reducing keyboard searching. Type common Bulgarian words such as човек, работа, време, език, град, училище, and България, then place them into short sentences. Keep the pace comfortable enough that you can notice which keys still force you to look down or pause.",
+    },
+    {
+      type: "paragraph",
+      text: "Weeks 3–4: Train Difficult Words and Letter Patterns",
+    },
+    {
+      type: "paragraph",
+      text: "Now collect the words that repeatedly interrupt your rhythm. Practice образование, възможност, съобщение, здравеопазване, сътрудничество, отговорност, and any professional vocabulary you actually use. Type each problem word cleanly several times, then return it to a full sentence so the movement becomes useful in context.",
+    },
+    {
+      type: "paragraph",
+      text: "Weeks 5–6: Build Sustained Speed",
+    },
+    {
+      type: "paragraph",
+      text: "Mix shorter speed checks with 60-second and 120-second tests. After each session, review where the errors appeared instead of immediately pressing restart. Drill those patterns, then take a fresh passage later. The goal is steadier Cyrillic typing with fewer corrections, not a promised WPM increase by an arbitrary date.",
+    },
+    {
+      type: "heading",
+      text: "A Simple 20-Minute Bulgarian Typing Routine",
+      id: "daily-routine",
+    },
+    {
+      type: "paragraph",
+      text: "Use the first few minutes as a slow warm-up, then practice the Bulgarian words or letters that gave you trouble on your last test. Take one normal-speed session after that and finish by reviewing mistakes. This creates a clear purpose for every practice session instead of turning training into endless score chasing.",
+    },
+    {
+      type: "paragraph",
+      text: "If accuracy improves before WPM does, do not treat the session as a failure. Cleaner typing means your fingers are becoming more predictable, and predictable movement gives you a stronger base for speed later. Small, repeatable sessions are usually easier to maintain than occasional long sessions that leave your hands tired.",
+    },
+    {
+      type: "heading",
+      text: "Bulgarian Typing for Work, Study, and Everyday Use",
+      id: "use-cases",
+    },
+    {
+      type: "paragraph",
+      text: "Fast, accurate Bulgarian typing can be useful in administration, customer support, education, translation, publishing, journalism, legal work, data entry, and ordinary office communication. The text used in each role can be very different, so practice passages that resemble the kind of Bulgarian you genuinely expect to type.",
+    },
+    {
+      type: "paragraph",
+      text: "If you are preparing for a specific employer or examination, check the current official instructions for the required layout, duration, scoring method, and correction policy. Do not assume that a speed mentioned in an unrelated job advertisement or old forum post automatically applies to the assessment you are preparing for.",
+    },
+    {
+      type: "heading",
+      text: "How to Add a Bulgarian Keyboard in Windows 11",
+      id: "device-setup",
+    },
+    {
+      type: "paragraph",
+      text: "In Windows 11, open Settings, then Time & language, then Language & region. Add Bulgarian if it is not already installed, open its language options, and choose the keyboard layout you want to use. Microsoft also lets you switch between installed input layouts from the taskbar or with Windows key + Space.",
+    },
+    {
+      type: "paragraph",
+      text: "The important part for practice is consistency. If you use the traditional Bulgarian layout in your normal workflow, take the typing test with that layout. If you use Bulgarian phonetic, keep phonetic active. Matching the practice setup to your real keyboard habits makes your WPM and accuracy much more meaningful.",
+    },
+    {
+      type: "heading",
+      text: "Common Bulgarian Typing Mistakes",
+      id: "common-mistakes",
+    },
     {
       type: "list",
       items: [
-        "🏛️ Government and administrative job seekers across Bulgaria",
-        "🎧 Call-centre and BPO agents typing in Bulgarian daily",
-        "⚖️ Legal and notary assistants who need fast, accurate Cyrillic typing",
-        "🎓 Students preparing coursework and exams on Bulgarian keyboards",
-        "🌍 Bulgarian diaspora in Germany, Spain, and the UK staying fluent in Cyrillic",
-        "⌨️ Anyone switching from Latin QWERTY to the BDS layout for the first time",
-        "💻 Data-entry and office professionals working in Cyrillic documents",
+        "Looking down after nearly every letter instead of gradually building keyboard memory",
+        "Switching between BDS and phonetic layouts so often that neither becomes automatic",
+        "Rushing longer Cyrillic words and then losing time to repeated backspacing",
+        "Ignoring punctuation and capitalization even though real Bulgarian writing requires both",
+        "Comparing scores from very different passage difficulties as if they measure the same thing",
+        "Retaking the test repeatedly without practicing the letters that caused the mistakes",
       ],
     },
-    { type: "heading", text: "Frequently Asked Questions", id: "faq" },
+    {
+      type: "paragraph",
+      text: "You do not need to fix every weakness at once. Pick the mistake that appears most often, turn it into a short drill, and then return to a full passage. Removing one repeated error can make your typing feel smoother even before the final WPM number changes very much.",
+    },
+    {
+      type: "heading",
+      text: "Frequently Asked Questions About Bulgarian Typing",
+      id: "faq",
+    },
     {
       type: "faq",
       items: [
         {
-          question: "What is a good Bulgarian typing speed?",
+          question: "Is this Bulgarian Typing Test free?",
           answer:
-            "40–55 WPM covers most Bulgarian office and call-centre job expectations, while 55–70+ WPM is considered professional-level, comparable to fast typing benchmarks in other Cyrillic or Latin-script languages.",
+            "Yes. Typing Globe currently offers the Bulgarian test free in the browser, with multiple durations and difficulty levels. You can start typing directly on the page without installing separate testing software, which makes it useful for quick practice as well as repeated progress checks.",
         },
         {
-          question: "Do I need a Bulgarian keyboard to type Cyrillic?",
+          question: "Do I need a special Bulgarian physical keyboard?",
           answer:
-            "You need the Bulgarian (BDS) input language enabled, but not a physically different keyboard — you can add it in your system's language settings and type on a standard physical keyboard using the Cyrillic key mapping shown on-screen or memorized over time.",
+            "No. You can type Bulgarian on a standard physical keyboard after enabling a Bulgarian input layout in your operating system. Printed Cyrillic keycaps can make learning easier, but the actual character mapping comes from the active software layout rather than from a different type of keyboard.",
         },
         {
-          question: "What is the BDS layout and how is it different from Russian keyboards?",
+          question: "What is the difference between BDS and Bulgarian phonetic?",
           answer:
-            "BDS (Български Държавен Стандарт) is Bulgaria's own standardized Cyrillic layout, distinct from Russia's ЙЦУКЕН layout — the letters sit in different positions on each, so a Bulgarian typist and a Russian typist build different muscle memory even though both type Cyrillic.",
+            "BDS-style typing uses a fixed Bulgarian Cyrillic arrangement that builds its own muscle memory, while phonetic layouts place many Cyrillic letters near Latin keys with similar sounds. Neither is automatically better for everyone; practice the layout that matches your real work, school, or everyday typing setup.",
         },
         {
-          question: "How is WPM calculated on this test?",
+          question: "Why is my Bulgarian WPM lower than my English WPM?",
           answer:
-            "Every five typed characters, including spaces and punctuation, counts as one word. Net WPM, the primary score, subtracts a penalty for uncorrected errors so it reflects real, usable output.",
+            "You may simply have far more years of QWERTY practice. When you switch to Cyrillic, your fingers need to recall different positions for letters and punctuation, so movements that are automatic in English can still require conscious thought in Bulgarian. Target those exact pauses instead of assuming you are naturally slow.",
         },
         {
-          question: "Is this typing test free?",
-          answer: "Yes — completely free, no signup, no download, and no limit on how many times you can test.",
+          question: "Should I use a 30-second, 60-second, or 120-second test?",
+          answer:
+            "Use a short test for a quick check or warm-up, and a longer session when you want to see whether your accuracy stays stable. For progress tracking, keep the duration reasonably consistent. If you are preparing for a specific assessment, practice the exact test length stated in its current rules.",
         },
       ],
     },
     {
-      type: "cta",
-      text: "Изберете продължителността на теста, започнете да пишете и вижте своята скорост и точност веднага.",
+      type: "heading",
+      text: "Test Your Bulgarian Typing Speed Now",
+      id: "ready-to-test",
+    },
+    {
+      type: "paragraph",
+      text: "Start the Bulgarian Typing Test · Български above and type at the pace that feels natural today. Check your WPM, but also pay attention to the exact letters and words that interrupted your rhythm. Those weak spots are more useful than a flattering score because they tell you what to practice next.",
+    },
+    {
+      type: "paragraph",
+      text: "Come back after a few focused sessions and test again with the same keyboard layout and a similar difficulty level. The goal is not to beat an unsupported national average. It is to make your Bulgarian typing cleaner, steadier, and more comfortable every time you sit down at the keyboard.",
     },
   ],
 };
