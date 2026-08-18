@@ -10,32 +10,47 @@ import { RandomTypingTeaser } from "@/components/content/RandomTypingTeaser";
 import { lyrics } from "@/data/lyrics";
 
 export const metadata: Metadata = {
-  title: "Song Lyrics Typing Test — Free Karaoke-Style Typing Practice",
+  title: "Song Lyrics Typing Test | Free Music-Style Typing Practice",
   description:
-    "Type original tracks across pop, folk, hip-hop, R&B, and more. Free song lyrics typing tests with live WPM and accuracy tracking.",
+    "Practice typing with original song-style lyrics and track WPM and accuracy. Choose pop, folk, hip-hop, R&B, dance pop or lullaby passages.",
   alternates: { canonical: "/song-lyrics-typing-test" },
 };
 
 const faqItems = [
   {
-    question: "Why aren't these real songs by real artists?",
+    question: "Are these lyrics from real commercial songs?",
     answer:
-      "Song lyrics are copyrighted, usually by the songwriter and their publisher, so we can't legally host real lyrics from commercial songs. Every track here is an original composition written for Typing Globe. If you want to type your actual favorite song, paste its lyrics into the Custom Typing Test — that's on your device, not something we host.",
+      "No. Typing Globe states that every track in the current Song Lyrics Typing Test is an original composition written specifically for the site. The collection is designed to provide verse-and-chorus typing practice without publishing complete lyrics from commercial songs.",
   },
   {
-    question: "Which genre is best for typing practice?",
+    question: "How many tracks are available right now?",
     answer:
-      "Folk and lullaby-style tracks tend to have simpler vocabulary and repetition, making them a gentle starting point. Hip-hop and rhythmic verse push you toward faster, punchier phrasing once you're comfortable with the basics.",
+      "Typing Globe currently lists six tracks: Neon and Gasoline, Porch Light, Concrete Constellations, Slow Tide, Paper Boats, and Little Light. They span pop anthem, acoustic folk, hip-hop or rhythmic verse, R&B ballad, dance pop, and lullaby styles.",
   },
   {
-    question: "Do the verse and chorus labels count as text I need to type?",
+    question: "Do I type labels such as Verse and Chorus?",
     answer:
-      "No — section labels like \"Verse 1\" and \"Chorus\" are part of the lyric sheet and are included in the typing text itself (the same way a real lyric sheet would show them), so yes, you do type them as part of the passage.",
+      "Yes. On the current lyric pages, section labels such as Verse, Chorus, Bridge, Outro, and Pre-Chorus appear inside the typing text. Treat them as part of the passage rather than decorative headings unless the live interface is later changed.",
   },
   {
-    question: "Can I practice a chorus repeatedly instead of the whole song?",
+    question: "Which track is easiest to start with?",
     answer:
-      "Not yet inside a saved lyric page, but you can copy just the chorus into the Custom Typing Test for focused repetition on a shorter passage.",
+      "Paper Boats is currently the shortest at 118 words and is labeled easy. Little Light is also labeled easy and uses a repetitive lullaby structure. Either works well for a first full-track attempt before moving into the two medium passages.",
+  },
+  {
+    question: "Can I practice only a chorus?",
+    answer:
+      "The saved lyric pages currently present the full track. If you want a shorter focused passage, Typing Globe's Custom Typing Test can be used with text you provide yourself. Use text you created or otherwise have the right to use.",
+  },
+  {
+    question: "Can I paste lyrics from my favorite song into the Custom Typing Test?",
+    answer:
+      "The custom tool accepts text you provide, and Typing Globe says the pasted content stays in the browser for the session rather than being uploaded or stored. That privacy feature does not change copyright ownership, so use lyrics or text you are permitted to use.",
+  },
+  {
+    question: "Will a song lyrics typing score match my normal WPM?",
+    answer:
+      "Not necessarily. Repeated choruses, memorization, short lyric lines, contractions, and rhythmic phrasing can all change the difficulty. Use lyric tests as a practice format and keep an unfamiliar standard typing test as a separate benchmark for broader progress.",
   },
 ];
 
@@ -47,7 +62,7 @@ export default function LyricsPage() {
       <div className="mb-10 text-center">
         <SectionLabel>Karaoke Soundtrack</SectionLabel>
         <h1 className="mt-4 text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-          Song Lyrics Typing Test
+          Song Lyrics Typing Test — Type to the Rhythm
         </h1>
         <p className="mx-auto mt-3 max-w-xl text-balance text-muted">
           Original tracks written across a handful of genres — verse and chorus structure makes for a
