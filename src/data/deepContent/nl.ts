@@ -1,189 +1,194 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Dutch Typing Speed Test — Typesnelheidstest Nederlands",
+  seoTitle: "Free Dutch Typing Test · Nederlands | WPM, APM & Accuracy",
   seoDescription:
-    "Free Dutch typing speed test — typesnelheidstest Nederlands. Check your WPM, aanslagen per minuut (APM) and nauwkeurigheid instantly. No signup needed.",
+    "Take our free Dutch typing test and check WPM, APM and accuracy. Practice Nederlands with IJ, trema, apostrophes and real Dutch text.",
   researchedKeywords: [
     "dutch typing test",
     "typesnelheidstest nederlands",
-    "aanslagen per minuut",
     "dutch typing speed test",
-    "typetest online gratis",
-    "dutch typing test online free",
-    "blind typen tien vingers",
+    "aanslagen per minuut",
+    "dutch keyboard test",
+    "dutch typing practice",
+    "dutch wpm test",
+    "dutch apm test",
+    "typetest nederlands",
+    "test je typesnelheid",
+    "blind typen nederlands",
     "typevaardigheid test",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
-        "Dutch is spoken by over 24 million native speakers across the Netherlands, Belgium (Flanders), Suriname, Aruba, and Curaçao — making it the most widely spoken Germanic language after English and German. In the Netherlands and Belgium, typevaardigheid (typing proficiency) is a core, tested skill for administrative, secretarial, and data entry roles. Employers don't just want to know if you can type — they want to know exactly how many aanslagen per minuut you can produce, reliably, under timed pressure.",
-        "Our free Dutch typing speed test (typesnelheidstest Nederlands) measures your real WPM, aanslagen per minuut (APM), and nauwkeurigheid in real time. No signup. No download. Just type and get your score.",
-        "Test nu je typesnelheid in het Nederlands — kies je testduur, begin met typen en zie je woorden per minuut (WPM) en aanslagen per minuut (APM) direct na de test.",
+        "If English typing feels comfortable but Nederlands suddenly makes you hesitate, the problem is usually not raw finger speed. Dutch adds its own keyboard rhythm through IJ, accented vowels, trema words, apostrophes, long compounds, and regional keyboard differences between the Netherlands and Belgium.",
+        "Start the Dutch Typing Test above and type at the pace that feels natural today. Typing Globe currently offers 15, 30, 60, and 120-second tests with easy, medium, and hard passages, paragraph controls, shuffle, and custom text, while showing WPM, APM, and accuracy.",
       ],
     },
-    { type: "heading", text: "The Dutch Typing Metric — Aanslagen Per Minuut", id: "apm-metric" },
+    { type: "heading", text: "What Is a Dutch Typing Test?", id: "what-is" },
     {
       type: "paragraph",
-      text: "Here's what separates the Dutch and Belgian job market from most of the English-speaking world: employers in the Netherlands and Belgium almost universally use aanslagen per minuut (APM) — not WPM — as their standard typing metric. Understanding the difference before you apply for any Dutch administrative role is non-negotiable.",
+      text: "A Dutch typing test measures how quickly and accurately you can reproduce text written in Nederlands. People may search for the same tool as Dutch typing speed test, typesnelheidstest Nederlands, Nederlandse typetest, Dutch WPM test, aanslagen per minuut test, or simply test je typesnelheid. The useful result is not speed alone. Accuracy matters because one missing trema, incorrect apostrophe, or badly capitalized IJ changes the text you produce. Use the first test as a baseline, then look at which Dutch-specific patterns interrupt your rhythm instead of judging yourself only by one number.",
     },
+    { type: "heading", text: "WPM and APM: Two Useful Ways to Read Your Score", id: "wpm-apm" },
     {
-      type: "table",
-      headers: ["Metric", "Dutch Term", "Abbreviation", "What It Measures"],
-      rows: [
-        ["Characters Per Minute", "Aanslagen Per Minuut", "APM", "Total keystrokes including spaces — the Dutch professional standard"],
-        ["Words Per Minute", "Woorden Per Minuut", "WPM", "Net speed (5 chars = 1 word) — international comparison"],
-        ["Net WPM", "Netto WPM", "—", "Speed after error deductions — what job tests actually score"],
-        ["Accuracy", "Nauwkeurigheid", "%", "Percentage of correct characters"],
-        ["Errors", "Fouten", "—", "Total incorrect keystrokes"],
-      ],
+      type: "paragraph",
+      text: "Typing Globe shows both WPM and APM. WPM means words per minute and is useful for broad international comparison. APM means aanslagen per minuut, literally keystrokes per minute, and gives you a character-level view of how much keyboard input you produced during the test. When a typing system standardizes one word as five characters, WPM and character-based speed are mathematically related. Still, always compare scores generated by the same test method because different sites may handle spaces, errors, corrections, and net speed differently. Accuracy should remain beside both numbers.",
     },
+    { type: "heading", text: "Why Dutch Typing Feels Different From English", id: "why-different" },
     {
-      type: "callout",
-      icon: "📋",
-      title: "Real job listing example",
-      text: "The conversion is direct: 250 APM = 50 WPM. A real 2024 Rotterdam job listing for an Administratief Medewerker at a major logistics company stated: \"Een uitstekende typevaardigheid is vereist (minimaal 250 aanslagen per minuut). Dit zal worden getest.\" — that's exactly 50 WPM. Our test shows you both numbers so you always know precisely where you stand against Dutch job market requirements.",
+      type: "paragraph",
+      text: "Dutch uses the Latin script, so most keys look familiar, but real text contains patterns that English practice rarely trains. Words such as verantwoordelijkheid, geïnteresseerd, ideeën, samenwerking, waarschijnlijk, maatschappij, bedrijfsleven, and gezondheidszorg quickly expose hesitation around long compounds and diacritics. The difficulty is not that every Dutch word is long. It is that common Dutch writing mixes short function words with compounds, apostrophes, names, and occasional accented forms. Once those patterns become familiar, your hands stop treating them as interruptions and your overall typing rhythm becomes steadier.",
+    },
+    { type: "heading", text: "The IJ Rule Every Dutch Typist Should Know", id: "ij-rule" },
+    {
+      type: "paragraph",
+      text: "Dutch IJ deserves special attention because capitalization works differently from ordinary two-letter sequences. When a word beginning with ij requires a capital, both letters become capitals: IJsland, IJssel, IJmuiden, and IJverig. Typing Ijsland with only the I capitalized is not standard Dutch spelling. For keyboard practice, treat IJ as a familiar two-key pattern rather than pausing to think about it each time. Use words such as ijs, rijden, bijzonder, vrijdag, vrijheid, and IJsselmeer. The more often your fingers produce the sequence correctly, the less visual checking you need.",
+    },
+    { type: "heading", text: "Trema Words: ë, ï, ö, and ü Are Not Decoration", id: "trema-words" },
+    {
+      type: "paragraph",
+      text: "Dutch uses a trema when adjacent vowels need to be read separately in certain words. Common examples include reünie, coördinatie, ideeën, geïnteresseerd, naïef, poëzie, ruïne, and België. In accurate typing, the dots are part of the written word and should be reproduced when they appear. This is useful keyboard practice because a trema usually requires an extra input step on common international layouts. Instead of drilling the mark in isolation, type complete words and phrases until the sequence becomes automatic. Real-word repetition is easier to transfer into emails, reports, and longer Dutch passages.",
+    },
+    { type: "heading", text: "Apostrophes Matter More Than Many Typing Tests Admit", id: "apostrophes" },
+    {
+      type: "paragraph",
+      text: "Dutch regularly uses apostrophes in forms such as foto's, baby's, menu's, and contractions or possessive structures depending on the word. These marks are easy to skip when chasing WPM, especially if your keyboard layout places the apostrophe differently from the one you use for English. Do not protect your speed score by omitting punctuation. If the source passage contains an apostrophe, type it. Clean punctuation is part of real keyboard fluency, and a slightly slower accurate result is usually more useful than a faster passage that needs editing afterward.",
+    },
+    { type: "heading", text: "Dutch Keyboard in the Netherlands vs. Belgium", id: "keyboard-regions" },
+    {
+      type: "paragraph",
+      text: "There is no single Dutch keyboard setup that covers every Dutch-speaking region. Microsoft's current Windows input profiles map Dutch in the Netherlands to the United States-International keyboard, while Dutch in Belgium uses the Belgian (Period) keyboard. That creates a meaningful regional difference for typing practice. If you work in the Netherlands, an international QWERTY-style setup may feel natural. If you work in Flanders, the Belgian keyboard can place punctuation and symbols differently. Practice with the layout you genuinely use for work, school, or an assessment rather than copying someone else's keyboard setup.",
+    },
+    { type: "heading", text: "Why United States-International Is Useful for Dutch", id: "us-intl-keyboard" },
+    {
+      type: "paragraph",
+      text: "Windows currently pairs the Dutch Netherlands input profile with United States-International. That layout is useful because it supports accented characters and trema combinations through dead-key behavior while keeping the familiar QWERTY letter arrangement. It is especially practical for people who switch between Dutch and English. The tradeoff is that quote and accent keys may behave differently from plain US QWERTY. If you press a dead key accidentally, the next character can surprise you. Practice common Dutch accent combinations deliberately so those keys stop feeling unpredictable during a timed test.",
+    },
+    { type: "heading", text: "Why Flemish Typists Should Not Copy a Netherlands Keyboard Guide", id: "flanders-difference" },
+    {
+      type: "paragraph",
+      text: "Dutch is used on both sides of the Netherlands-Belgium border, but keyboard defaults are not identical. Windows maps Dutch Belgium to the Belgian (Period) profile, so a shortcut or punctuation position demonstrated on a Netherlands setup may not match a Flemish user's keyboard. This matters for SEO because many pages casually say 'the Dutch keyboard' as if only one layout exists. Typing Globe should be more precise: the language is Dutch, but the physical and software input environment can differ by region. Your own layout is the correct one to train.",
+    },
+    { type: "heading", text: "How Typing Globe Measures Your Dutch Typing", id: "how-measured" },
+    {
+      type: "paragraph",
+      text: "Typing Globe's live Dutch page currently lets you choose 15, 30, 60, or 120 seconds and switch between easy, medium, and hard passages. You can also choose one or two paragraphs, shuffle the passage, or move to the Custom Typing Test when you want your own material. For meaningful progress tracking, compare tests with the same duration and a similar difficulty level. A 15-second easy passage and a 120-second hard passage measure different challenges, so a lower result on the harder test does not automatically mean your Dutch typing skill has declined.",
+    },
+    { type: "heading", text: "What Is a Good Dutch Typing Speed?", id: "good-speed" },
+    {
+      type: "paragraph",
+      text: "There is no single trustworthy WPM or APM number that every Dutch student, administratief medewerker, secretaresse, translator, or customer-support worker must reach. Job requirements vary, and typing sites often publish broad 'beginner to elite' tables without enough evidence to justify those categories. Use your own first result as the benchmark. If you begin at 36 WPM with 93% accuracy, for example, aim to become slightly faster while reducing mistakes. That is a personal progress example, not an official Dutch labor-market minimum or a guaranteed requirement for any employer.",
+    },
+    { type: "heading", text: "Accuracy First, Then Speed", id: "accuracy-first" },
+    {
+      type: "paragraph",
+      text: "When IJ capitalization, trema words, or apostrophes still make you hesitate, forcing a higher WPM often creates more corrections than useful progress. Clean repetition teaches a dependable movement pattern, while repeated rushing trains the same hesitation again and again. Try a sentence such as \"Tijdens de reünie bespraken we ideeën over samenwerking in Nederland en België.\" Type it slowly and correctly, then repeat it at a slightly quicker pace. The goal is to make the Dutch-specific details feel ordinary enough that your attention can stay on the whole sentence.",
+    },
+    { type: "heading", text: "Practice Real Dutch Words, Not Only Easy Short Words", id: "real-words" },
+    {
+      type: "paragraph",
+      text: "Start with familiar vocabulary such as huis, werk, school, tijd, mensen, stad, vrijdag, and vrijheid. Then introduce longer words such as verantwoordelijkheid, gezondheidszorg, gegevensinvoer, klantenservice, beleidsmedewerker, waarschijnlijk, samenwerking, and bedrijfsadministratie to expose weaker finger patterns. When one word repeatedly slows you down, stop and type it correctly several times before returning to a full test. This targeted practice helps you discover whether the real problem is a compound, a trema, an IJ sequence, an apostrophe, or simply a word you rarely type.",
+    },
+    { type: "heading", text: "Dutch Compound Words and Typing Rhythm", id: "compound-words" },
+    {
+      type: "paragraph",
+      text: "Dutch forms many compound nouns by joining words together, which can produce long strings without spaces. You do not need extreme novelty words to feel the effect; everyday professional language already includes compounds such as klantenservice, gegevensbeheer, arbeidsvoorwaarden, and personeelsadministratie. Long compounds are easier when you recognize their smaller parts instead of typing them as one unfamiliar block. Let your eyes read the structure ahead while your fingers complete the current segment. That small amount of visual planning can reduce pauses without forcing you to memorize entire words.",
+    },
+    { type: "heading", text: "Blind Typen: Useful Goal, Not a Magic Benchmark", id: "blind-typen" },
+    {
+      type: "paragraph",
+      text: "Blind typen means typing without looking down at the keyboard, typically using consistent finger positions. It can improve efficiency because your eyes remain on the text instead of moving between screen and keys, but the useful goal is stable keyboard control rather than claiming that every touch typist must reach one specific APM. If you still look down often, reduce that habit gradually. Covering the keyboard immediately can make beginners tense and inaccurate. Practice short, familiar Dutch phrases and allow yourself to slow down while the key positions become automatic, then build speed once the visual checking decreases.",
+    },
+    { type: "heading", text: "A 6-Week Dutch Typing Practice Plan", id: "six-week-plan" },
+    {
+      type: "paragraph",
+      text: "Weeks 1–2: Build Clean Keyboard Habits. Spend the first two weeks focusing on accuracy, key familiarity, and the layout you actually use. Practice ordinary Dutch words and short sentences while reducing how often you look down. Include IJ, apostrophes, and simple accented words, but do not chase a personal-record WPM yet.",
     },
     {
       type: "paragraph",
-      text: "According to typetuin.nl — one of the Netherlands' leading typing training platforms — an experienced typiste (professional typist) reaches 350 APM (70 WPM), while someone who has learned blind typen met tien vingers (ten-finger touch typing) from a young age and types regularly at work can realistically exceed 200 APM (40 WPM) as a comfortable floor. People who hunt-and-peck with a few fingers rarely exceed 135 aanslagen per minuut (27 WPM).",
+      text: "Weeks 3–4: Train Dutch-Specific Patterns. Now deliberately include trema words, longer compounds, capitalization with IJ, and punctuation-heavy sentences. Keep a short list of the words that caused repeated mistakes in earlier tests and reuse them. This turns generic keyboard practice into targeted typevaardigheid in Nederlands.",
     },
-    { type: "heading", text: "The Dutch QWERTY Keyboard — Almost English, But Not Quite", id: "keyboard" },
     {
       type: "paragraph",
-      text: "The Netherlands and Belgium both use a QWERTY layout — the same base as English. But Dutch QWERTY has a few key differences that catch non-native typists off guard, and even native Dutch speakers who learned on English keyboards need to watch for:",
+      text: "Weeks 5–6: Build Sustained Rhythm. Mix short 30-second checks with 60- and 120-second tests. Longer sessions reveal whether accuracy falls after the first burst of concentration. Review recurring mistakes after every attempt, drill those patterns separately, then return to a fresh passage using the same keyboard layout.",
     },
-    {
-      type: "table",
-      headers: ["Feature", "Dutch QWERTY", "US QWERTY", "Why It Matters"],
-      rows: [
-        ["Accented vowels", "Dead key system — ' + vowel = é, ` + vowel = è, \" + vowel = ë", "No dead keys by default", "Dutch uses ë, é, è, ï, ö, ü in words like zëgen, één, café, naïef"],
-        ["IJ digraph", "Typed as two separate keys — I + J", "Not applicable", "The Dutch IJ (as in IJssel, IJsland, rijden) is treated as a near-letter — critical in word-initial position: IJsland NOT ijsland"],
-        ["@ symbol", "AltGr + Q on Dutch keyboard", "Shift + 2", "Affects anyone switching between Dutch and US keyboard layouts"],
-        ["Euro sign €", "AltGr + 5", "Not a standard key", "Frequent in business documents"],
-      ],
-    },
-    {
-      type: "callout",
-      icon: "⚠️",
-      title: "The IJ capitalization rule",
-      text: "This is the biggest trap for learners and non-native typists: when ij starts a sentence or proper noun, both letters are capitalized — IJsland, IJssel, IJmuiden. Typing Ijsland with only a capital I is a spelling error that our test counts correctly.",
-    },
-    { type: "heading", text: "Dutch Compound Words — The Speed Challenge Nobody Talks About", id: "compound-words" },
+    { type: "heading", text: "A Simple 20-Minute Dutch Typing Routine", id: "practice-routine" },
     {
       type: "paragraph",
-      text: "Dutch has one of the most productive compound word systems of any European language. Words like kindercarnavalsoptochtvoorbereidingswerkzaamheden (preparations for children's carnival parade — a real Dutch word) are extreme examples, but everyday Dutch text is full of long compound nouns that slow down typists from other languages significantly.",
+      text: "Use the first few minutes as a relaxed warm-up, then spend several minutes on the Dutch words or key combinations that caused problems in your previous test. Take one normal-speed test after that and finish by reviewing errors instead of instantly restarting to chase another score. A useful practice session should solve something specific. If trema words cause backspaces, work on those. If IJ capitalization feels awkward, drill sentence starts and place names. If your Belgium/Netherlands layout switch creates punctuation mistakes, practice on one consistent layout until the movement settles.",
     },
+    { type: "heading", text: "Use Easy, Medium, and Hard Passages Deliberately", id: "difficulty-levels" },
+    {
+      type: "paragraph",
+      text: "Easy passages are useful for warm-ups and clean rhythm, medium passages make good everyday practice, and hard passages can expose longer vocabulary and punctuation. Treat the difficulty controls as separate training tools instead of assuming every result should be compared directly with every other test. Keep duration and difficulty similar when tracking progress, then use hard mode as a separate challenge. A lower WPM on denser Dutch vocabulary may simply reflect passage difficulty. What matters is whether your speed and accuracy improve when the test conditions remain reasonably consistent.",
+    },
+    { type: "heading", text: "Dutch Typing for Work, Study, and Multilingual Life", id: "use-cases" },
+    {
+      type: "paragraph",
+      text: "Accurate Dutch typing can be useful in administration, education, customer support, translation, publishing, logistics, government work, and everyday office communication. It also matters for people who switch constantly between Nederlands and English, French, or German during the same workday. If you are preparing for a specific employer assessment, check the actual job posting or test instructions instead of relying on a generic internet speed table. Some employers may care about WPM, others about keystrokes, accuracy, or a practical task. Practice the metric your target role actually uses.",
+    },
+    { type: "heading", text: "How to Add Dutch Keyboard Input in Windows", id: "windows-setup" },
+    {
+      type: "paragraph",
+      text: "Windows manages language and keyboard input through Settings > Time & language > Language & region. The current default input profile for Dutch in the Netherlands uses United States-International, while Dutch in Belgium uses Belgian (Period). Add the profile that matches your real regional setup. Once several layouts are installed, Windows key + Space can switch between them. Before starting a timed typing test, confirm which layout is active. Accidentally typing on the wrong layout can create punctuation and accent errors that have nothing to do with your actual Dutch language skill.",
+    },
+    { type: "heading", text: "Common Dutch Typing Mistakes to Watch", id: "common-mistakes" },
     {
       type: "list",
       items: [
-        "werkzaamheden (work activities) — 14 characters",
-        "verantwoordelijkheid (responsibility) — 20 characters",
-        "gemeentesecretaris (municipal secretary) — 19 characters",
-        "gegevensinvoer (data entry) — 14 characters",
-        "beleidsmedewerker (policy officer) — 18 characters",
-        "klantenservice (customer service) — 14 characters",
+        "Typing Ijsland or Ijssel instead of IJsland and IJssel when a capital is required",
+        "Dropping the trema in words such as reünie, coördinatie, ideeën, or naïef",
+        "Skipping apostrophes because punctuation lowers the apparent WPM",
+        "Switching between Netherlands and Belgian keyboard layouts without noticing symbol changes",
+        "Rushing long Dutch compounds and losing time to repeated backspacing",
+        "Comparing APM or WPM from different sites without checking how each one calculates errors and characters",
       ],
     },
     {
       type: "paragraph",
-      text: "These aren't exceptions — they're the vocabulary of Dutch office life. Our test passages use authentic Dutch professional text, including compound words, so your APM score reflects real-world typing conditions, not just short easy words.",
-    },
-    { type: "heading", text: "Dutch Typing Speed Benchmarks — Wat Is Een Goede Typesnelheid?", id: "benchmarks" },
-    {
-      type: "table",
-      headers: ["APM (aanslagen/min)", "WPM (approx.)", "Level", "Niveau", "Real-World Standard"],
-      rows: [
-        ["Below 100", "<20", "Beginner", "Beginner", "Eerste kennismaking — hunt-and-peck"],
-        ["100–175", "20–35", "Basic", "Basis", "Casual gebruik — e-mail, WhatsApp"],
-        ["175–250", "35–50", "Average", "Gemiddeld", "Typical Dutch adult — Typetuin gemiddelde"],
-        ["250–350", "50–70", "Good", "Goed", "Kantoorstandaard — administratief medewerker minimum"],
-        ["350–450", "70–90", "Professional", "Professioneel", "Secretaresse, typiste, juridisch medewerker"],
-        ["450–550", "90–110", "Fast", "Snel", "Senior data-entry, medisch secretaresse"],
-        ["550+", "110+", "Elite", "Elite", "Schoevers topniveau, stenograaf"],
-      ],
-    },
-    {
-      type: "callout",
-      icon: "📊",
-      title: "Schoevers benchmark",
-      text: "Schoevers — the Netherlands' most respected secretarial and administrative training institute — sets a minimum of 150 APM (30 WPM) as the entry certification target for its typevaardigheid course, with the practical exam aimed at professional office competency. An experienced typiste is expected to reach 350 APM (70 WPM) error-free on professional Dutch text.",
-    },
-    { type: "heading", text: "Dutch Typing Speed for Jobs — Vereiste Typesnelheid Per Functie", id: "job-requirements" },
-    {
-      type: "table",
-      headers: ["Role / Functie", "Min. APM", "Min. WPM", "Notes"],
-      rows: [
-        ["Administratief medewerker", "200–250 APM", "40–50 WPM", "Standard NL/BE requirement — widely tested"],
-        ["Secretaresse / Secretary", "250–350 APM", "50–70 WPM", "Blind typen (touch typing) often required"],
-        ["Gegevensinvoer / Data entry", "300–400 APM", "60–80 WPM", "95%+ nauwkeurigheid required"],
-        ["Juridisch medewerker / Legal assistant", "300–400 APM", "60–80 WPM", "Formal Dutch, zero tolerance for errors"],
-        ["Medisch secretaresse / Medical secretary", "350–450 APM", "70–90 WPM", "Medical terminology + speed both critical"],
-        ["Journalist / Redacteur", "300–400 APM", "60–80 WPM", "NRC, de Volkskrant, Telegraaf, Nu.nl"],
-        ["Vertaler / Translator", "250–350 APM", "50–70 WPM", "Dutch ↔ English, Dutch ↔ French, Dutch ↔ German"],
-        ["Klantenservice / Customer service", "200–250 APM", "40–50 WPM", "Real-time Dutch chat support"],
-        ["Notuliste / Minutes taker", "300–400 APM", "60–80 WPM", "Real-time meeting transcription in Dutch"],
-      ],
-    },
-    {
-      type: "paragraph",
-      text: "Job listings on Jobbird.com and Indeed.nl confirm that typetest met aanslagen per minuut is a standard part of the hiring process for secretarial and administrative roles across the Netherlands. Jobbird notes that candidates for typiste roles \"kunnen een typetest doen waarmee je laat zien hoeveel aanslagen per minuut je haalt\" — making it clear this is actively tested, not just listed as a preference.",
-    },
-    { type: "heading", text: "Blind Typen — The Dutch Standard for Professional Typing", id: "blind-typen" },
-    {
-      type: "paragraph",
-      text: "In the Netherlands, the professional benchmark for serious typists is blind typen met tien vingers — ten-finger touch typing without looking at the keyboard. It's taught at MBO Secretaresse niveau 4 courses, offered by institutions like Schoevers and Typetuin, and listed as a requirement or strong preference in many Dutch administrative job descriptions.",
-    },
-    {
-      type: "paragraph",
-      text: "The home row on Dutch QWERTY is identical to English: left hand on A-S-D-F, right hand on J-K-L-;. Every key has an assigned finger and every stroke returns to the home row. Typists who learn blind typen properly from a structured course report significantly higher APM than self-taught typists — Dutch Wikipedia's typesnelheid article confirms that self-taught multi-finger typists cap around 180 APM, while trained ten-finger touch typists regularly surpass 200–350 APM in daily work.",
-    },
-    { type: "heading", text: "Who Is This Test Built For?", id: "who-its-for" },
-    {
-      type: "list",
-      items: [
-        "💼 Dutch job applicants in the Netherlands and Belgium targeting administratief medewerker, secretaresse, gegevensinvoer, and juridisch medewerker roles where a typetest met APM is actively part of the hiring process",
-        "🎓 MBO Secretaresse students and Schoevers course participants benchmarking their typevaardigheid progress toward certification",
-        "🇧🇪 Flemish professionals in Belgium — Dutch is one of three official Belgian languages and the dominant language of Flanders' thriving economy and public sector",
-        "🌍 Suriname, Aruba, and Curaçao — Dutch is the official language and administrative standard across all three territories; professional typing competency matters throughout the Dutch Caribbean",
-        "✍️ Translators and EU professionals — Dutch is an official EU language; fast Dutch typing is essential for Brussels-based EU institution roles",
-        "🎓 Dutch language learners benchmarking keyboard fluency alongside vocabulary — from basic Dutch QWERTY familiarity through professional APM targets",
-        "🌐 Dutch diaspora in Germany, Belgium, the US, and Australia who type Dutch regularly for work and family communication",
-      ],
+      text: "You do not need to fix every weakness in one session. Choose the pattern that appears most often, practice it deliberately, and then retest. Removing one repeated Dutch spelling or keyboard error can improve real typing more than a small WPM increase built on the same old corrections.",
     },
     { type: "heading", text: "Frequently Asked Questions", id: "faq" },
     {
       type: "faq",
       items: [
         {
-          question: "What is a good Dutch typing speed?",
+          question: "Is Dutch Typing Test the same as Typesnelheidstest Nederlands?",
           answer:
-            "250–350 APM (50–70 WPM) meets the office standard and is the administratief medewerker minimum. 350+ APM (70+ WPM) is professional-typiste level, and 550+ APM (110+ WPM) is Schoevers top-level or stenographer territory.",
+            "Yes. Dutch Typing Test, Dutch typing speed test, typesnelheidstest Nederlands, Nederlandse typetest, and test je typesnelheid all describe the same basic task: measuring how quickly and accurately you can reproduce Dutch text using a keyboard.",
         },
         {
-          question: "What's the difference between APM and WPM?",
+          question: "What is APM in Dutch typing?",
           answer:
-            "APM (aanslagen per minuut) counts every keystroke including spaces — the standard metric Dutch and Belgian employers actually use. WPM counts every 5 characters as one word, the international standard. The conversion is direct: 250 APM = 50 WPM.",
+            "APM stands for aanslagen per minuut, or keystrokes per minute. Typing Globe shows APM alongside WPM and accuracy so you can view both word-based and character-based typing speed. Compare results from the same test system because sites can differ in how they treat spaces and errors.",
         },
         {
-          question: "Why is the IJ digraph capitalized specially in Dutch?",
+          question: "Why is IJsland written with two capital letters?",
           answer:
-            "When ij starts a sentence or proper noun, both letters are capitalized together — IJsland, IJssel, IJmuiden — not just the first letter. Typing \"Ijsland\" with only a capital I is a real spelling error, and this test counts it correctly.",
+            "When a Dutch word beginning with ij requires a capital, the whole IJ is capitalized. Standard examples include IJsland, IJssel, and IJmuiden. Typing Ijsland with only the first character capitalized is not the standard spelling.",
         },
         {
-          question: "Why does Dutch typing speed feel slower than English?",
-          answer: "Dutch has one of the most productive compound-word systems in Europe — words like gegevensinvoer or verantwoordelijkheid are common in everyday professional text, and their length naturally slows typing speed compared to shorter English equivalents.",
+          question: "Why do Dutch words use a trema?",
+          answer:
+            "A trema is used in certain Dutch words to show that adjacent vowels belong to separate sounds or syllables. Examples include reünie, coördinatie, ideeën, naïef, poëzie, and ruïne. In a typing test, reproduce the trema exactly when it appears in the source.",
         },
         {
-          question: "Is this Dutch typing test free?",
-          answer: "Yes — completely free, no signup, no download, and no limit on how many times you can test.",
+          question: "Which keyboard should I use for Dutch on Windows?",
+          answer:
+            "It depends on region. Microsoft's current Windows defaults map Dutch in the Netherlands to United States-International and Dutch in Belgium to Belgian (Period). Use the layout that matches the keyboard environment where you actually type.",
+        },
+        {
+          question: "Is a 30-second or 120-second Dutch typing test better?",
+          answer:
+            "Use a short test for a quick check or warm-up and a longer test when you want to see whether rhythm and accuracy remain stable. For progress comparisons, keep duration and difficulty similar so you are measuring roughly the same challenge each time.",
         },
       ],
     },
     {
       type: "cta",
-      text: "Kies hierboven je testduur — 30 seconden, 1 minuut, 5 minuten — en begin met typen. Je WPM, aanslagen per minuut (APM) en nauwkeurigheid verschijnen direct na afloop van de test. Pick your duration, start typing, and get your APM + WPM result in seconds.",
+      text: "Test Your Dutch Typing Speed Now. Start the Dutch Typing Test above and type at the pace that feels natural today. Check WPM, APM, and accuracy when the test ends, then notice which Dutch words, diacritics, compounds, punctuation marks, or keyboard positions interrupted your rhythm. Return after a few focused practice sessions and test again using the same keyboard layout, duration, and similar difficulty.",
     },
   ],
 };
