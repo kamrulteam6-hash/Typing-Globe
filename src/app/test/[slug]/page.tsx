@@ -100,6 +100,14 @@ export default async function TestPage({
       )}
 
       {deep ? <DeepContentRenderer content={deep} /> : <LanguageSeoContent lang={lang} />}
+
+      {deep?.schemas?.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
     </div>
   );
 }

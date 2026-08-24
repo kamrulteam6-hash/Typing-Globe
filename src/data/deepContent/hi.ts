@@ -5,12 +5,11 @@ const content: LanguageDeepContent = {
   seoDescription:
     "Take a free Hindi typing test and check WPM and accuracy. Practice Devanagari matras, halant, conjuncts, nukta letters, Hindi Traditional/InScript and phonetic input.",
   researchedKeywords: [
-    "hindi typing test",
-    "hindi typing speed test",
-    "hindi WPM test",
-    "hindi keyboard test",
-    "hindi typing practice",
-    "devanagari typing test",
+    "Hindi typing speed test",
+    "Hindi WPM test",
+    "Hindi keyboard test",
+    "Hindi typing practice",
+    "Devanagari typing test",
     "हिंदी टाइपिंग टेस्ट",
     "हिंदी टाइपिंग स्पीड",
     "हिंदी टाइपिंग प्रैक्टिस",
@@ -22,8 +21,7 @@ const content: LanguageDeepContent = {
       type: "hero",
       narrative: [
         "Hindi typing can feel simple when you read Devanagari fluently and surprisingly difficult when your fingers meet the keyboard. The challenge is not only finding क, म, र, or स. It is learning how मात्राएँ, halant, conjuncts, nukta letters, and visual reordering work while you keep a steady typing rhythm.",
-        "Hindi typing is a formal skill-test requirement in many Indian government exams, including SSC CHSL, CPCT, state courts, and railways. Speed alone does not qualify; accuracy on Devanagari marks, conjuncts, and noun forms can make the difference between passing and failing.",
-        "This test measures your Hindi typing speed with authentic Devanagari text, giving you a live WPM and accuracy score you can trust.",
+        "Start the Hindi Typing Test above and type at the pace that feels natural today. Typing Globe currently offers 15, 30, 60, and 120-second tests, easy, medium, and hard passages, one- or two-paragraph options, shuffle, and custom text while showing WPM and accuracy.",
       ],
     },
 
@@ -47,17 +45,17 @@ const content: LanguageDeepContent = {
       text: "That means Hindi typing is not always visually intuitive. You type characters in logical order, then the font and shaping engine arrange the final glyphs. Once you understand that principle, many apparently strange cursor and matra behaviors stop looking like keyboard errors.",
     },
 
-    { type: "heading", text: "Matras Are One of the Core Hindi Typing Skills", id: "matras" },
+    { type: "heading", text: "Matras Are One of the Core Hindi Typing Skills", id: "matras-core-skill" },
     {
       type: "paragraph",
-      text: "Hindi vowel signs attach to consonants in different visual positions. Some appear to the right, some above or below, and the short-i sign ◌ि appears visually before the consonant even though the underlying character sequence follows logical Indic ordering.",
+      text: "Hindi vowel signs attach to consonants in different visual positions. Some appear to the right, some above or below, and the short-i sign ि appears visually before the consonant even though the underlying character sequence follows logical Indic ordering.",
     },
     {
       type: "paragraph",
-      text: "Practice common forms such as कि, की, कु, कू, के, कै, को, कौ and then move to complete words: किताब, किसी, महिला, विद्यालय, दुनिया, मेहनत, कोशिश, and आवश्यकता. The goal is to stop thinking of the matra as a separate correction after the consonant.",
+      text: "Practice common forms such as कि, की, कु, कू, के, कै, को, कौ and then move to complete words: किताब, किसी, महिला, विद्यालय, दुनिया, मेहनत, कोशिश, और. The goal is to stop thinking of the matra as a separate correction after the consonant.",
     },
 
-    { type: "heading", text: "Why ि Looks Backward to Beginners", id: "i-matra" },
+    { type: "heading", text: "Why ि Looks Backward to Beginners", id: "i-matra-backward" },
     {
       type: "paragraph",
       text: "The vowel sign ि is one of the most common sources of confusion because it displays on the left side of the consonant. Unicode text is still encoded logically, so the visible placement does not mean you should reverse the character order in your head.",
@@ -70,14 +68,14 @@ const content: LanguageDeepContent = {
     { type: "heading", text: "Halant / Virama Builds Half-Letters and Conjuncts", id: "halant-virama" },
     {
       type: "paragraph",
-      text: "Unicode defines the Devanagari virama ◌् as the sign that suppresses the inherent vowel of a consonant. In Hindi it is commonly called halant. A consonant followed by halant becomes a dead consonant and can combine with the next consonant to form a conjunct.",
+      text: "Unicode defines the Devanagari virama ् as the sign that suppresses the inherent vowel of a consonant. In Hindi it is commonly called halant. A consonant followed by halant becomes a dead consonant and can combine with the next consonant to form a conjunct.",
     },
     {
       type: "paragraph",
       text: "This is how sequences such as क् + ष can render as क्ष, त् + र as त्र, and ज् + ञ as ज्ञ. The exact glyph depends on the font, but the underlying character sequence matters for accurate typing and searchability.",
     },
 
-    { type: "heading", text: "Useful Conjuncts to Practice", id: "conjuncts" },
+    { type: "heading", text: "Useful Conjuncts to Practice", id: "useful-conjuncts" },
     {
       type: "table",
       headers: ["Conjunct", "Underlying Sequence", "Practice Words"],
@@ -95,10 +93,10 @@ const content: LanguageDeepContent = {
       text: "Do not try to memorize every possible conjunct before you begin. Practice the ones that appear in your real passages. Whole-word repetition is more useful than pressing halant combinations in isolation because it teaches the sequence inside normal Hindi reading.",
     },
 
-    { type: "heading", text: "Nukta Letters Need Exact Input Too", id: "nukta" },
+    { type: "heading", text: "Nukta Letters Need Exact Input Too", id: "nukta-letters" },
     {
       type: "paragraph",
-      text: "The nukta ◌़ modifies a consonant to represent sounds used in Hindi loanwords and names. Unicode places the nukta immediately after the consonant in the stored sequence, and it may combine visually with the base letter.",
+      text: "The nukta ़ modifies a consonant to represent sounds used in Hindi loanwords and names. Unicode places the nukta immediately after the consonant in the stored sequence, and it may combine visually with the base letter.",
     },
     {
       type: "paragraph",
@@ -108,14 +106,14 @@ const content: LanguageDeepContent = {
     { type: "heading", text: "Bindu and Chandrabindu Can Change the Word", id: "bindu-chandrabindu" },
     {
       type: "paragraph",
-      text: "Hindi also uses anusvara ◌ं and chandrabindu ◌ँ. These marks appear above the line but function as part of the spelling. They can be easy to miss when the main consonant sequence is correct and you are trying to maximize WPM.",
+      text: "Hindi also uses anusvara ं and chandrabindu ँ. These marks appear above the line but function as part of the spelling. They can be easy to miss when the main consonant sequence is correct and you are trying to maximize WPM.",
     },
     {
       type: "paragraph",
       text: "Practice words such as हिंदी, संबंध, अंग, गाँव, हँसी, माँ, and चाँद. If the source includes the mark, type it. A clean Hindi result should preserve these small characters rather than treating them as optional punctuation.",
     },
 
-    { type: "heading", text: "Hindi Traditional / INSCRIPT vs. Hindi Phonetic", id: "input-methods" },
+    { type: "heading", text: "Hindi Traditional / INSCRIPT vs. Hindi Phonetic", id: "traditional-vs-phonetic" },
     {
       type: "paragraph",
       text: "Windows supports two very different ways to enter Hindi. Microsoft installs Hindi with the Hindi Traditional keyboard by default, and it also offers a Hindi Phonetic IME. Traditional uses fixed key positions, while Phonetic lets you type a transliteration with English keys and choose a Devanagari suggestion.",
@@ -125,7 +123,7 @@ const content: LanguageDeepContent = {
       text: "Microsoft describes the traditional Indic layouts as INSCRIPT-based and the phonetic keyboards as pronunciation-based transliteration. Neither method is automatically 'better' for everyone. The right choice depends on your exam, workplace, existing muscle memory, and whether direct fixed-key typing or transliteration is expected.",
     },
 
-    { type: "heading", text: "How Hindi Phonetic Typing Works", id: "phonetic-method" },
+    { type: "heading", text: "How Hindi Phonetic Typing Works", id: "phonetic-typing-works" },
     {
       type: "paragraph",
       text: "With the Windows Hindi Phonetic IME, you type a Romanized form such as bagicha and the IME suggests बगीचा. You then accept the desired Devanagari word. This makes Hindi input accessible to people who already know English QWERTY but have not learned a fixed Devanagari layout.",
@@ -135,7 +133,7 @@ const content: LanguageDeepContent = {
       text: "The tradeoff is that prediction and candidate selection become part of the input process. A phonetic WPM result therefore measures a different workflow from direct INSCRIPT typing. Keep the input method consistent when you compare progress.",
     },
 
-    { type: "heading", text: "How Hindi Traditional / INSCRIPT Typing Works", id: "inscript-method" },
+    { type: "heading", text: "How Hindi Traditional / INSCRIPT Typing Works", id: "traditional-typing-works" },
     {
       type: "paragraph",
       text: "Hindi Traditional assigns Devanagari letters and vowel signs to fixed keyboard positions. Microsoft shows, for example, that typing बगीचा requires direct key positions for ब, ग, the long-i vowel sign, च, and the aa vowel sign rather than spelling the word in Latin letters.",
@@ -165,7 +163,7 @@ const content: LanguageDeepContent = {
       text: "That is a much safer model for Typing Globe content than saying one layout is always used by all government exams. A state exam can define its own allowed input layout, correction behavior, duration, and scoring method.",
     },
 
-    { type: "heading", text: "SSC CHSL Has a Verified Hindi Typing Requirement", id: "ssc-chsl" },
+    { type: "heading", text: "SSC CHSL Has a Verified Hindi Typing Requirement", id: "ssc-chsl-requirement" },
     {
       type: "paragraph",
       text: "The SSC CHSL notice used for this review states that candidates choosing Hindi medium for the LDC/JSA typing test need 30 WPM. SSC equates that to about 9,000 key depressions per hour and measures the typing on a given passage over 10 minutes.",
@@ -175,7 +173,7 @@ const content: LanguageDeepContent = {
       text: "That requirement belongs to the specific SSC CHSL typing test; it is not a national definition of 'good Hindi typing.' Use it when preparing for CHSL LDC/JSA, and use the current notification again before each exam cycle in case the rules change.",
     },
 
-    { type: "heading", text: "Do Not Turn One Exam Cutoff into a Universal Hindi Benchmark", id: "avoid-generalizing" },
+    { type: "heading", text: "Do Not Turn One Exam Cutoff into a Universal Hindi Benchmark", id: "no-universal-benchmark" },
     {
       type: "paragraph",
       text: "The current Typing Globe page says 30-40 WPM clears most government exam cutoffs and recommends 40+ as a universal safety target. That is too broad without checking each current notification. CPCT, state courts, railways, and state clerical exams can use different layouts, durations, error rules, and score formulas.",
@@ -185,7 +183,7 @@ const content: LanguageDeepContent = {
       text: "For SEO trust, publish verified exam examples only when they are clearly labeled. For everyone else, use personal baseline guidance: repeat the same Hindi test under the same conditions and track whether WPM and accuracy improve together.",
     },
 
-    { type: "heading", text: "How Typing Globe Measures Hindi WPM", id: "wpm-calculation" },
+    { type: "heading", text: "How Typing Globe Measures Hindi WPM", id: "how-wpm-measured" },
     {
       type: "paragraph",
       text: "Typing Globe's live Hindi page currently reports WPM and accuracy. The SEO copy also presents a net-WPM formula based on characters, time, and errors, but it should not promise that the result will be identical to every SSC, CPCT, court, or state-board score.",
@@ -212,7 +210,7 @@ const content: LanguageDeepContent = {
     },
     {
       type: "paragraph",
-      text: 'Try a sentence such as "हिंदी में तेज़ और सटीक टाइपिंग नियमित अभ्यास से बेहतर होती है।" Type it carefully first, keeping हर मात्रा, nukta, and conjunct correct, then repeat it slightly faster.',
+      text: "Try a sentence such as \"हिंदी में तेज़ और सटीक टाइपिंग नियमित अभ्यास से बेहतर होती है।\" Type it carefully first, keeping हर मात्रा, nukta, and conjunct correct, then repeat it slightly faster.",
     },
 
     { type: "heading", text: "Practice Real Hindi Words", id: "real-words" },
@@ -231,13 +229,11 @@ const content: LanguageDeepContent = {
       type: "paragraph",
       text: "Choose Hindi Traditional/INSCRIPT, phonetic, Remington, or the layout your target exam requires and stay with it. Practice common consonants, basic matras, ि, anusvara, and short words while reducing how often you look down.",
     },
-
     { type: "subheading", text: "Weeks 3-4: Add Halant, Conjuncts, and Nukta" },
     {
       type: "paragraph",
       text: "Practice क्ष, त्र, ज्ञ, क्र, प्र, nukta letters, and longer Devanagari words. Keep a short list of repeated mistakes from earlier tests and reuse those words in custom-text sessions instead of taking endless full tests without targeted repair.",
     },
-
     { type: "subheading", text: "Weeks 5-6: Build Sustained Exam-Style Rhythm" },
     {
       type: "paragraph",
@@ -309,7 +305,7 @@ const content: LanguageDeepContent = {
         {
           question: "What does halant do?",
           answer:
-            "The halant or virama ◌् suppresses the consonant's inherent vowel. It is used to create dead consonants and conjunct sequences such as क्ष, त्र, ज्ञ, क्र, and many others.",
+            "The halant or virama ् suppresses the consonant's inherent vowel. It is used to create dead consonants and conjunct sequences such as क्ष, त्र, ज्ञ, क्र, and many others.",
         },
         {
           question: "What Hindi speed does SSC CHSL require?",
@@ -329,9 +325,82 @@ const content: LanguageDeepContent = {
       ],
     },
 
+    { type: "heading", text: "Test Your Hindi Typing Speed Now", id: "cta-heading" },
     {
       type: "cta",
-      text: "Test Your Hindi Typing Speed Now — Start the Hindi Typing Test · हिन्दी above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which matras, conjuncts, nukta letters, keyboard positions, or longer words interrupted your rhythm. Return after a few focused practice sessions and test again using the same input method, duration, and similar difficulty.",
+      text: "Start the Hindi Typing Test · हिन्दी above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which matras, conjuncts, nukta letters, keyboard positions, or longer words interrupted your rhythm. Return after a few focused practice sessions and test again using the same input method, duration, and similar difficulty. The goal is not to beat an invented national average. It is to make हिंदी टाइपिंग cleaner, steadier, and more comfortable every time you come back.",
+    },
+  ],
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": ["SoftwareApplication", "WebApplication"],
+      "@id": "https://www.typingglobe.com/test/hindi-typing-test#app",
+      name: "Hindi Typing Test",
+      url: "https://www.typingglobe.com/test/hindi-typing-test",
+      description:
+        "Free Hindi typing test for measuring WPM and accuracy with Devanagari text, matras, conjuncts, nukta letters, and Hindi keyboard practice.",
+      applicationCategory: "EducationalApplication",
+      operatingSystem: "Web",
+      isAccessibleForFree: true,
+      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      inLanguage: ["en", "hi"],
+      publisher: { "@type": "Organization", name: "Typing Globe", url: "https://www.typingglobe.com/" },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.typingglobe.com/test/hindi-typing-test#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is the difference between Hindi Traditional and Hindi Phonetic?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Hindi Traditional uses fixed Devanagari key positions and is based on the traditional INSCRIPT-style workflow. Hindi Phonetic lets you type a Latin transliteration and choose Devanagari suggestions. They are different input methods, so compare speed using the same method.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Why does the ि matra appear before the consonant?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Devanagari shaping places the short-i vowel sign visually to the left of its consonant even though the underlying text follows logical Indic character order. Learn the input sequence used by your keyboard rather than trying to type the visual order.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What does halant do?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The halant or virama ् suppresses the consonant's inherent vowel. It is used to create dead consonants and conjunct sequences such as क्ष, त्र, ज्ञ, क्र, and many others.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What Hindi speed does SSC CHSL require?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The SSC CHSL notice used for this review states 30 WPM for Hindi-medium LDC/JSA typing, tested on a given passage for 10 minutes. Always check the latest SSC notification for your exam cycle.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which keyboard does CPCT use for Hindi?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "CPCT describes its Hindi typing section as Unicode Hindi and supports Remington (GAIL) and InScript layouts. Candidate instructions tell users to verify the selected layout on the admit card and at the test interface.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is a good Hindi typing speed?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "There is no transparent universal Hindi WPM benchmark for every person or job. Use your first result as a baseline and compare similar tests over time. For a specific government or employer test, use that authority's current published requirement.",
+          },
+        },
+      ],
     },
   ],
 };

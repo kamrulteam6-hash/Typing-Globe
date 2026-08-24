@@ -5,24 +5,22 @@ const content: LanguageDeepContent = {
   seoDescription:
     "Take a free Indonesian typing test and check WPM and accuracy. Practice EYD V spelling, di/ke spacing, hyphens, punctuation and real Bahasa Indonesia text.",
   researchedKeywords: [
-    "indonesian typing test",
-    "indonesian typing speed test",
-    "bahasa indonesia WPM test",
-    "indonesian keyboard test",
-    "indonesian typing practice",
+    "Indonesian typing speed test",
+    "Bahasa Indonesia WPM test",
+    "Indonesian keyboard test",
+    "Indonesian typing practice",
     "tes kecepatan mengetik",
     "kecepatan mengetik",
     "latihan mengetik",
     "mengetik sepuluh jari",
-    "papan ketik indonesia",
+    "papan ketik Indonesia",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
         "Bahasa Indonesia does not require a new script or a row of accented letters, so it is easy to assume that Indonesian typing is simply English typing with different words. The harder part is orthographic discipline: affixes, prepositions, reduplication, compounds, capitalization, loanwords, and punctuation can all create errors at speed.",
-        "Fast and accurate Indonesian typing is useful in office work, customer support, data entry, journalism, government administration, and educational settings. Because Indonesian morphology and spacing patterns differ from English, character accuracy becomes just as important as speed for meaningful text.",
-        "This test measures your Indonesian typing speed with authentic Bahasa Indonesia text, giving you a live WPM and accuracy score you can trust.",
+        "Start the Indonesian Typing Test above and type at the pace that feels natural today. Typing Globe currently offers 15, 30, 60, and 120-second tests, easy, medium, and hard passages, one- or two-paragraph options, shuffle, and custom text while showing WPM and accuracy.",
       ],
     },
 
@@ -164,7 +162,7 @@ const content: LanguageDeepContent = {
     },
     {
       type: "paragraph",
-      text: 'Try a sentence such as "Kecepatan mengetik meningkat ketika kita berlatih secara teratur dan memperhatikan ejaan." Type it carefully first, then repeat it slightly faster without losing spaces, affixes, or punctuation.',
+      text: "Try a sentence such as \"Kecepatan mengetik meningkat ketika kita berlatih secara teratur dan memperhatikan ejaan.\" Type it carefully first, then repeat it slightly faster without losing spaces, affixes, or punctuation.",
     },
 
     { type: "heading", text: "A 6-Week Indonesian Typing Practice Plan", id: "six-week-plan" },
@@ -173,13 +171,11 @@ const content: LanguageDeepContent = {
       type: "paragraph",
       text: "Use ordinary Bahasa Indonesia passages and focus on home-row technique, spaces, Shift, and punctuation. Keep the active keyboard consistent and build clean sentences before trying to maximize WPM.",
     },
-
     { type: "subheading", text: "Weeks 3-4: Drill EYD Patterns" },
     {
       type: "paragraph",
       text: "Practice di-/ke- contrasts, reduplication with hyphens, long affixed words, abbreviations, and ng/ny/kh/sy sequences. Keep a short list of repeated spelling errors and reuse them in Custom Typing Test sessions.",
     },
-
     { type: "subheading", text: "Weeks 5-6: Build Sustained Speed" },
     {
       type: "paragraph",
@@ -204,6 +200,56 @@ const content: LanguageDeepContent = {
     {
       type: "paragraph",
       text: "Familiar custom material becomes easier through repetition, so it is excellent for targeted repair but not ideal as your only progress measure. Fresh passages show whether the improvement transfers to new Indonesian text.",
+    },
+
+    { type: "heading", text: "Attached Pronouns: -ku, -mu, and -nya", id: "attached-pronouns" },
+    {
+      type: "paragraph",
+      text: "EYD V treats forms such as bukuku, rumahmu, pekerjaannya, membacanya, and untuknya as attached to the word they belong to. At speed, typists sometimes insert an unnecessary space because the ending is heard as a separate syllable even though the written form is one word.",
+    },
+    {
+      type: "paragraph",
+      text: "Practice short phrases such as bukuku hilang, rumahnya besar, saya membacanya, and keputusanmu penting. This is a useful complement to di/ke practice because Indonesian typing accuracy depends heavily on knowing where word boundaries truly belong.",
+    },
+
+    { type: "heading", text: "ku- and kau- Can Attach at the Front", id: "ku-kau-prefix" },
+    {
+      type: "paragraph",
+      text: "The same EYD framework also covers attached pronoun forms at the beginning of a word, such as kutulis and kaubaca. These are easy to mistype when someone is used to thinking of every pronoun as an independent word.",
+    },
+    {
+      type: "paragraph",
+      text: "Do not memorize a long grammar chart during a speed session. Build a small list of high-frequency attached forms and type them inside complete sentences until the absence of a space feels natural.",
+    },
+
+    { type: "heading", text: "Abbreviations, Numbers, and Administrative Text", id: "abbreviations-numbers" },
+    {
+      type: "paragraph",
+      text: "Real Indonesian office and news writing includes initials, titles, dates, percentages, currencies, institutional abbreviations, and number formats. Those elements are where number-row and punctuation fluency become important even though the alphabet itself needs no special characters.",
+    },
+    {
+      type: "paragraph",
+      text: "Use passages containing forms such as 24 Agustus 2026, 15%, Rp, No., and organization names when they match the source style. The purpose is not to invent one universal formatting rule, but to practice reproducing punctuation and spacing exactly as displayed.",
+    },
+
+    { type: "heading", text: "Loanwords Do Not Require a New Keyboard", id: "loanwords" },
+    {
+      type: "paragraph",
+      text: "EYD V includes rules for absorbed foreign elements, but the standard modern writing system still works through the ordinary Latin keyboard. Loanwords may introduce unfamiliar letter sequences, yet they do not create a need for a separate Indonesian hardware layout.",
+    },
+    {
+      type: "paragraph",
+      text: "Practice contemporary vocabulary such as teknologi, komunikasi, digital, administrasi, aplikasi, kualitas, and profesional. Familiarity with these recurring forms improves real office and web typing more than artificial alphabet drills.",
+    },
+
+    { type: "heading", text: "Reading Ahead Helps with Long Indonesian Sentences", id: "reading-ahead" },
+    {
+      type: "paragraph",
+      text: "Indonesian prose often uses long clauses connected by commas and conjunctions. If your eyes stay on the character you are currently typing, punctuation arrives as a surprise and rhythm breaks. Read a few words ahead while your fingers complete the current phrase.",
+    },
+    {
+      type: "paragraph",
+      text: "This technique is especially useful in formal passages with yang, karena, sehingga, tetapi, sedangkan, and untuk. The goal is not speed reading; it is giving your hands enough advance information to prepare spaces, commas, and longer derived words cleanly.",
     },
 
     { type: "heading", text: "Common Indonesian Typing Mistakes to Watch", id: "common-mistakes" },
@@ -256,9 +302,82 @@ const content: LanguageDeepContent = {
       ],
     },
 
+    { type: "heading", text: "Test Your Indonesian Typing Speed Now", id: "cta-heading" },
     {
       type: "cta",
-      text: "Test Your Indonesian Typing Speed Now — Start the Indonesian Typing Test · Bahasa Indonesia above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which word boundaries, hyphens, affixes, long words, or punctuation marks interrupted your rhythm. Return after a few focused practice sessions and test again.",
+      text: "Start the Indonesian Typing Test · Bahasa Indonesia above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which word boundaries, hyphens, affixes, long words, or punctuation marks interrupted your rhythm. Return after a few focused practice sessions and test again using the same duration and similar difficulty. The goal is not to beat an invented national average. It is to make mengetik Bahasa Indonesia cleaner, steadier, and more comfortable.",
+    },
+  ],
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": ["SoftwareApplication", "WebApplication"],
+      "@id": "https://www.typingglobe.com/test/indonesian-typing-speed-test#app",
+      name: "Indonesian Typing Test",
+      url: "https://www.typingglobe.com/test/indonesian-typing-speed-test",
+      description:
+        "Free Indonesian typing test for measuring WPM and accuracy with Bahasa Indonesia text and current EYD spelling patterns.",
+      applicationCategory: "EducationalApplication",
+      operatingSystem: "Web",
+      isAccessibleForFree: true,
+      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      inLanguage: ["en", "id"],
+      publisher: { "@type": "Organization", name: "Typing Globe", url: "https://www.typingglobe.com/" },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.typingglobe.com/test/indonesian-typing-speed-test#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Does Indonesian need a special keyboard?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No for ordinary standard text. Microsoft maps the Indonesian id-ID profile to the US keyboard, and standard Bahasa Indonesia uses the ordinary Latin alphabet. You may still add the Indonesian language profile for spellchecking and language-aware features.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is EYD V?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "EYD V is the fifth edition of Ejaan Bahasa Indonesia yang Disempurnakan, the current official Indonesian spelling guide established by the Badan Pengembangan dan Pembinaan Bahasa in 2022.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Should di and ke always be separated?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. Prefix forms such as ditulis, dibaca, kedua and kehidupan are written together, while prepositions indicating place or direction such as di rumah and ke sekolah are separate. Practice the grammatical pattern, not one universal spacing rule.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Why are hyphens important in Indonesian typing?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Full reduplication commonly uses a hyphen, as in anak-anak and buku-buku. If the source includes the hyphen, omitting it is an exact-typing error.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does CPNS have one national Indonesian WPM requirement?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Do not assume one universal cutoff. Requirements depend on the specific recruitment notice, role, practical test and scoring rules. Use the current formasi announcement when a formal threshold matters.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is a good Indonesian typing speed?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "There is no transparent universal Indonesian WPM benchmark for every person or job. Use your first clean result as a baseline and compare similar tests over time; use an employer's published requirement separately when one exists.",
+          },
+        },
+      ],
     },
   ],
 };

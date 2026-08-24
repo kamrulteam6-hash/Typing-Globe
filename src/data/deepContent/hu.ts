@@ -5,12 +5,11 @@ const content: LanguageDeepContent = {
   seoDescription:
     "Take a free Hungarian typing test and check WPM and accuracy. Practice á é í ó ö ő ú ü ű, QWERTZ, digraphs, long vowels and real Magyar text.",
   researchedKeywords: [
-    "hungarian typing test",
-    "hungarian typing speed test",
-    "hungarian WPM test",
-    "hungarian keyboard test",
-    "magyar typing practice",
-    "hungarian QWERTZ test",
+    "Hungarian typing speed test",
+    "Hungarian WPM test",
+    "Hungarian keyboard test",
+    "Magyar typing practice",
+    "Hungarian QWERTZ test",
     "magyar gépelési teszt",
     "gépelési sebesség",
     "gépelés gyakorlás",
@@ -22,8 +21,7 @@ const content: LanguageDeepContent = {
       type: "hero",
       narrative: [
         "Hungarian can feel deceptively familiar on screen because it uses the Latin script, but Magyar typing has its own rhythm. QWERTZ swaps Y and Z, accented vowels appear constantly, ő and ű need dedicated attention, and letter groups such as gy, ny, sz, ty, zs, cs, dz, and dzs behave as meaningful Hungarian spelling units.",
-        "Fast and accurate Hungarian typing is useful in administration, customer support, translation, journalism, and everyday office work. Because Hungarian writing is heavily suffixed, longer words are normal, which means accuracy on accented vowels, doubled consonants, and digraphs becomes just as important as speed.",
-        "This test measures your Hungarian typing speed with authentic Magyar text, giving you a live WPM and accuracy score you can trust.",
+        "Start the Hungarian Typing Test above and type at the pace that feels natural today. Typing Globe currently offers 15, 30, 60, and 120-second tests, easy, medium, and hard passages, one- or two-paragraph options, shuffle, and custom text while showing WPM and accuracy.",
       ],
     },
 
@@ -37,7 +35,7 @@ const content: LanguageDeepContent = {
       text: "The useful result is not speed alone. Typing o instead of ó, ö instead of ő, u instead of ű, or losing one character from a doubled consonant changes the written word. Hungarian typing therefore rewards exact spelling before aggressive WPM chasing.",
     },
 
-    { type: "heading", text: "Hungarian Has Seven Short and Seven Long Vowels", id: "hungarian-vowels" },
+    { type: "heading", text: "Hungarian Has Seven Short and Seven Long Vowels", id: "seven-vowel-pairs" },
     {
       type: "paragraph",
       text: "The official Hungarian orthography lists seven short vowels: a, e, i, o, ö, u, ü, and seven long vowels: á, é, í, ó, ő, ú, ű. Vowel length can distinguish words, so the accent is not decorative. It is part of the letter you need to type.",
@@ -47,7 +45,7 @@ const content: LanguageDeepContent = {
       text: "The orthography gives contrasts such as akar–akár, bal–bál, koros–kóros, öt–őt, and áru–árú. These pairs make excellent typing drills because one missing mark can produce a different valid word rather than an obvious nonsense typo.",
     },
 
-    { type: "heading", text: "The Hungarian Vowel Keys You Need to Master", id: "vowel-practice" },
+    { type: "heading", text: "The Hungarian Vowel Keys You Need to Master", id: "vowel-keys" },
     {
       type: "table",
       headers: ["Letter", "Typing Focus", "Practice Words"],
@@ -68,7 +66,7 @@ const content: LanguageDeepContent = {
       text: "Practice the letters inside ordinary vocabulary rather than as isolated keys. Whole words teach your fingers where the accent belongs while your eyes learn to notice whether the source contains a short or long vowel.",
     },
 
-    { type: "heading", text: "Ő and Ű Are Double-Acute Letters, Not Ordinary Umlauts", id: "double-acute" },
+    { type: "heading", text: "Ő and Ű Are Double-Acute Letters, Not Ordinary Umlauts", id: "double-acute-letters" },
     {
       type: "paragraph",
       text: "The marks on ő and ű are double acute accents. They are not simply decorative versions of ö and ü, and they are not interchangeable with them. Hungarian orthography treats ö–ő and ü–ű as short–long vowel pairs.",
@@ -88,7 +86,7 @@ const content: LanguageDeepContent = {
       text: "This becomes important in names, headings, sentence beginnings, and all-caps text. If the passage says Ő, typing O is not an acceptable shortcut just because the capital character takes a less familiar movement.",
     },
 
-    { type: "heading", text: "Hungarian Digraphs and the Trigraph Dzs", id: "digraphs" },
+    { type: "heading", text: "Hungarian Digraphs and the Trigraph Dzs", id: "digraphs-trigraph" },
     {
       type: "paragraph",
       text: "Hungarian spelling contains several multi-character letters: cs, dz, gy, ly, ny, sz, ty, zs, plus the three-character letter dzs. The official orthography treats these as letters in the Hungarian alphabet rather than random pairs that happen to occur together.",
@@ -138,7 +136,7 @@ const content: LanguageDeepContent = {
       text: "Practice everyday longer forms such as billentyűzet, gépelési, pontosság, munkatársakkal, lehetőségeket, számítógépen, and gyakorlással. Read a small chunk ahead while your fingers finish the current segment instead of waiting until you visually process the entire word.",
     },
 
-    { type: "heading", text: "The Hungarian QWERTZ Keyboard", id: "qwertz-layout" },
+    { type: "heading", text: "The Hungarian QWERTZ Keyboard", id: "qwertz-keyboard" },
     {
       type: "paragraph",
       text: "Microsoft's default Windows profile for Hungarian, hu-HU, maps to the Hungarian keyboard, identifier 0000040E. Windows also provides a Hungarian 101-key layout with identifier 0001040E.",
@@ -148,7 +146,7 @@ const content: LanguageDeepContent = {
       text: "The standard Hungarian layout belongs to the QWERTZ family, so Y and Z are in different positions from US QWERTY. It also gives direct access to the Hungarian accented vowels needed in everyday text, including ő and ű.",
     },
 
-    { type: "heading", text: "QWERTZ vs. QWERTY: The Y/Z Trap", id: "yz-trap" },
+    { type: "heading", text: "QWERTZ vs. QWERTY: The Y/Z Trap", id: "y-z-trap" },
     {
       type: "paragraph",
       text: "If you move frequently between English QWERTY and Hungarian QWERTZ, Y/Z errors can appear even after years of typing. Hungarian words such as az, ez, száz, helyzet, bizony, and nyelv can expose that layout-switching habit quickly.",
@@ -158,7 +156,7 @@ const content: LanguageDeepContent = {
       text: "Do not treat those mistakes as a language problem. They are muscle-memory collisions between two layouts. Keep your benchmark tied to the same keyboard layout, and confirm the active input language before starting each timed test.",
     },
 
-    { type: "heading", text: "Hungarian 101-Key Is an Alternate Layout", id: "101-key-layout" },
+    { type: "heading", text: "Hungarian 101-Key Is an Alternate Layout", id: "alternate-layout" },
     {
       type: "paragraph",
       text: "Windows lists both Hungarian and Hungarian 101-key layouts. They are not guaranteed to place every symbol or accented character identically, so a shortcut learned from one keyboard diagram may not transfer perfectly to the other.",
@@ -178,7 +176,7 @@ const content: LanguageDeepContent = {
       text: "Before measuring speed, type a short test line containing á, é, í, ó, ö, ő, ú, ü, ű, plus y and z. That catches an accidental QWERTY layout or a missing Hungarian input method before it distorts the result.",
     },
 
-    { type: "heading", text: "Do Not Rely on Alt Codes as Your Main Typing Method", id: "alt-codes" },
+    { type: "heading", text: "Do Not Rely on Alt Codes as Your Main Typing Method", id: "avoid-alt-codes" },
     {
       type: "paragraph",
       text: "Alt codes can rescue a missing character on Windows, but they are a poor foundation for fluent Hungarian typing. Reaching for a numeric code every time ő or ű appears breaks rhythm and trains a workflow you are unlikely to want in normal writing.",
@@ -188,7 +186,7 @@ const content: LanguageDeepContent = {
       text: "If you type Hungarian regularly, add a Hungarian keyboard layout or another reliable input method that gives direct access to the letters. Use character codes as a fallback, not as the main technique you benchmark.",
     },
 
-    { type: "heading", text: "How Typing Globe Measures Hungarian Typing", id: "how-wpm-measured" },
+    { type: "heading", text: "How Typing Globe Measures Hungarian Typing", id: "how-measured" },
     {
       type: "paragraph",
       text: "Typing Globe's live Hungarian page currently offers 15, 30, 60, and 120-second tests, easy, medium, and hard passages, one or two paragraphs, shuffle, and custom-text practice. The interface displays WPM and accuracy while you type.",
@@ -235,7 +233,7 @@ const content: LanguageDeepContent = {
     },
     {
       type: "paragraph",
-      text: 'Try a sentence such as "A pontos és gyors magyar gépelés rendszeres gyakorlással fejlődik." Type it carefully first, keeping every accent and consonant correct, then repeat it slightly faster without sacrificing the spelling.',
+      text: "Try a sentence such as \"A pontos és gyors magyar gépelés rendszeres gyakorlással fejlődik.\" Type it carefully first, keeping every accent and consonant correct, then repeat it slightly faster without sacrificing the spelling.",
     },
 
     { type: "heading", text: "Practice Real Hungarian Words", id: "real-words" },
@@ -254,13 +252,11 @@ const content: LanguageDeepContent = {
       type: "paragraph",
       text: "Use the Hungarian layout you actually plan to keep. Practice Y/Z switching, á, é, í, ó, ö, ő, ú, ü, and ű inside short words. Keep accuracy high and reduce how often you look down before worrying about a personal-record WPM.",
     },
-
     { type: "subheading", text: "Weeks 3-4: Add Digraphs and Long Consonants" },
     {
       type: "paragraph",
       text: "Deliberately practice cs, gy, ly, ny, sz, ty, zs, dz, dzs, and common doubled consonants. Keep a short list of recurring mistakes from earlier tests and reuse those words in Custom Typing Test sessions.",
     },
-
     { type: "subheading", text: "Weeks 5-6: Build Sustained Rhythm" },
     {
       type: "paragraph",
@@ -352,9 +348,82 @@ const content: LanguageDeepContent = {
       ],
     },
 
+    { type: "heading", text: "Test Your Hungarian Typing Speed Now", id: "cta-heading" },
     {
       type: "cta",
-      text: "Test Your Hungarian Typing Speed Now — Start the Hungarian Typing Test · Magyar above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which accented vowels, QWERTZ positions, digraphs, doubled consonants, or longer words interrupted your rhythm. Return after a few focused practice sessions and test again using the same layout, duration, and similar difficulty.",
+      text: "Start the Hungarian Typing Test · Magyar above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which accented vowels, QWERTZ positions, digraphs, doubled consonants, or longer words interrupted your rhythm. Return after a few focused practice sessions and test again using the same layout, duration, and similar difficulty. The goal is not to beat an invented Hungarian national average. It is to make a magyar gépelés cleaner, steadier, and more comfortable every time you come back.",
+    },
+  ],
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": ["SoftwareApplication", "WebApplication"],
+      "@id": "https://www.typingglobe.com/test/hungarian-typing-speed-test#app",
+      name: "Hungarian Typing Test",
+      url: "https://www.typingglobe.com/test/hungarian-typing-speed-test",
+      description:
+        "Free Hungarian typing test for measuring WPM and accuracy with Magyar QWERTZ text, accented vowels, digraphs, and long consonants.",
+      applicationCategory: "EducationalApplication",
+      operatingSystem: "Web",
+      isAccessibleForFree: true,
+      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      inLanguage: ["en", "hu"],
+      publisher: { "@type": "Organization", name: "Typing Globe", url: "https://www.typingglobe.com/" },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.typingglobe.com/test/hungarian-typing-speed-test#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Which accented letters are used in Hungarian?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Hungarian uses á, é, í, ó, ö, ő, ú, ü, and ű in addition to unaccented vowels. The official orthography distinguishes seven short and seven long vowel letters, so accents are part of correct spelling rather than optional decoration.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is special about ő and ű?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Ő and ű use double acute accents and are the long partners of ö and ü. They are distinct letters in Hungarian spelling. Typing ö for ő or ü for ű is an error when the source requires the long vowel.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does Hungarian use QWERTZ?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Microsoft's default hu-HU Windows profile uses the Hungarian keyboard, identifier 0000040E, which belongs to the QWERTZ family. Windows also offers a Hungarian 101-key layout.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Are cs, gy, ly, ny, sz, ty and zs considered letters?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. The official Hungarian orthography treats multi-character forms such as cs, gy, ly, ny, sz, ty, zs, dz and dzs as letters in the alphabet. On a keyboard they still require multiple keystrokes, but recognizing them as spelling units can improve reading-ahead rhythm.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Why do some Hungarian words have double consonants?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Hungarian spelling distinguishes short and long consonants. The official rules show contrasts such as megy–meggy and hal–hall. A missing repeated consonant can therefore change the word or grammatical form.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is a good Hungarian typing speed?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "There is no transparent universal Hungarian WPM benchmark for every person or job. Use your own first result as a baseline and compare similar tests over time. If an employer publishes a specific requirement, use that requirement separately.",
+          },
+        },
+      ],
     },
   ],
 };

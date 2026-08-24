@@ -5,12 +5,11 @@ const content: LanguageDeepContent = {
   seoDescription:
     "Take a free Italian typing test and check WPM and accuracy. Practice à, è, é, ì, ò, ù, apostrophes, elision and the Italian QWERTY keyboard.",
   researchedKeywords: [
-    "italian typing test",
-    "italian typing speed test",
-    "italian WPM test",
-    "italian keyboard test",
+    "Italian typing speed test",
+    "Italian WPM test",
+    "Italian keyboard test",
     "test di velocità di digitazione",
-    "italian typing practice",
+    "Italian typing practice",
     "velocità di scrittura",
     "parole al minuto",
     "battute al minuto",
@@ -22,8 +21,7 @@ const content: LanguageDeepContent = {
       type: "hero",
       narrative: [
         "Italian typing uses a familiar QWERTY base, but real Italiano adds constant accent and apostrophe decisions. A fast typist still has to distinguish è from é, type sì rather than si when the accent matters, handle l'acqua and un'amica cleanly, and avoid replacing accented vowels with apostrophes.",
-        "Fast and accurate Italian typing is useful in office work, journalism, legal writing, customer support, translation, and education. Because Italian orthography depends on exact accent placement and apostrophe positioning, character accuracy becomes as important as speed.",
-        "This test measures your Italian typing speed with authentic Italiano text, giving you a live WPM and accuracy score you can trust.",
+        "Start the Italian Typing Test above and type at the pace that feels natural today. Typing Globe currently offers 15, 30, 60, and 120-second tests, easy, medium, and hard passages, one- or two-paragraph options, shuffle, and custom text while showing WPM and accuracy.",
       ],
     },
 
@@ -60,9 +58,15 @@ const content: LanguageDeepContent = {
         ["ù", "grave u", "più, giù, virtù"],
       ],
     },
+
+    { type: "heading", text: "Accents Can Distinguish Meaning", id: "accents-distinguish-meaning" },
     {
       type: "paragraph",
-      text: "Accents can distinguish meaning. Common pairs such as è/e, sì/si, là/la, né/ne, sé/se and dà/da show why a missing mark can produce another valid form rather than an obvious typo.",
+      text: "Italian accent marks are not decorative. Common pairs such as è/e, sì/si, là/la, né/ne, sé/se and dà/da show why a missing mark can produce another valid form rather than an obvious typo.",
+    },
+    {
+      type: "paragraph",
+      text: "That makes high-frequency accent words ideal typing practice. Drill è, già, così, più, città, però, perché, sì, né, lì, giù, può, sarà, farà and verrà until the accented vowel is part of the word movement rather than a pause.",
     },
 
     { type: "heading", text: "Apostrophes Are Everywhere in Real Italian", id: "apostrophes" },
@@ -92,7 +96,17 @@ const content: LanguageDeepContent = {
     },
     {
       type: "paragraph",
-      text: "Italian QWERTY is familiar but punctuation moves. If you come from US QWERTY, the alphabetic keys feel familiar but several punctuation and symbol positions differ. Use the layout you actually work with and practice realistic sentences containing apostrophes, quotes, numbers, parentheses, colons and accented vowels.",
+      text: "Microsoft also lists an Italian (142) keyboard variant, while Italian-speaking Switzerland can use a different default profile. That means one Italy-specific keyboard diagram should not be presented as universal for every Italian-speaking user.",
+    },
+
+    { type: "heading", text: "Italian QWERTY Is Familiar but Punctuation Moves", id: "qwerty-punctuation" },
+    {
+      type: "paragraph",
+      text: "If you come from US QWERTY, the alphabetic keys feel familiar but several punctuation and symbol positions differ. The best preparation is to use the layout you actually work with and practice realistic sentences containing apostrophes, quotes, numbers, parentheses, colons and accented vowels.",
+    },
+    {
+      type: "paragraph",
+      text: "When you switch between English and Italian layouts, punctuation errors may appear even when your spelling knowledge is strong. Confirm the active input language before a timed test and keep the layout consistent when comparing scores.",
     },
 
     { type: "heading", text: "Uppercase Accented Vowels Need Careful Input", id: "uppercase-accents" },
@@ -103,6 +117,16 @@ const content: LanguageDeepContent = {
     {
       type: "paragraph",
       text: "Do not train that shortcut in an exact typing test. If the source shows È or À, reproduce the actual accented capital character using the method supported by your operating system or editor.",
+    },
+
+    { type: "heading", text: "Battute al Minuto and WPM Are Not Automatically the Same Metric", id: "bam-vs-wpm" },
+    {
+      type: "paragraph",
+      text: "Italian discussions of typing may use battute al minuto, meaning keystrokes or characters per minute, alongside WPM. Those metrics can be related, but the exact conversion depends on what a system counts: letters, spaces, Shift, corrections, and other keys may be handled differently.",
+    },
+    {
+      type: "paragraph",
+      text: "The current live page presents a direct BAM/WPM relationship and professional thresholds without documenting a common Italian scoring standard. Typing Globe should explain its own WPM and accuracy calculation clearly and treat BAM only as an additional metric if the product actually calculates it.",
     },
 
     { type: "heading", text: "How Typing Globe Measures Italian Typing", id: "how-wpm-measured" },
@@ -151,13 +175,11 @@ const content: LanguageDeepContent = {
       type: "paragraph",
       text: "Practice à, è, é, ì, ò and ù inside everyday words and short sentences. Keep apostrophes in the warm-up and reduce how often you look down before trying to increase speed.",
     },
-
     { type: "subheading", text: "Weeks 3-4: Add Apostrophes, Capitals and Punctuation" },
     {
       type: "paragraph",
       text: "Practice l', un', c'è, com'è, qual è, accented capitals, quotes, numbers and harder vocabulary. Keep a short list of repeated mistakes and reuse those forms in Custom Typing Test sessions.",
     },
-
     { type: "subheading", text: "Weeks 5-6: Build Sustained Rhythm" },
     {
       type: "paragraph",
@@ -174,6 +196,16 @@ const content: LanguageDeepContent = {
       text: "If è/é is the problem, drill the two groups separately. If apostrophes break rhythm, practice elision phrases. If punctuation changes after switching from English, use mixed sentences until the active Italian layout feels natural again.",
     },
 
+    { type: "heading", text: "Use Custom Text for Real Italian Vocabulary", id: "custom-text" },
+    {
+      type: "paragraph",
+      text: "Typing Globe's Custom Typing Test is useful for school notes, administrative language, journalism, customer support, legal vocabulary, translation or your own Italian writing. Use material you have the right to practice with and keep a fresh standard passage as a separate benchmark.",
+    },
+    {
+      type: "paragraph",
+      text: "Familiar custom text becomes easier through repetition, so it is excellent for targeted repair but should not be your only progress measure.",
+    },
+
     { type: "heading", text: "Double Consonants Are a Major Italian Accuracy Trap", id: "double-consonants" },
     {
       type: "paragraph",
@@ -182,6 +214,46 @@ const content: LanguageDeepContent = {
     {
       type: "paragraph",
       text: "Practice common doubled forms such as tutto, fatto, essere, bello, anno, stesso, attenzione, necessario, successo, and corretto. The aim is to make the repeated consonant an intentional rhythm rather than an accidental extra tap.",
+    },
+
+    { type: "heading", text: "Elision and Contractions Create Dense Apostrophe Patterns", id: "elision-contractions" },
+    {
+      type: "paragraph",
+      text: "Italian prose regularly compresses articles and prepositions around vowels: dell'Italia, all'inizio, nell'ufficio, sull'acqua, un'amica and l'esperienza. These forms can place apostrophes close to doubled consonants and accented vowels in the same sentence.",
+    },
+    {
+      type: "paragraph",
+      text: "Use complete phrase drills rather than isolated apostrophes. A sentence such as \"All'inizio dell'anno l'azienda è cresciuta\" combines several realistic transitions and is more useful than pressing the apostrophe key repeatedly.",
+    },
+
+    { type: "heading", text: "Un po' Needs an Apostrophe", id: "un-po" },
+    {
+      type: "paragraph",
+      text: "Another classic typing trap is un po'. The shortened form of poco is written with an apostrophe, not an accent and not a bare po. This is worth drilling because casual digital writing often normalizes the wrong form.",
+    },
+    {
+      type: "paragraph",
+      text: "Exact typing practice should follow the source character. If a professionally edited passage uses a typographic apostrophe, reproduce the punctuation that the test expects rather than silently changing it to another mark.",
+    },
+
+    { type: "heading", text: "Italian Text Often Mixes English and Technical Terms", id: "mixed-english-terms" },
+    {
+      type: "paragraph",
+      text: "Modern Italian work text can include email, software, marketing, cloud, AI, brand names, URLs and English acronyms inside otherwise Italian sentences. That shifts the rhythm away from purely Italian vocabulary and introduces symbol-heavy sequences.",
+    },
+    {
+      type: "paragraph",
+      text: "Practice realistic bilingual phrases if your job requires them. The Italian keyboard remains useful for accents and apostrophes, while the Latin alphabet makes English technical terms easy to mix into the same passage.",
+    },
+
+    { type: "heading", text: "Italian Switzerland Is a Different Keyboard Context", id: "italian-switzerland" },
+    {
+      type: "paragraph",
+      text: "Microsoft's default input profile for Italian in Switzerland can use Swiss French as the primary keyboard and Italian as a secondary option. That is a reminder that the language and the physical/input layout are separate choices.",
+    },
+    {
+      type: "paragraph",
+      text: "If you live or work in Ticino, compare scores on the layout you actually use rather than forcing an Italy-specific keyboard simply because the passage is Italian. Consistent input conditions make progress measurements more meaningful.",
     },
 
     { type: "heading", text: "Common Italian Typing Mistakes to Watch", id: "common-mistakes" },
@@ -234,9 +306,82 @@ const content: LanguageDeepContent = {
       ],
     },
 
+    { type: "heading", text: "Test Your Italian Typing Speed Now", id: "cta-heading" },
     {
       type: "cta",
-      text: "Test Your Italian Typing Speed Now — Start the Italian Typing Test · Italiano above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which accents, apostrophes, capitals, punctuation marks or longer words interrupted your rhythm.",
+      text: "Start the Italian Typing Test · Italiano above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which accents, apostrophes, capitals, punctuation marks or longer words interrupted your rhythm. Return after a few focused practice sessions and test again using the same layout, duration and similar difficulty. The goal is not to beat an invented professional band. It is to make la digitazione in italiano cleaner, steadier and more comfortable.",
+    },
+  ],
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": ["SoftwareApplication", "WebApplication"],
+      "@id": "https://www.typingglobe.com/test/italian-typing-test#app",
+      name: "Italian Typing Test",
+      url: "https://www.typingglobe.com/test/italian-typing-test",
+      description:
+        "Free Italian typing test for measuring WPM and accuracy with Italian text including accents, apostrophes and Italian QWERTY practice.",
+      applicationCategory: "EducationalApplication",
+      operatingSystem: "Web",
+      isAccessibleForFree: true,
+      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      inLanguage: ["en", "it"],
+      publisher: { "@type": "Organization", name: "Typing Globe", url: "https://www.typingglobe.com/" },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.typingglobe.com/test/italian-typing-test#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is the difference between è and é?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Both are accented e, but the accent type differs. Accademia della Crusca notes that perché uses acute é while caffè and the verb è use grave è. In exact digital typing, the two characters should not be substituted for each other.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which Italian accented vowels should I practice?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Practice à, è, é, ì, ò and ù, plus their uppercase forms when your text uses them. High-frequency words such as è, perché, città, più, già, sì and però make good drills.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does Italian use a special keyboard?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Windows has a dedicated Italian keyboard, identifier 00000410, and the default it-IT profile maps to it. It keeps a QWERTY-style base while providing practical access to common Italian accented vowels.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is qual è written with an apostrophe?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. Standard Italian writes qual è without an apostrophe. This is a common spelling mistake worth practicing in full phrases.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does Typing Globe measure battute al minuto?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The current live tool visibly reports WPM and accuracy. Only claim BAM if the product actually calculates and displays it, and document exactly what counts as a battuta.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is a good Italian typing speed?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "There is no transparent universal Italian WPM or BAM standard for every person or job. Use your first clean result as a baseline and use a specific employer or concorso requirement separately when one is published.",
+          },
+        },
+      ],
     },
   ],
 };

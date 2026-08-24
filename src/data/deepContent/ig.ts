@@ -22,8 +22,7 @@ const content: LanguageDeepContent = {
       type: "hero",
       narrative: [
         "Igbo typing is more than ordinary English QWERTY with a few borrowed words. Accurate written Igbo uses the dotted vowels ị, ọ, and ụ, the dotted nasal ṅ, and spelling units such as ch, gb, gh, gw, kp, kw, nw, ny, and sh. If those characters are missing, the text may still be readable, but it is no longer an exact transcription.",
-        "Fast, accurate Igbo typing is useful in education, journalism, publishing, translation, content creation, and community communication. Because Igbo is tonal and written with Unicode diacritics, character accuracy becomes just as important as speed for meaningful digital text.",
-        "This test measures your Igbo typing speed with authentic Igbo text, giving you a live WPM and accuracy score you can trust.",
+        "Start the Igbo Typing Test above and type at the pace that feels natural today. Typing Globe currently offers 15, 30, 60, and 120-second tests, easy, medium, and hard passages, one- or two-paragraph options, shuffle, and custom text while showing WPM and accuracy.",
       ],
     },
 
@@ -328,9 +327,82 @@ const content: LanguageDeepContent = {
       ],
     },
 
+    { type: "heading", text: "Test Your Igbo Typing Speed Now", id: "cta-heading" },
     {
       type: "cta",
-      text: "Test Your Igbo Typing Speed Now — Start the Igbo Typing Test · Igbo above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which dotted vowels, digraphs, tone marks, or keyboard positions interrupted your rhythm. Return after a few focused practice sessions and test again using the same layout, duration, and similar difficulty.",
+      text: "Start the Igbo Typing Test · Igbo above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which dotted vowels, digraphs, tone marks, or keyboard positions interrupted your rhythm. Return after a few focused practice sessions and test again using the same layout, duration, and similar difficulty. The goal is not to beat an invented national average. It is to make ide Igbo cleaner, steadier, and more comfortable every time you come back.",
+    },
+  ],
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": ["SoftwareApplication", "WebApplication"],
+      "@id": "https://www.typingglobe.com/test/igbo-typing-speed-test#app",
+      name: "Igbo Typing Test",
+      url: "https://www.typingglobe.com/test/igbo-typing-speed-test",
+      description:
+        "Free Igbo typing test for measuring WPM and accuracy with Unicode Igbo text including ị, ọ, ụ, ṅ and common Igbo digraphs.",
+      applicationCategory: "EducationalApplication",
+      operatingSystem: "Web",
+      isAccessibleForFree: true,
+      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      inLanguage: ["en", "ig"],
+      publisher: { "@type": "Organization", name: "Typing Globe", url: "https://www.typingglobe.com/" },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.typingglobe.com/test/igbo-typing-speed-test#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Which special characters are important in Igbo typing?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The main Igbo-specific characters are ị, ọ, ụ, and ṅ, along with their uppercase forms. Standard Igbo also uses several digraphs such as ch, gb, gh, gw, kp, kw, nw, ny, and sh.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is the Igbo nasal letter ń or ṅ?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The basic alphabet letter is Ṅ/ṅ, with a dot above. Acute accents can appear on nasal letters when tone is being explicitly marked, but ń should not replace ṅ in the alphabet itself.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does Windows have an Igbo keyboard?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Microsoft provides a dedicated Igbo keyboard, identifier 00000470, and maps the default ig-NG Windows input profile to it.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do I need to type tone marks in everyday Igbo?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Usually not in ordinary everyday text. Igbo is tonal, and tone marks are important in teaching, dictionaries, linguistics, and disambiguation, but they are often omitted in normal writing. Always reproduce the source passage exactly.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Why do ị, ọ, and ụ matter?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "They are distinct Igbo vowel letters, not decorative versions of i, o, and u. Replacing them with plain vowels reduces orthographic accuracy and can blur distinctions in written Igbo.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is a good Igbo typing speed?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "There is no transparent universal Igbo WPM benchmark for every person or job. Use your first clean result as a baseline and compare similar tests over time. If an employer publishes a specific requirement, use that requirement separately.",
+          },
+        },
+      ],
     },
   ],
 };

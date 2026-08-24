@@ -22,8 +22,7 @@ const content: LanguageDeepContent = {
       type: "hero",
       narrative: [
         "Icelandic typing looks familiar until the first few sentences force your hands to deal with þ, ð, æ, ö, and six accented vowels. Add long compound words, frequent inflection, capital accented letters, and a keyboard layout that differs from ordinary US English, and Íslenska quickly becomes its own typing skill.",
-        "Fast and accurate Icelandic typing is useful in administration, journalism, publishing, tourism, customer support, translation, and everyday office work in Iceland. Because Icelandic spelling is historically conservative and heavily compounded, exact character reproduction becomes just as important as speed.",
-        "This test measures your Icelandic typing speed with authentic Íslenska text, giving you a live WPM and accuracy score you can trust.",
+        "Start the Icelandic Typing Test above and type at the pace that feels natural today. Typing Globe currently offers 15, 30, 60, and 120-second tests, easy, medium, and hard passages, one- or two-paragraph options, shuffle, and custom text while showing WPM and accuracy.",
       ],
     },
 
@@ -343,9 +342,82 @@ const content: LanguageDeepContent = {
       ],
     },
 
+    { type: "heading", text: "Test Your Icelandic Typing Speed Now", id: "cta-heading" },
     {
       type: "cta",
-      text: "Test Your Icelandic Typing Speed Now — Start the Icelandic Typing Test · Íslenska above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which special letters, accents, doubled consonants, compounds, or keyboard positions interrupted your rhythm. Return after a few focused practice sessions and test again using the same layout, duration, and similar difficulty.",
+      text: "Start the Icelandic Typing Test · Íslenska above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which special letters, accents, doubled consonants, compounds, or keyboard positions interrupted your rhythm. Return after a few focused practice sessions and test again using the same layout, duration, and similar difficulty. The goal is not to beat an invented Icelandic national average. It is to make íslensk vélritun cleaner, steadier, and more comfortable every time you come back.",
+    },
+  ],
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": ["SoftwareApplication", "WebApplication"],
+      "@id": "https://www.typingglobe.com/test/icelandic-typing-speed-test#app",
+      name: "Icelandic Typing Test",
+      url: "https://www.typingglobe.com/test/icelandic-typing-speed-test",
+      description:
+        "Free Icelandic typing test for measuring WPM and accuracy with Íslenska text including þ, ð, æ, ö and accented vowels.",
+      applicationCategory: "EducationalApplication",
+      operatingSystem: "Web",
+      isAccessibleForFree: true,
+      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      inLanguage: ["en", "is"],
+      publisher: { "@type": "Organization", name: "Typing Globe", url: "https://www.typingglobe.com/" },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.typingglobe.com/test/icelandic-typing-speed-test#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How many letters are in the Icelandic alphabet?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The ordinary modern Icelandic alphabet has 32 letters. Official Icelandic guidance lists c, q, w and z separately as an appendix used mainly in foreign names and imported spellings.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Are þ and ð the same letter?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. Thorn has the uppercase/lowercase pair Þ/þ, while eth has the separate pair Ð/ð. They are distinct Icelandic letters and should be typed exactly as shown in the source.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which special letters does Icelandic use?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Important Icelandic-specific letters include þ, ð, æ and ö, along with accented vowels á, é, í, ó, ú and ý. Their uppercase forms also belong in correct Icelandic writing.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does Windows have an Icelandic keyboard?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Microsoft's default is-IS input profile maps to the Icelandic keyboard, identifier 0000040F. You can add it in Windows language and keyboard settings.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Should I use Alt codes for Icelandic typing?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Alt codes can be useful as an emergency fallback, but they are inefficient for sustained Icelandic typing. If you write Icelandic regularly, add the Icelandic keyboard layout or another reliable Icelandic input source.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is a good Icelandic typing speed?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "There is no transparent universal Icelandic WPM benchmark for every person or job. Use your first clean result as a baseline and compare similar tests over time. If an employer publishes a specific requirement, use that requirement separately.",
+          },
+        },
+      ],
     },
   ],
 };

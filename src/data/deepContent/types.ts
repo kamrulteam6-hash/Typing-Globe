@@ -17,4 +17,6 @@ export type LanguageDeepContent = {
   /** Extra keywords/phrases used to inform the content (not rendered, just documented). */
   researchedKeywords: string[];
   blocks: ContentBlock[];
+  /** JSON-LD schema objects (SoftwareApplication, FAQPage, etc.) rendered as <script type="application/ld+json"> tags. */
+  schemas?: Record<string, unknown>[];
 };

@@ -5,11 +5,11 @@ const content: LanguageDeepContent = {
   seoDescription:
     "Take a free Hebrew typing test and check WPM and accuracy. Practice right-to-left עברית, final letters ך ם ן ף ץ, niqqud, punctuation and mixed Hebrew-English text.",
   researchedKeywords: [
-    "hebrew typing test",
-    "hebrew typing speed test",
-    "hebrew WPM test",
-    "hebrew keyboard test",
-    "hebrew typing practice",
+    "Hebrew typing speed test",
+    "Hebrew WPM test",
+    "Hebrew keyboard test",
+    "Hebrew typing practice",
+    "עברית typing test",
     "מבחן הקלדה בעברית",
     "מהירות הקלדה",
     "הקלדה עיוורת",
@@ -21,8 +21,7 @@ const content: LanguageDeepContent = {
       type: "hero",
       narrative: [
         "Hebrew typing changes more than the alphabet on your screen. עברית runs right to left, numbers and embedded English still run left to right, five letters change form at the end of a word, and everyday unpointed text behaves very differently from fully vocalized Hebrew with niqqud.",
-        "Typing speed in Hebrew carries real weight in Israel's job market: administrative, legal, and government clerical roles frequently list Hebrew typing speed as a screening criterion, and dedicated הקלדה עיוורת (touch-typing) certification courses are common preparation for office and secretarial positions.",
-        "This test measures your Hebrew typing speed with real right-to-left sentences, giving you a live WPM and accuracy score you can trust.",
+        "Start the Hebrew Typing Test above and type at the pace that feels natural today. Typing Globe currently offers 15, 30, 60, and 120-second tests, easy, medium, and hard passages, one- or two-paragraph options, shuffle, and custom text while showing WPM and accuracy.",
       ],
     },
 
@@ -36,7 +35,7 @@ const content: LanguageDeepContent = {
       text: "The useful result combines pace with exact characters. Typing כ instead of final ך, leaving a word ending with נ instead of ן, or losing control when an English product name appears inside an RTL sentence can all reduce real-world accuracy even when your raw finger speed is high.",
     },
 
-    { type: "heading", text: "Hebrew Has 22 Base Letters and Five Final Forms", id: "final-forms" },
+    { type: "heading", text: "Hebrew Has 22 Base Letters and Five Final Forms", id: "base-letters-final-forms" },
     {
       type: "paragraph",
       text: "The Hebrew alphabet has 22 base letters. Five of those letters have separate final forms used at the end of a word: כ/ך, מ/ם, נ/ן, פ/ף, and צ/ץ. Unicode encodes the final forms as distinct characters rather than treating them as automatic font shapes.",
@@ -46,7 +45,7 @@ const content: LanguageDeepContent = {
       text: "That distinction matters in a typing test. If the source ends a word with ם and you type מ, the character is different even though both belong to the same letter family. Train the final forms deliberately instead of assuming the operating system will always replace them for you.",
     },
 
-    { type: "heading", text: "The Five Final Letters You Should Practice", id: "practice-finals" },
+    { type: "heading", text: "The Five Final Letters You Should Practice", id: "five-final-letters" },
     {
       type: "table",
       headers: ["Letter Pair", "Final Form", "Practice Words"],
@@ -63,7 +62,7 @@ const content: LanguageDeepContent = {
       text: "Practice the final letter inside whole words rather than pressing ך, ם, ן, ף, and ץ in isolation. The useful habit is recognizing the approaching word boundary and reaching for the correct final-form key without stopping to think about the rule.",
     },
 
-    { type: "heading", text: "Do Hebrew Keyboards Insert Final Letters Automatically?", id: "auto-finals" },
+    { type: "heading", text: "Do Hebrew Keyboards Insert Final Letters Automatically?", id: "automatic-final-letters" },
     {
       type: "paragraph",
       text: "Do not build your technique around that assumption. Unicode treats final kaf, mem, nun, pe, and tsadi as separate encoded letters, and Hebrew keyboard layouts provide direct access to final forms. Some software may offer predictive or corrective behavior, but a basic keyboard input method should not be expected to repair every ending.",
@@ -73,7 +72,7 @@ const content: LanguageDeepContent = {
       text: "For Typing Globe, the safer rule is exact input: type the character displayed in the source. If a phone keyboard later helps with predictions, treat that as a different input environment from a physical keyboard benchmark.",
     },
 
-    { type: "heading", text: "Hebrew Is Right to Left, but the Line Can Still Run Both Ways", id: "bidirectional-text" },
+    { type: "heading", text: "Hebrew Is Right to Left, but the Line Can Still Run Both Ways", id: "right-to-left" },
     {
       type: "paragraph",
       text: "Hebrew letters are displayed right to left, but modern Hebrew text frequently contains numbers, URLs, email addresses, English brand names, file names, dates, and technical terms. Unicode calls this bidirectional, or bidi, text because right-to-left and left-to-right runs can appear on the same line.",
@@ -86,7 +85,7 @@ const content: LanguageDeepContent = {
     { type: "heading", text: "Mixed Hebrew-English Text Is a Real Typing Skill", id: "mixed-text" },
     {
       type: "paragraph",
-      text: 'A sentence such as "שלחתי את הקובץ report.pdf בשעה 14:30" combines Hebrew, Latin letters, punctuation, and digits. Your browser may display each part correctly, but your cursor can appear to jump visually when you move across directional boundaries.',
+      text: "A sentence such as \"שלחתי את הקובץ report.pdf בשעה 14:30\" combines Hebrew, Latin letters, punctuation, and digits. Your browser may display each part correctly, but your cursor can appear to jump visually when you move across directional boundaries.",
     },
     {
       type: "paragraph",
@@ -103,7 +102,7 @@ const content: LanguageDeepContent = {
       text: "This is not a keyboard error. If mixed-direction text looks strange, first check whether the characters are actually wrong before deleting them. Many beginners lose time by correcting a sequence that only looks unfamiliar because bidi rendering has rearranged its visual position.",
     },
 
-    { type: "heading", text: "Niqqud: Important, but Usually a Separate Typing Goal", id: "niqqud" },
+    { type: "heading", text: "Niqqud: Important, but Usually a Separate Typing Goal", id: "niqqud-separate-goal" },
     {
       type: "paragraph",
       text: "Hebrew vowel points and other marks are encoded as combining characters placed around base letters. Unicode notes that these points are usually omitted in ordinary Hebrew and are used more heavily in liturgical text and other special applications.",
@@ -113,7 +112,7 @@ const content: LanguageDeepContent = {
       text: "That means an everyday Hebrew speed test should normally focus on unpointed text unless the passage explicitly includes niqqud. If you need children's educational material, biblical text, poetry, language teaching, or fully vocalized content, treat niqqud entry as a separate advanced typing skill.",
     },
 
-    { type: "heading", text: "What Niqqud Adds to the Keyboard Task", id: "niqqud-complexity" },
+    { type: "heading", text: "What Niqqud Adds to the Keyboard Task", id: "niqqud-adds" },
     {
       type: "paragraph",
       text: "Niqqud is not just another row of letters. Marks such as ְ ֱ ֲ ֳ ִ ֵ ֶ ַ ָ ֹ ֻ and the dagesh are combining characters that attach to a base letter. Their entry depends on the keyboard layout and can require modifier combinations or a specialized input workflow.",
@@ -123,7 +122,7 @@ const content: LanguageDeepContent = {
       text: "If your test text is unpointed, do not add vowel points from memory. Exact transcription means copying what appears. If the source is pointed, make sure your chosen Hebrew layout supports the marks cleanly before starting the timer.",
     },
 
-    { type: "heading", text: "Shin and Sin Dots, Dagesh, and Fully Pointed Text", id: "advanced-marks" },
+    { type: "heading", text: "Shin and Sin Dots, Dagesh, and Fully Pointed Text", id: "shin-sin-dagesh" },
     {
       type: "paragraph",
       text: "Fully pointed Hebrew can also include the shin dot ׁ, sin dot ׂ, and dagesh ּ. Unicode treats these as combining marks rather than separate alphabet letters. They can stack with vowel points, making accurate vocalized Hebrew a more complex character-entry task than everyday unpointed text.",
@@ -133,7 +132,7 @@ const content: LanguageDeepContent = {
       text: "For general typing-speed practice, do not mix pointed and unpointed passages in the same benchmark. They require different numbers of input actions and different visual attention. Compare like with like if you want the WPM result to remain meaningful.",
     },
 
-    { type: "heading", text: "Hebrew Punctuation Is Mostly Familiar, with Some Unique Characters", id: "punctuation" },
+    { type: "heading", text: "Hebrew Punctuation Is Mostly Familiar, with Some Unique Characters", id: "hebrew-punctuation" },
     {
       type: "paragraph",
       text: "Unicode notes that most punctuation used with Hebrew is shared with ordinary punctuation characters, but Hebrew also has several script-specific marks. These include maqaf ־, geresh ׳, gershayim ״, sof pasuq ׃, and a few other specialized characters.",
@@ -143,7 +142,7 @@ const content: LanguageDeepContent = {
       text: "In modern everyday typing, you will often see familiar commas, periods, question marks, parentheses, hyphens, and quotation marks. In formal Hebrew, abbreviations, names, traditional text, and edited publications, geresh and gershayim can appear and should be reproduced exactly when present.",
     },
 
-    { type: "heading", text: "Geresh and Gershayim Are Not Just Straight Quotes", id: "hebrew-quotes" },
+    { type: "heading", text: "Geresh and Gershayim Are Not Just Straight Quotes", id: "geresh-gershayim" },
     {
       type: "paragraph",
       text: "Unicode defines Hebrew punctuation geresh ׳ and gershayim ״ as their own characters and even recommends them over plain ASCII apostrophe and quotation-mark characters when writing those Hebrew punctuation marks.",
@@ -153,7 +152,7 @@ const content: LanguageDeepContent = {
       text: "A casual chat may use straight keyboard quotes, but a formal source can contain the dedicated Hebrew forms. During an exact typing test, follow the source character instead of substituting a visually similar mark simply because it is easier to reach.",
     },
 
-    { type: "heading", text: "Maqaf vs. the Ordinary Hyphen", id: "maqaf" },
+    { type: "heading", text: "Maqaf vs. the Ordinary Hyphen", id: "maqaf-hyphen" },
     {
       type: "paragraph",
       text: "Hebrew punctuation maqaf ־ is a distinct Unicode character, not the same character as the ASCII hyphen-minus -. In ordinary digital text, writers may encounter both depending on editorial style, software, and source material.",
@@ -173,7 +172,7 @@ const content: LanguageDeepContent = {
       text: "That gives Windows users several related layouts rather than one universal keyboard map. For consistent WPM tracking, choose the layout you genuinely use and stay with it. Switching between legacy Hebrew, Standard, and Standard 2018 can move symbols or advanced characters enough to disrupt muscle memory.",
     },
 
-    { type: "heading", text: "Hebrew Standard, Legacy, and 2018 Layouts", id: "layout-variants" },
+    { type: "heading", text: "Hebrew Standard, Legacy, and 2018 Layouts", id: "keyboard-variants" },
     {
       type: "paragraph",
       text: "Microsoft currently lists Hebrew 0000040D, Hebrew (Standard) 0002040D, and Hebrew (Standard, 2018) 0003040D. The standard Hebrew language profile uses Hebrew (Standard) as its primary Windows input layout.",
@@ -193,7 +192,7 @@ const content: LanguageDeepContent = {
       text: "Windows key + Space is a convenient way to switch between installed input languages. Before starting a timed test, type a short sample such as עברית, שלום, מלך, זמן, כסף, and ארץ to confirm both ordinary and final letters are appearing correctly.",
     },
 
-    { type: "heading", text: "Touch Typing in Hebrew Means Learning a New Map", id: "touch-typing" },
+    { type: "heading", text: "Touch Typing in Hebrew Means Learning a New Map", id: "touch-typing-map" },
     {
       type: "paragraph",
       text: "If you already touch-type English, you have useful posture, rhythm, and finger-control habits, but you do not automatically know the Hebrew key map. Hebrew typing becomes faster when your eyes can stay on the passage instead of repeatedly checking which Latin-labeled key produces each Hebrew letter.",
@@ -203,7 +202,7 @@ const content: LanguageDeepContent = {
       text: "Do not try to memorize the entire layout in one sitting. Learn common letters inside words, then add less frequent keys. Repeated real-word patterns create stronger muscle memory than reciting the alphabet while looking down.",
     },
 
-    { type: "heading", text: "Practice High-Frequency Hebrew Words", id: "frequent-words" },
+    { type: "heading", text: "Practice High-Frequency Hebrew Words", id: "high-frequency-words" },
     {
       type: "paragraph",
       text: "Start with short forms such as של, על, עם, זה, היא, הוא, אני, אתה, יש, אין, and גם. Then add everyday words such as אנשים, עבודה, היום, זמן, בית, עברית, מחשב, כתיבה, מהירות, and דיוק.",
@@ -213,7 +212,7 @@ const content: LanguageDeepContent = {
       text: "When one word repeatedly causes an error, stop and type it correctly several times before returning to a full passage. This targeted approach tells you whether the problem is a letter position, a final form, bidi distraction, or simply unfamiliar vocabulary.",
     },
 
-    { type: "heading", text: "Word Endings Are Excellent Hebrew Typing Drills", id: "word-ending-drills" },
+    { type: "heading", text: "Word Endings Are Excellent Hebrew Typing Drills", id: "word-endings-drills" },
     {
       type: "paragraph",
       text: "Hebrew final letters make word endings especially useful for practice. Create short groups that end in each form: מלך / דרך / צריך for ך, שלום / היום / אנשים for ם, זמן / נכון / רעיון for ן, סוף / כסף for ף, and ארץ / קיץ / חוץ for ץ.",
@@ -254,22 +253,17 @@ const content: LanguageDeepContent = {
     },
 
     { type: "heading", text: "A 6-Week Hebrew Typing Practice Plan", id: "six-week-plan" },
-    {
-      type: "heading",
-      text: "Weeks 1-2: Build the Hebrew Key Map",
-    },
+    { type: "subheading", text: "Weeks 1-2: Build the Hebrew Key Map" },
     {
       type: "paragraph",
       text: "Choose the Hebrew layout you actually use and stay with it. Practice common letters inside short words, learn the five final forms, and reduce how often you look down. Keep the text unpointed at first so niqqud does not distract from the core keyboard map.",
     },
-
-    { type: "heading", text: "Weeks 3-4: Add Bidi Text and Punctuation", id: "weeks-3-4" },
+    { type: "subheading", text: "Weeks 3-4: Add Bidi Text and Punctuation" },
     {
       type: "paragraph",
       text: "Practice Hebrew sentences containing numbers, dates, English names, email addresses, and parentheses. Add geresh or gershayim only when your real writing needs them. Keep a list of final-form or direction-switch mistakes and reuse those patterns in custom-text sessions.",
     },
-
-    { type: "heading", text: "Weeks 5-6: Build Sustained Rhythm", id: "weeks-5-6" },
+    { type: "subheading", text: "Weeks 5-6: Build Sustained Rhythm" },
     {
       type: "paragraph",
       text: "Mix short 30-second checks with 60- and 120-second passages. Longer tests reveal whether accuracy drops after the opening burst of concentration. Review recurring mistakes after each attempt, drill those sequences separately, then return to fresh Hebrew text.",
@@ -315,6 +309,7 @@ const content: LanguageDeepContent = {
         "Adding or omitting niqqud when the source uses the opposite style",
         "Replacing geresh ׳ or gershayim ״ with straight ASCII quote marks in an exact transcription",
         "Switching between Hebrew keyboard variants and comparing the scores as if the key maps were identical",
+        "Treating unsupported 20-75+ WPM bands as official Israeli job standards",
       ],
     },
     {
@@ -359,9 +354,82 @@ const content: LanguageDeepContent = {
       ],
     },
 
+    { type: "heading", text: "Test Your Hebrew Typing Speed Now", id: "cta-heading" },
     {
       type: "cta",
-      text: "Test Your Hebrew Typing Speed Now — Start the Hebrew Typing Test above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which final letters, keyboard positions, bilingual sequences, punctuation marks, or longer words interrupted your rhythm.",
+      text: "Start the Hebrew Typing Test · עברית above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which final letters, keyboard positions, bilingual sequences, punctuation marks, or longer words interrupted your rhythm. Return after a few focused practice sessions and test again using the same layout, duration, and similar difficulty. The goal is not to beat an invented Israeli national average. It is to make ההקלדה בעברית cleaner, steadier, and more comfortable every time you come back.",
+    },
+  ],
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": ["SoftwareApplication", "WebApplication"],
+      "@id": "https://www.typingglobe.com/test/hebrew-typing-speed-test#app",
+      name: "Hebrew Typing Test",
+      url: "https://www.typingglobe.com/test/hebrew-typing-speed-test",
+      description:
+        "Free Hebrew typing test for measuring WPM and accuracy with right-to-left Hebrew text, final letters, punctuation, and mixed Hebrew-English typing.",
+      applicationCategory: "EducationalApplication",
+      operatingSystem: "Web",
+      isAccessibleForFree: true,
+      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      inLanguage: ["en", "he"],
+      publisher: { "@type": "Organization", name: "Typing Globe", url: "https://www.typingglobe.com/" },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.typingglobe.com/test/hebrew-typing-speed-test#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How many letters are in the Hebrew alphabet?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Hebrew has 22 base letters. Five letters also have distinct final forms used at the end of a word: ך, ם, ן, ף, and ץ. Unicode encodes those final forms as separate characters.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does Hebrew typing run completely right to left?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Hebrew letters run right to left, but numbers and embedded Latin text such as English words, URLs, and email addresses normally run left to right. Unicode handles this mixture with the Bidirectional Algorithm.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do I need to type niqqud in an everyday Hebrew test?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Usually not unless the source passage includes it. Unicode notes that Hebrew vowel points are generally omitted in ordinary Hebrew and are used more heavily in liturgical and other special applications. Always reproduce the source exactly.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Will the keyboard automatically type final letters for me?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Do not rely on that. Final kaf, mem, nun, pe, and tsadi are distinct encoded characters and Hebrew keyboard layouts provide ways to enter them directly. Prediction or autocorrection behavior varies by software.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which Hebrew keyboard does Windows use?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Microsoft currently maps the Hebrew he-IL language profile to Hebrew (Standard), keyboard identifier 0002040D, with US English as a secondary input profile. Windows also lists older Hebrew and Hebrew Standard 2018 layouts.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is a good Hebrew typing speed?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "There is no transparent universal Hebrew WPM benchmark for every person or job. Use your own first result as a baseline and compare similar tests over time. If an employer publishes a specific requirement, use that requirement separately.",
+          },
+        },
+      ],
     },
   ],
 };
