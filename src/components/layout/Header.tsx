@@ -2,10 +2,8 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
-import type { User } from "@supabase/supabase-js";
+import { useState } from "react";
 import { navLinks } from "@/data/nav";
-import { createClient } from "@/lib/supabase/client";
 
 function BackButton() {
   const router = useRouter();
@@ -18,60 +16,6 @@ function BackButton() {
     >
       ←
     </button>
-  );
-}
-
-function AuthSection({ mobile = false, onNavigate }: { mobile?: boolean; onNavigate?: () => void }) {
-  const [user, setUser] = useState<User | null>(null);
-  const router = useRouter();
-
-  useEffect(() => {
-    const supabase = createClient();
-    supabase.auth.getUser().then(({ data }) => setUser(data.user ?? null));
-    const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user ?? null);
-    });
-    return () => sub.subscription.unsubscribe();
-  }, []);
-
-  const handleSignOut = async () => {
-    const supabase = createClient();
-    await supabase.auth.signOut();
-    setUser(null);
-    onNavigate?.();
-    router.push("/");
-    router.refresh();
-  };
-
-  const linkClass = mobile
-    ? "text-sm font-medium text-muted hover:text-foreground"
-    : "whitespace-nowrap text-sm font-medium text-muted hover:text-foreground";
-  const proClass = mobile
-    ? "rounded-full bg-gradient-to-r from-accent to-primary px-4 py-1.5 text-xs font-bold text-[#03150e]"
-    : "whitespace-nowrap rounded-full bg-gradient-to-r from-accent to-primary px-4 py-1.5 text-xs font-bold text-[#03150e]";
-
-  if (user) {
-    return (
-      <>
-        <Link href="/typing-certificate/dashboard" onClick={onNavigate} className={linkClass} title={user.email ?? undefined}>
-          {mobile ? "Dashboard" : (user.email?.split("@")[0] ?? "Dashboard")}
-        </Link>
-        <button onClick={handleSignOut} className={proClass}>
-          Sign Out
-        </button>
-      </>
-    );
-  }
-
-  return (
-    <>
-      <Link href="/typing-certificate/login" onClick={onNavigate} className={linkClass}>
-        Sign in
-      </Link>
-      <Link href="/typing-certificate" onClick={onNavigate} className={proClass}>
-        Go Pro
-      </Link>
-    </>
   );
 }
 
@@ -116,7 +60,6 @@ export function Header() {
           <button className="rounded-md border border-border px-2.5 py-1.5 text-xs font-semibold text-muted hover:text-foreground">
             EN
           </button>
-          <AuthSection />
         </div>
 
         <button
@@ -145,9 +88,6 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
-            <div className="mt-2 flex items-center gap-3 border-t border-border pt-3">
-              <AuthSection mobile onNavigate={() => setOpen(false)} />
-            </div>
           </nav>
         </div>
       )}
