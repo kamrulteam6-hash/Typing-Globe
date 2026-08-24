@@ -38,7 +38,7 @@ const faqItems = [
   {
     question: "Are the games available in other languages?",
     answer:
-      "Not yet. Typing Globe currently states that all three arcade games use an English word bank. If you need Arabic, Bengali, Hindi, Chinese, or another language, use the site's language-specific typing tests instead.",
+      "Not yet. All three arcade games currently use an English word bank. For now, use the site's language-specific typing tests if you need Arabic, Bengali, Hindi, Chinese, or another language.",
   },
   {
     question: "Which typing game is best for beginners?",

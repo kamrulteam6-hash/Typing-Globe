@@ -9,7 +9,6 @@ export const navLinks = [
   { label: "Lyrics", href: "/song-lyrics-typing-test" },
   { label: "Games", href: "/typing-games" },
   { label: "Exam", href: "/government-exam-typing-test" },
-  { label: "Certificate", href: "/typing-certificate" },
   { label: "Extension", href: "/typing-test-extension" },
   { label: "Blog", href: "/blog" },
 ];
@@ -21,7 +20,6 @@ export const footerLinks = {
     { label: "Tests", href: "/typing-test-languages" },
     { label: "Practice Hub", href: "/typing-practice-hub" },
     { label: "Custom Typing Test", href: "/custom-typing-test" },
-    { label: "Typing Certificate", href: "/typing-certificate" },
     { label: "Blog", href: "/blog" },
   ],
   Modes: [

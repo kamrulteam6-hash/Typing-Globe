@@ -12,7 +12,6 @@ const features = [
   { icon: "🎵", title: "Song Lyrics", description: "Verse & chorus typing.", href: "/song-lyrics-typing-test" },
   { icon: "🎮", title: "Arcade Games", description: "Fourteen typing game modes.", href: "/typing-games" },
   { icon: "🏛️", title: "Exam Hall", description: "Government exam simulations.", href: "/government-exam-typing-test" },
-  { icon: "📜", title: "Certificate", description: "Free, shareable, instant.", href: "/free-typing-certificate" },
   { icon: "🧩", title: "Extension", description: "Test from any browser tab.", href: "/typing-test-extension" },
 ];
 

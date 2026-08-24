@@ -44,7 +44,7 @@ const faqItems = [
   {
     question: "Are all of the poems public domain everywhere?",
     answer:
-      "Do not assume that automatically. Typing Globe uses historical texts it identifies as public-domain material, and several are clearly available in U.S. public-domain collections. Copyright rules vary by country, so the status of an exact edition should be checked where necessary.",
+      "Most poems in Typing Globe's collection are historical texts identified as public-domain material in U.S. collections. Copyright rules vary by country, so if you plan to reuse a poem, check the copyright status in your specific jurisdiction.",
   },
   {
     question: "Will poetry typing improve my normal WPM?",

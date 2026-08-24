@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/*?*", "/api/", "/typing-certificate/dashboard", "/typing-certificate/login", "/blog/admin"],
+        disallow: ["/*?*", "/api/", "/blog/admin"],
       },
     ],
     sitemap: "https://www.typingglobe.com/sitemap.xml",

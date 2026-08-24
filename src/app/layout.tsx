@@ -3,7 +3,6 @@ import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { SyncBridge } from "@/components/SyncBridge";
 import "flag-icons/css/flag-icons.min.css";
 import "./globals.css";
 
@@ -59,7 +58,6 @@ export default function RootLayout({
         </Script>
       </head>
       <body className="min-h-full flex flex-col font-sans">
-        <SyncBridge />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

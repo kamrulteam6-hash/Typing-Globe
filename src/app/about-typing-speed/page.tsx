@@ -85,7 +85,7 @@ export default function AboutTypingSpeedPage() {
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-muted">
             The average office professional types 38–40 WPM. Bumping that to 60 WPM doesn&apos;t just look
-            better on a résumé — it translates to roughly 40% more written output in the same time.
+            better on a résumé — it translates to roughly 50% more written output in the same time.
           </p>
           <ul className="mt-4 flex flex-col gap-2">
             {impacts.map((item) => (

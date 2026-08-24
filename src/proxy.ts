@@ -1,7 +1,7 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
-const GATED_PREFIXES = ["/typing-certificate/dashboard", "/blog/admin"];
+const GATED_PREFIXES = ["/blog/admin"];
 
 /**
  * Next.js 16 renamed middleware to "proxy" (this file must be named proxy.ts
@@ -41,7 +41,7 @@ export async function proxy(request: NextRequest) {
   } = await supabase.auth.getUser();
 
   if (!user && GATED_PREFIXES.some((prefix) => request.nextUrl.pathname.startsWith(prefix))) {
-    const loginUrl = new URL("/typing-certificate/login", request.url);
+    const loginUrl = new URL("/blog/login", request.url);
     loginUrl.searchParams.set("next", request.nextUrl.pathname);
     return NextResponse.redirect(loginUrl);
   }
@@ -50,5 +50,5 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/typing-certificate/dashboard/:path*", "/blog/admin/:path*"],
+  matcher: ["/blog/admin/:path*"],
 };
