@@ -24,150 +24,162 @@ const content: LanguageDeepContent = {
         "This test measures your Lithuanian typing speed with authentic Lithuanian text, giving you a live WPM and accuracy score you can trust.",
       ],
     },
-  ],
-};
 
-export default content;
-  seoTitle: "Lithuanian Typing Test — Lietuvių Rašymo Greičio Testas (WPM)",
-  seoDescription:
-    "Free Lithuanian typing speed test — measure your real WPM typing Lietuvių sentences with ą, č, ę, š and other special letters. Practice for office and study. No signup.",
-  researchedKeywords: [
-    "lithuanian typing test",
-    "lietuvių rašymo greičio testas",
-    "lithuanian keyboard layout",
-    "rašymo greitis lietuviškai",
-    "lithuanian wpm test online",
-    "how to type lithuanian diacritics",
-    "lithuanian typing practice free",
-    "lietuviška klaviatūra",
-  ],
-  blocks: [
-    {
-      type: "hero",
-      narrative: [
-        "Lithuanian is the official language of Lithuania, spoken natively by around 2.8 to 3 million people, with sizeable diaspora communities in the United States, United Kingdom, Ireland, and elsewhere in Europe. It is one of only two living Baltic languages, alongside Latvian, and is often noted by linguists for retaining unusually archaic features closest to reconstructed Proto-Indo-European among all living languages.",
-        "Lithuania's public administration, banking, and business sectors run heavily on digital services, and while there is no single nationally famous typing-speed exam, typing fluency in Lithuanian — including comfortable use of its diacritic letters — is a real, practical expectation for administrative, customer-service, translation, and data-entry roles across the country's public and private sectors.",
-        "This test times you typing genuine Lithuanian sentences, diacritics included, and reports your live words-per-minute score so you get an honest picture of your actual typing speed in the language.",
-      ],
-    },
     { type: "heading", text: "How Lithuanian Typing Speed Is Measured", id: "wpm-explained" },
     {
       type: "paragraph",
-      text: "This test scores Lithuanian typing in WPM (words per minute), using the standard convention of counting every five typed characters, including spaces, as one \"word.\" Lithuanian's rich case-inflected grammar tends to produce longer average word lengths than English, so comparable typists often post somewhat lower raw WPM figures in Lithuanian than in English despite equal keyboard skill.",
+      text: "This test scores Lithuanian typing in WPM (words per minute), using the standard convention of counting every five typed characters, including spaces, as one 'word.' Lithuanian words tend to be longer than English ones due to its rich inflectional system, so Lithuanian WPM often runs somewhat lower than English WPM for a typist of comparable hand speed.",
     },
-    { type: "heading", text: "Keyboard Layout and Special Characters", id: "keyboard" },
+
+    { type: "heading", text: "The Lithuanian Alphabet: 32 Letters with 9 Diacritics", id: "lithuanian-alphabet" },
     {
       type: "paragraph",
-      text: "The standard Lithuanian keyboard layout is a QWERTY variant placing the language's diacritic letters — ą, č, ę, ė, į, š, ų, ū, ž — on dedicated or Alt Gr-modified keys. Typists working on non-Lithuanian keyboards commonly rely on Alt-code sequences or Mac Option-key combinations instead.",
+      text: "The official Lithuanian alphabet contains 32 letters, including 9 diacritical variants: ą, č, ę, ė, į, š, ų, ū, and ž. These are not optional marks; they represent distinct sounds and spelling patterns. The Lithuanian Language Institute considers these core alphabet letters.",
     },
+
+    { type: "heading", text: "The Nine Diacritics You Must Practice", id: "diacritics" },
     {
       type: "table",
-      headers: ["Character", "How to Type It on a Non-Lithuanian Keyboard"],
+      headers: ["Character", "Typing Focus", "Practice Words"],
       rows: [
-        ["ą", "Windows Alt code Alt+0261, or Lithuanian layout Alt Gr + A"],
-        ["č", "Windows Alt code Alt+0269, or Lithuanian layout Alt Gr + C"],
-        ["ę", "Windows Alt code Alt+0281, or Lithuanian layout Alt Gr + E"],
-        ["ė", "Windows Alt code Alt+0279, or Lithuanian layout Alt Gr + dedicated key"],
-        ["į", "Windows Alt code Alt+0303, or Lithuanian layout Alt Gr + I"],
-        ["š", "Windows Alt code Alt+0353, or Lithuanian layout Alt Gr + S"],
-        ["ų", "Windows Alt code Alt+0371, or Lithuanian layout Alt Gr + U"],
-        ["ū", "Windows Alt code Alt+0363, or Lithuanian layout Alt Gr + dedicated key"],
-        ["ž", "Windows Alt code Alt+0382, or Lithuanian layout Alt Gr + Z"],
+        ["ą / Ą", "nasal a", "mąstymas, nąsa, lįsti"],
+        ["č / Č", "soft ch", "čiaupsai, čiulbimas, vaičiai"],
+        ["ę / Ę", "nasal e", "aplenčiams, mėgti, žiūrėdami"],
+        ["ė / Ė", "long e", "ėjimas, tėvynė, vėlai"],
+        ["į / Į", "nasal i", "pįti, žįsti, mąstymu"],
+        ["š / Š", "soft sh", "šalis, širdis, našlė"],
+        ["ų / Ų", "nasal u", "spragų, sulūždę, skyraičių"],
+        ["ū / Ū", "long u", "žūti, kūdikis, mūsų"],
+        ["ž / Ž", "soft zh", "žemė, žvėriš, žinynas"],
       ],
     },
-    {
-      type: "table",
-      headers: ["Task", "Windows", "Mac"],
-      rows: [
-        ["Add the Lithuanian keyboard", "Settings → Time & Language → Language & region → Add a language → Lietuvių → Add keyboard", "System Settings → Keyboard → Input Sources → Edit → + → Lithuanian"],
-        ["Switch input language quickly", "Win + Space", "Control + Space"],
-      ],
-    },
-    { type: "heading", text: "Lithuanian Typing Speed Benchmarks (WPM)", id: "benchmarks" },
-    {
-      type: "table",
-      headers: ["WPM", "Level", "Real-World Context"],
-      rows: [
-        ["Below 20 WPM", "Beginner", "Still locating diacritic keys and adjusting to Lithuanian's longer inflected words"],
-        ["20–35 WPM", "Below Average", "Functional but slower than most office-job expectations"],
-        ["35–45 WPM", "Average", "Typical for an untrained adult Lithuanian typist"],
-        ["45–55 WPM", "Good", "Comfortable for administrative, customer-service, and data-entry work"],
-        ["55–65 WPM", "Professional", "Matches experienced office and translation professionals"],
-        ["65+ WPM", "Expert", "Fast, accurate typing including full command of diacritic characters"],
-      ],
-    },
-    { type: "heading", text: "Real Jobs That Value Lithuanian Typing Speed", id: "requirements" },
-    {
-      type: "table",
-      headers: ["Country", "Role or Exam", "Typical Requirement"],
-      rows: [
-        ["Lithuania", "Public-sector administrative and clerical positions", "Fast, accurate Lithuanian typing, including diacritics, is a standard practical expectation"],
-        ["Lithuania", "Banking and customer-service roles", "Typing speed affects call and ticket handling times in Lithuanian-language service centers"],
-        ["Lithuania", "Translators and localization professionals", "Genuine keyboard fluency in Lithuanian speeds up translation and proofreading turnaround"],
-        ["UK, Ireland & Norway (Lithuanian diaspora)", "Bilingual administrative and community-liaison roles", "Lithuanian typing speed is valued for documentation and support work within diaspora communities"],
-      ],
-    },
-    { type: "heading", text: "Lithuanian Around the World", id: "diaspora" },
-    {
-      type: "table",
-      headers: ["Country / Region", "Context"],
-      rows: [
-        ["Lithuania", "Official national language and home to the vast majority of native speakers"],
-        ["United States", "One of the oldest and largest Lithuanian diaspora communities, dating back over a century"],
-        ["United Kingdom & Ireland", "Large modern Lithuanian emigrant communities, grown significantly since EU accession in 2004"],
-        ["Norway & other EU states", "Growing Lithuanian labor-migrant communities across Northern Europe"],
-      ],
-    },
+
+    { type: "heading", text: "Common i/į/y Contrasts Trip Up Fast Typists", id: "i-contrasts" },
     {
       type: "paragraph",
-      text: "Lithuanian's literary tradition includes Kristijonas Donelaitis's 18th-century poem Metai (The Seasons), widely regarded as the founding work of Lithuanian-language literature, alongside a strong tradition of dainos folk songs that, much like Latvian dainas, have been preserved and studied as a core part of national cultural identity.",
+      text: "Lithuanian distinguishes i, į (nasal i), and y as three separate vowel letters. The sound differences can be subtle for non-native ears, but the spelling differences matter completely. Forms such as dykai/dėkai, siūlas/siūla, and minėti/minti expose these distinctions quickly.",
     },
-    { type: "heading", text: "Who Is This Test Built For", id: "who-its-for" },
+
+    { type: "heading", text: "Do Not Drop Diacritics or Substitute Them With Apostrophes", id: "no-substitutions" },
+      {
+      type: "paragraph",
+      text: "A common typist error is to replace č with c', š with s', or drop the mark entirely. That produces non-standard spelling. Modern Lithuanian keyboard input makes these workarounds unnecessary.",
+    },
+
+    { type: "heading", text: "Windows Lithuanian Keyboard Layouts", id: "keyboard-layouts" },
+    {
+      type: "paragraph",
+      text: "Windows offers Lithuanian (Standard) and Lithuanian (IBM) keyboard layouts. The Standard layout is the most commonly taught and is the recommended choice for most typists.",
+    },
+
+    { type: "heading", text: "How to Add Lithuanian Keyboard in Windows", id: "add-lithuanian-windows" },
+    {
+      type: "paragraph",
+      text: "Open Settings > Time & Language > Language & region, add Lithuanian if needed, and select the Lithuanian (Standard) keyboard. You can keep English installed as a secondary layout for mixed-language work.",
+    },
+
+    { type: "heading", text: "Lithuanian Inflection Creates Long, Predictable Words", id: "inflection" },
+    {
+      type: "paragraph",
+      text: "Lithuanian is heavily inflected, with case, number, gender, and other features marked on nouns, adjectives, and verbs. That creates longer words than English uses, but the patterns are learnable and predictable once you recognize the stem.",
+    },
+
+    { type: "heading", text: "The Lithuanian Language Institute Is the Authority", id: "authority" },
+    {
+      type: "paragraph",
+      text: "The Lithuanian Language Institute publishes official spelling guidance and teaching materials. Their references are the authoritative source for correct Lithuanian orthography and keyboard conventions.",
+    },
+
+    { type: "heading", text: "What Is a Good Lithuanian Typing Speed?", id: "good-speed" },
+    {
+      type: "paragraph",
+      text: "There is no transparent national dataset supporting a universal Lithuanian WPM ladder. Use your first clean result as a personal baseline. If you begin at 35 WPM with 91% accuracy, first reduce diacritic and i/į/y errors before pushing faster.",
+    },
+
+    { type: "heading", text: "Accuracy First, Then Speed", id: "accuracy-first" },
+    {
+      type: "paragraph",
+      text: "If any diacritic or vowel contrast causes repeated corrections, slowing down to hit the correct character every time trains more stable Lithuanian. Once the distinction becomes automatic, speed naturally increases.",
+    },
+
+    { type: "heading", text: "A 6-Week Lithuanian Typing Practice Plan", id: "six-week-plan" },
+    { type: "subheading", text: "Weeks 1-2: Make Diacritics Automatic" },
+    {
+      type: "paragraph",
+      text: "Use the Lithuanian keyboard layout and practice ą, č, ę, ė, į, š, ų, ū, ž inside short familiar words. Reduce how often you look down.",
+    },
+
+    { type: "subheading", text: "Weeks 3-4: Drill i/į/y Contrasts and Longer Forms" },
+    {
+      type: "paragraph",
+      text: "Practice minimal pairs and longer everyday vocabulary. Keep a short list of recurring mistakes and reuse problematic words in Custom Typing Test sessions.",
+    },
+
+    { type: "subheading", text: "Weeks 5-6: Build Sustained Rhythm" },
+    {
+      type: "paragraph",
+      text: "Mix short 30-second checks with 60- and 120-second passages. Longer tests reveal whether accuracy drops after the opening burst.",
+    },
+
+    { type: "heading", text: "A Simple 20-Minute Lithuanian Routine", id: "daily-routine" },
+    {
+      type: "paragraph",
+      text: "Warm up with diacritic-heavy words and i/į/y minimal pairs, spend several minutes drilling any recurring mistake, take one normal-speed test, then review errors instead of immediately retaking.",
+    },
+
+    { type: "heading", text: "Common Lithuanian Typing Mistakes to Watch", id: "common-mistakes" },
     {
       type: "list",
       items: [
-        "🏛️ Public-sector and administrative job seekers in Lithuania",
-        "🏦 Banking and customer-service agents typing Lithuanian daily",
-        "🌍 Lithuanian translators and localization professionals",
-        "🎓 Students strengthening diacritic-letter typing fluency",
-        "💻 Data-entry and office professionals across Lithuanian businesses",
-        "🇬🇧 Lithuanian diaspora members in the UK, Ireland, Norway, and the US staying connected to the language",
-        "📰 Content writers and journalists producing Lithuanian-language copy",
+        "Treating i, į, and y as interchangeable rather than three distinct vowel letters",
+        "Replacing č with c, š with s, ž with z, or dropping diacritics entirely",
+        "Typing e instead of ę or ė when the source requires the diacritical form",
+        "Confusing the i/į contrast, which is especially easy in fast typing",
+        "Using apostrophe as a diacritic workaround instead of the proper character",
+        "Treating unsupported WPM bands as official Lithuanian job standards",
       ],
     },
-    { type: "heading", text: "Frequently Asked Questions", id: "faq" },
+
+    { type: "heading", text: "Frequently Asked Questions", id: "faq-section" },
     {
       type: "faq",
       items: [
         {
+          question: "How many letters are in the Lithuanian alphabet?",
+          answer:
+            "The official Lithuanian alphabet has 32 letters, including 9 diacritical variants: ą, č, ę, ė, į, š, ų, ū, and ž.",
+        },
+        {
+          question: "What is the difference between i, į, and y?",
+          answer:
+            "i, į (nasal i), and y are three distinct Lithuanian vowel letters with different sounds and meanings. They cannot be used interchangeably.",
+        },
+        {
+          question: "Does Windows have a Lithuanian keyboard?",
+          answer:
+            "Yes. Windows offers Lithuanian (Standard) and Lithuanian (IBM) layouts, with Standard being the most commonly taught.",
+        },
+        {
+          question: "Can I type Lithuanian diacritics without the Lithuanian keyboard?",
+          answer:
+            "Yes, using Alt codes or a dead-key system, but these methods are slower. If you type Lithuanian regularly, add the proper keyboard layout.",
+        },
+        {
+          question: "Why are Lithuanian words so long?",
+          answer:
+            "Lithuanian is heavily inflected, with case, number, gender, and other features marked on words. That creates longer forms than English uses, but the patterns are predictable once you know the stems.",
+        },
+        {
           question: "What is a good Lithuanian typing speed?",
           answer:
-            "45–55 WPM is considered good for everyday office and administrative work in Lithuanian, while 55+ WPM matches experienced professionals typing with full diacritic accuracy.",
-        },
-        {
-          question: "How do I type Lithuanian diacritics like ą, č, and š without a Lithuanian keyboard?",
-          answer:
-            "On Windows, use Alt codes such as Alt+0261 for ą or Alt+0353 for š, or add the Lithuanian keyboard layout in language settings. On Mac, adding the Lithuanian input source under Keyboard settings is the fastest option.",
-        },
-        {
-          question: "How is WPM calculated on this test?",
-          answer:
-            "Every five typed characters, including spaces and diacritics, counts as one word — the standard convention across languages. Net WPM subtracts a penalty for uncorrected errors.",
-        },
-        {
-          question: "Is Lithuanian typing slower than English typing?",
-          answer:
-            "Often slightly, yes — Lithuanian's longer, case-inflected word forms and diacritic characters typically mean comparable typists post somewhat lower WPM in Lithuanian than in English.",
-        },
-        {
-          question: "Is this Lithuanian typing test free?",
-          answer: "Yes — completely free, no signup, no download, and unlimited retakes.",
+            "There is no transparent universal Lithuanian WPM benchmark for every person or job. Use your first clean result as a baseline and compare similar tests over time.",
         },
       ],
     },
+
     {
       type: "cta",
-      text: "Pasirink trukmę ir pradėk rašyti — pamatyk savo WPM greitį iškart.",
+      text: "Test Your Lithuanian Typing Speed Now — Start the Lithuanian Typing Test · Lietuvių above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which diacritics, i/į/y contrasts, or long words interrupted your rhythm. Return after a few focused practice sessions and test again.",
     },
   ],
 };

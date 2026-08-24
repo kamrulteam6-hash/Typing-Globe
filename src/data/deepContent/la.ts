@@ -23,135 +23,151 @@ const content: LanguageDeepContent = {
         "This test measures your Latin typing speed with authentic Latin text in a clearly defined editorial convention, giving you a live WPM and accuracy score you can trust.",
       ],
     },
-  ],
-};
 
-export default content;
-  seoTitle: "Latin Typing Test — Free WPM Test for Latina Sentences",
-  seoDescription:
-    "Free Latin typing speed test — practice typing classical Latin sentences and measure your real WPM. Built for students, classicists, and Latin learners. No signup.",
-  researchedKeywords: [
-    "latin typing test",
-    "typing test latina",
-    "learn latin typing practice",
-    "wpm test latin sentences",
-    "classical latin typing practice",
-    "latin keyboard macrons",
-    "type latin online free",
-    "latin vocabulary typing practice",
-  ],
-  blocks: [
-    {
-      type: "hero",
-      narrative: [
-        "Latin has no native speakers left in the modern sense — it is a classical language, not the daily tongue of any living country — yet it remains one of the most studied written languages in the world, forming the foundation of Romance languages like Spanish, Italian, French, Portuguese, and Romanian, and continuing to live on in law, medicine, taxonomy, and the Catholic Church's liturgy. Millions of students worldwide encounter Latin every year through secondary-school and university classics programs, from the United States and United Kingdom to Italy and Germany.",
-        "Typing speed in Latin is not gated by any professional exam the way modern-language typing sometimes is, but it matters in very real academic and vocational contexts: classics students transcribing texts, seminarians and clergy typing liturgical Latin, scholars preparing critical editions, and Scientific Latin users in biology and medicine entering binomial nomenclature accurately and fast. For all of these, comfortable typing in Latin's plain 23-letter alphabet, without the muscle-memory disruption of switching keyboards, is a genuine practical skill.",
-        "This test times you typing real Latin sentences drawn from classical usage and reports your live words-per-minute score, the same way any modern-language typing test would.",
-      ],
-    },
-    { type: "heading", text: "How Latin Typing Speed Is Measured", id: "wpm-explained" },
+    { type: "heading", text: "Which Latin Are You Typing?", id: "which-latin" },
     {
       type: "paragraph",
-      text: "This test uses WPM (words per minute), the standard convention of treating every five typed characters, including spaces, as one \"word.\" Because classical Latin uses the same 23-letter Roman alphabet as English (traditionally without J, U, or W, though modern editions often include them), typing speed comparisons to English WPM benchmarks are unusually direct compared to scripts requiring diacritics or non-Latin characters.",
+      text: "Modern Latin text comes in several distinct editorial traditions. Classical inscriptions use one convention, Renaissance humanism introduced another, 18th-century scholarly Latin developed its own patterns, and modern critical editions follow yet another. The page should specify which one users will encounter.",
     },
-    { type: "heading", text: "Macrons and Optional Diacritics", id: "keyboard" },
+
+    { type: "heading", text: "The Classical Latin Alphabet Has 23 Letters", id: "classical-alphabet" },
     {
       type: "paragraph",
-      text: "Classical Latin as originally inscribed used no diacritics at all — vowel length was implied by context and meter, not marked. Modern pedagogical texts sometimes add macrons (ā, ē, ī, ō, ū) over long vowels to help students with pronunciation and scansion, but these are a teaching convention, not a requirement, and most Latin typing — including inscriptions, manuscripts, and standard printed editions — uses plain unmarked letters.",
+      text: "The classical Roman alphabet used 23 letters: A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, Q, R, S, T, V, X, Y, Z. Note the absence of J and W (which are modern additions) and the presence of both I and J's sound marked by I.",
     },
+
+    { type: "heading", text: "I vs. J and V vs. U in Different Latin Editions", id: "i-j-u-v" },
     {
       type: "table",
-      headers: ["Character", "How to Type It (if needed)"],
+      headers: ["Convention", "Usage", "Practice Example"],
       rows: [
-        ["ā ē ī ō ū (macrons, optional)", "Windows: Alt + numeric code per letter, or a Latin/International keyboard layout; Mac: Option + A then the vowel"],
-        ["Standard Latin text", "Types identically to plain English text — no special layout required for most practice"],
+        ["Classical inscription style", "I for all i-sounds, V for all u-vowel and v-consonant sounds", "IVSTINIANVS IMPE RATOR"],
+        ["Traditional school Latin", "I and J both used; V and U both used", "Justinianus imperator"],
+        ["Allen & Greenough standard", "I for vowel and consonant, J only in Anglicized names; V for consonant, U for vowel", "Cicero, iustitia"],
+        ["Modern scholarly edition", "Varies by editor; usually I for vowel, J for consonant before vowel", "See the specific edition"],
       ],
     },
-    { type: "heading", text: "Latin Typing Speed Benchmarks (WPM)", id: "benchmarks" },
-    {
-      type: "table",
-      headers: ["WPM", "Level", "Real-World Context"],
-      rows: [
-        ["Below 20 WPM", "Beginner", "Still sounding out unfamiliar Latin vocabulary and inflected endings while typing"],
-        ["20–35 WPM", "Below Average", "Reads and recognizes Latin comfortably but typing lags behind reading speed"],
-        ["35–45 WPM", "Average", "Typical for an intermediate Latin student typing translation exercises"],
-        ["45–60 WPM", "Good", "Comfortable for transcription work and fast classroom exercises"],
-        ["60–70 WPM", "Professional", "Matches the pace of a classics scholar or editor transcribing manuscript text"],
-        ["70+ WPM", "Expert", "Rare, near-English-native typing fluency applied to Latin text"],
-      ],
-    },
-    { type: "heading", text: "Real Contexts Where Latin Typing Speed Matters", id: "requirements" },
-    {
-      type: "table",
-      headers: ["Country / Setting", "Role or Context", "Typical Requirement"],
-      rows: [
-        ["Global academia", "Classics and philology graduate students transcribing texts and critical editions", "Fast, accurate typing speeds up thesis and edition work considerably"],
-        ["Vatican / Catholic institutions", "Clergy and seminarians working with liturgical Latin", "Latin typing fluency supports drafting and formatting official liturgical documents"],
-        ["Global scientific community", "Biologists, botanists, and medical professionals entering Latin binomial nomenclature", "Accuracy matters more than raw speed, but fast typing reduces data-entry time significantly"],
-        ["Secondary schools & universities", "Latin teachers preparing worksheets and translation keys", "Typing speed directly affects lesson-prep turnaround"],
-      ],
-    },
-    { type: "heading", text: "Latin Around the World", id: "diaspora" },
-    {
-      type: "table",
-      headers: ["Region / Setting", "Context"],
-      rows: [
-        ["Vatican City", "Latin remains the Holy See's official language for many formal and liturgical documents"],
-        ["United States & United Kingdom", "Widely taught in secondary schools and universities as a classical-language requirement or elective"],
-        ["Italy & continental Europe", "Studied extensively in the countries where Romance languages historically descended from spoken Latin"],
-        ["Global scientific and legal fields", "Latin terms and phrases remain the working standard for taxonomy and many legal doctrines worldwide"],
-      ],
-    },
+
+    { type: "heading", text: "Macrons and Apexes: Long Vowel Marks", id: "long-vowels" },
     {
       type: "paragraph",
-      text: "Latin's literary canon is enormous and enduring: Virgil's Aeneid, Cicero's orations and letters, Ovid's Metamorphoses, and Caesar's Commentarii de Bello Gallico remain the core texts of classical education worldwide, and their prose and verse continue to supply the sentences most typing and translation practice in Latin is built from.",
+      text: "Classical Latin distinguished long and short vowels by sound, but written Latin had no standard way to show that distinction until modern editors began using macrons (ā, ē, ī, ō, ū) or apexes (á, é, í, ó, ú). A serious Latin typing test should use one system consistently.",
     },
-    { type: "heading", text: "Who Is This Test Built For", id: "who-its-for" },
+
+    { type: "heading", text: "Punctuation and Capitalization Conventions Vary", id: "punctuation-conventions" },
+    {
+      type: "paragraph",
+      text: "Classical inscriptions use no punctuation at all. Medieval manuscripts developed interpuncts and various marks. Modern editions apply sentence capitalization and modern punctuation. A Latin typing test should match one real editorial tradition rather than inventing a hybrid.",
+    },
+
+    { type: "heading", text: "How WPM Is Measured in Latin Typing", id: "how-wpm-measured" },
+    {
+      type: "paragraph",
+      text: "Typing Globe uses the standard five-character WPM convention, which treats every five typed characters (including spaces and punctuation) as one 'word.' Latin words are often longer than English ones, so Latin WPM can run lower than English WPM even for comparable hand speed.",
+    },
+
+    { type: "heading", text: "Allen & Greenough: The Standard Academic Reference", id: "allen-greenough" },
+    {
+      type: "paragraph",
+      text: "Allen & Greenough's New Latin Grammar is the widely cited standard for classical Latin conventions in American and British academic contexts. It specifies I for i-vowels and i-consonants, U for u-vowels, V for v-consonants, and modern punctuation.",
+    },
+
+    { type: "heading", text: "Ecclesiastical Latin Uses Different Conventions", id: "ecclesiastical-latin" },
+    {
+      type: "paragraph",
+      text: "Church Latin developed its own orthographic traditions distinct from classical conventions. A Vatican document or liturgical text uses different spelling and punctuation patterns from Cicero. This page should not mix them.",
+    },
+
+    { type: "heading", text: "Scientific Latin Names Follow Linnaean Conventions", id: "scientific-latin" },
+    {
+      type: "paragraph",
+      text: "Biological nomenclature uses Latin roots under the Linnaean naming system. Those names follow specific capitalization and letter rules (binomial nomenclature: Genus species). They are a specialized vocabulary, not general Latin prose.",
+    },
+
+    { type: "heading", text: "Domain-Specific Latin Typing Matters", id: "domain-specific" },
+    {
+      type: "paragraph",
+      text: "You might type classical prose (different from inscription conventions), scholarly critical editions, liturgical texts, medical terminology, or scientific names. Each domain has real typing tasks but different accuracy targets. A good page should acknowledge this.",
+    },
+
+    { type: "heading", text: "A 6-Week Latin Typing Practice Plan", id: "six-week-plan" },
+    { type: "subheading", text: "Weeks 1-2: Learn the Editorial Conventions" },
+    {
+      type: "paragraph",
+      text: "Decide which Latin source or convention you are following. Practice short sentences using consistent I/J and U/V choices and familiar Latin vocabulary.",
+    },
+
+    { type: "subheading", text: "Weeks 3-4: Add Macrons or Apexes If Your Text Uses Them" },
+    {
+      type: "paragraph",
+      text: "If your source includes long-vowel marks, practice them inside common words. Keep a short list of recurring punctuation or capitalization errors and drill those patterns.",
+    },
+
+    { type: "subheading", text: "Weeks 5-6: Build Sustained Rhythm" },
+    {
+      type: "paragraph",
+      text: "Mix short 30-second checks with 60- and 120-second passages. Longer tests reveal whether accuracy drops after the opening burst.",
+    },
+
+    { type: "heading", text: "A Simple 20-Minute Latin Routine", id: "daily-routine" },
+    {
+      type: "paragraph",
+      text: "Warm up with familiar short forms, spend several minutes on the convention detail that tripped you most recently (I vs. J, U vs. V, macron placement, or punctuation), take one normal-speed test, then review errors instead of immediately retaking.",
+    },
+
+    { type: "heading", text: "Common Latin Typing Mistakes to Watch", id: "common-mistakes" },
     {
       type: "list",
       items: [
-        "🎓 Latin students in secondary school and university classics programs",
-        "📜 Classics scholars and graduate students transcribing texts and editions",
-        "⛪ Seminarians and clergy working with liturgical Latin",
-        "🔬 Biology, botany, and medical students entering Latin nomenclature",
-        "🏛️ History and law students encountering Latin legal and classical terms",
-        "🌍 Self-taught Latin learners building keyboard fluency alongside vocabulary",
-        "📚 Teachers preparing Latin worksheets, translations, and exams",
+        "Switching between I/J or U/V conventions mid-passage",
+        "Dropping macrons or apexes when the source includes them",
+        "Using modern English punctuation in place of the source convention",
+        "Treating classical inscription (all-caps, no punctuation) as identical to modern scholarly edition",
+        "Assuming ecclesiastical and classical Latin share identical spelling rules",
+        "Mixing scientific nomenclature conventions with literary Latin",
       ],
     },
-    { type: "heading", text: "Frequently Asked Questions", id: "faq" },
+
+    { type: "heading", text: "Frequently Asked Questions", id: "faq-section" },
     {
       type: "faq",
       items: [
         {
+          question: "How many letters does classical Latin have?",
+          answer:
+            "The classical Roman alphabet had 23 letters. Modern texts add J and W, but classical inscriptions used I for all i-sounds and V for all u-vowels and v-consonants.",
+        },
+        {
+          question: "What is the difference between I and J in Latin?",
+          answer:
+            "Classically, there was no J — I represented both vowel and consonant sounds. Modern editions introduced J to distinguish the consonant. Allen & Greenough and many academic sources use I for both.",
+        },
+        {
+          question: "What are macrons in Latin?",
+          answer:
+            "Macrons (ā, ē, ī, ō, ū) are diacritical marks modern editors use to show long vowels, which classical Latin did not write. Different editions use them differently, so match your source.",
+        },
+        {
+          question: "Do all Latin texts use the same conventions?",
+          answer:
+            "No. Classical inscriptions, ecclesiastical Latin, school textbooks, scholarly editions, and scientific nomenclature each use different conventions for spelling, capitalization, and punctuation.",
+        },
+        {
+          question: "Which Latin should I learn for this test?",
+          answer:
+            "Choose a source you actually read or study — Allen & Greenough for classical prose, the Vulgate for ecclesiastical text, Linnaean rules for scientific names, or a scholarly edition you are already using.",
+        },
+        {
           question: "What is a good Latin typing speed?",
           answer:
-            "45–60 WPM is a solid working speed for transcription and coursework, and 60+ WPM matches the pace of professional classicists and editors handling Latin text regularly.",
-        },
-        {
-          question: "Do I need macrons to type Latin correctly?",
-          answer:
-            "No. Macrons over long vowels (ā, ē, ī, ō, ū) are a modern pedagogical aid for pronunciation, not a requirement of classical Latin, which was written and printed without them for most of its history.",
-        },
-        {
-          question: "Is Latin typing the same as typing English?",
-          answer:
-            "Mechanically, yes — Latin uses the same Roman alphabet as English, so no special keyboard layout is needed for standard practice, unlike languages with diacritics or non-Latin scripts.",
-        },
-        {
-          question: "How is WPM calculated on this test?",
-          answer:
-            "Every five typed characters, including spaces, counts as one word — the same convention used for English and most Latin-alphabet languages. Net WPM subtracts a penalty for uncorrected errors.",
-        },
-        {
-          question: "Is this Latin typing test free?",
-          answer: "Yes — completely free, with no signup, no download, and unlimited retakes.",
+            "There is no transparent universal Latin WPM benchmark. Use your first clean result as a personal baseline and compare similar test attempts over time.",
         },
       ],
     },
+
     {
       type: "cta",
-      text: "Elige tempus, incipe scribere — vide celeritatem tuam WPM statim.",
+      text: "Test Your Latin Typing Speed Now — Start the Latin Typing Test · Latina above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then notice which I/J choices, U/V distinctions, macrons, or punctuation marks interrupted your rhythm. Return after a few focused practice sessions with the same source and test again.",
     },
   ],
 };
