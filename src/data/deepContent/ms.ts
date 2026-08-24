@@ -16,116 +16,176 @@ const content: LanguageDeepContent = {
     "latihan menaip Bahasa Melayu",
     "papan kekunci Melayu",
     "menaip pantas",
-    "bahasa melayu typing practice",
-    "malaysia typing speed test",
-    "ujian kelajuan menaip",
-    "malay typing test free online",
-    "jawi keyboard typing",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
-        "Malay (Bahasa Melayu) is spoken natively by roughly 80 million people and understood by well over 250 million across Southeast Asia when counting related standardized varieties, serving as the national language of Malaysia and Brunei and one of four official languages of Singapore, alongside a close linguistic relationship to Indonesian. Written today almost exclusively in Rumi, the Latin-based script, Malay is also historically written in Jawi, an Arabic-derived script still used ceremonially and in religious contexts, particularly in Brunei and parts of Malaysia.",
-        "There is no single, universally cited national Malay typing-speed certification, but typing fluency in Bahasa Melayu is a genuine, practical requirement across Malaysia's public service, banking sector, and customer-service industries, where government clerical exams, administrative assistant hiring, and call-center screening frequently include a Malay typing or data-entry component. In Brunei and Singapore, similar informal typing-speed expectations apply within government and administrative roles.",
-        "This test times you typing real Malay sentences and reports your live words-per-minute score, giving you a practical, honest measure of how fast you actually type in Bahasa Melayu.",
+        "Malay typing does not require a special alphabet on a standard Rumi page, but that does not make accurate Bahasa Melayu automatic. Real mistakes often come from digraphs, reduplication, hyphens, the difference between the preposition di and the passive prefix di-, loanword spelling, and frequent Malay-English code-switching.",
+        "Fast and accurate Malay typing is useful in administrative work, customer support, data entry, education, and business communication. Because Malay uses productive suffixes, compounds, and specific spelling conventions, character accuracy becomes as important as speed for professional text.",
+        "This test measures your Malay typing speed with authentic Bahasa Melayu in the Rumi script, giving you a live WPM and accuracy score you can trust.",
       ],
     },
-    { type: "heading", text: "How Malay Typing Speed Is Measured", id: "wpm-explained" },
+
+    { type: "heading", text: "What Is a Malay Typing Test?", id: "what-is-malay-typing" },
     {
       type: "paragraph",
-      text: "This test scores Malay typing in WPM (words per minute), using the standard convention of counting every five typed characters, including spaces, as one \"word.\" Because Malay uses the plain Latin alphabet with no diacritics, WPM comparisons to English typing speed are direct and require no special adjustment for character complexity.",
-    },
-    {
-      type: "paragraph",
-      text: "Malay is written in the standard Latin alphabet without accent marks or diacritics, so no special keyboard layout is required — a standard QWERTY keyboard, as used for English, types Bahasa Melayu without any modification. Typists switching between Malay and English on the same device can do so seamlessly, since both languages share the identical character set.",
-    },
-    { type: "heading", text: "Malay Typing Speed Benchmarks (WPM)", id: "benchmarks" },
-    {
-      type: "table",
-      headers: ["WPM", "Level", "Real-World Context"],
-      rows: [
-        ["Below 20 WPM", "Beginner", "Still building finger placement and basic keyboard familiarity"],
-        ["20–35 WPM", "Below Average", "Functional but slower than most office-job screens in Malaysia and Singapore"],
-        ["35–45 WPM", "Average", "Typical for an untrained adult Malay typist"],
-        ["45–60 WPM", "Good", "Meets most Malaysian administrative and customer-service job requirements"],
-        ["60–70 WPM", "Professional", "Matches the pace expected of an experienced government clerical officer or transcriptionist"],
-        ["70+ WPM", "Expert", "Fast, highly accurate typing, well above standard hiring benchmarks"],
-      ],
-    },
-    { type: "heading", text: "Real Jobs and Exams That Require Malay Typing Speed", id: "requirements" },
-    {
-      type: "table",
-      headers: ["Country", "Role or Exam", "Typical Requirement"],
-      rows: [
-        ["Malaysia", "Public Service Commission (SPA) clerical and administrative-assistant hiring", "Malay typing and data-entry proficiency is commonly assessed alongside general clerical skills"],
-        ["Malaysia", "Bank and customer-service call-center roles", "Typing speed in Bahasa Melayu affects ticket-handling and service efficiency, often screened informally"],
-        ["Brunei", "Government ministry clerical and secretarial positions", "Malay typing fluency is a practical expectation for administrative roles"],
-        ["Singapore", "Malay-medium administrative and community-liaison roles", "Typing speed in Malay supports documentation for Singapore's Malay-speaking community services"],
-      ],
-    },
-    { type: "heading", text: "Malay Around the World", id: "diaspora" },
-    {
-      type: "table",
-      headers: ["Country / Region", "Context"],
-      rows: [
-        ["Malaysia", "National and official language, used across government, education, and media"],
-        ["Brunei", "Official language of the Sultanate, also historically written in the Jawi script"],
-        ["Singapore", "One of four official languages, with strong ties to the local Malay community"],
-        ["Indonesia", "Closely related to Bahasa Indonesia, the Indonesian national standard, though treated as a distinct language variety"],
-        ["Southern Thailand & Philippines", "Malay-speaking minority communities near historical trade and migration routes"],
-      ],
+      text: "A Malay typing test measures how quickly and accurately you reproduce Bahasa Melayu in the Rumi script. Because standard Malay Rumi normally uses the same basic Latin letters as English, many errors come from spelling structure rather than special-character entry.",
     },
     {
       type: "paragraph",
-      text: "Malay's literary heritage stretches back to classical works like the Sejarah Melayu (Malay Annals) and the Hikayat Hang Tuah, foundational texts of Malay court literature, while the historical Jawi script — Arabic letters adapted for Malay sounds — remains a symbol of the language's centuries-old written tradition alongside its modern Rumi form.",
+      text: "That makes punctuation, affixes, word spacing, reduplication, and digraphs important training targets. A fast sentence with di rumah written as dirumah or ditulis written as di tulis is still inaccurate.",
     },
-    { type: "heading", text: "Who Is This Test Built For", id: "who-its-for" },
+
+    { type: "heading", text: "Rumi Is the Main Modern Script for This Test", id: "rumi-script" },
+    {
+      type: "paragraph",
+      text: "Modern Bahasa Melayu in Malaysia is primarily typed in Rumi, the Latin-based writing system. Jawi remains an important Malay writing tradition and DBP continues publishing Rumi–Jawi reference work, but a Rumi typing test and a Jawi typing test are different keyboard tasks.",
+    },
+
+    { type: "heading", text: "Five Important Malay Digraphs", id: "digraphs" },
+    {
+      type: "table",
+      headers: ["Digraph", "Practice Words", "Typing Focus"],
+      rows: [
+        ["gh", "ghaib, ghairah", "keep g+h together"],
+        ["kh", "khabar, khusus, akhir", "avoid dropping h"],
+        ["ng", "nganga, bangun, orang", "common initial/final sequence"],
+        ["ny", "nyamuk, nyanyi, banyak", "read as one spelling unit"],
+        ["sy", "syarat, syampu, masyarakat", "avoid s/y separation errors"],
+      ],
+    },
+
+    { type: "heading", text: "Di: Preposition vs. Prefix", id: "di-prefix" },
+    {
+      type: "paragraph",
+      text: "DBP explains that di as a preposition before a place is written separately, as in di rumah or di Kuala Lumpur. The passive prefix di- attached to a verb is written together, as in ditulis, dibuat, dihukum, or dilabel.",
+    },
+    {
+      type: "paragraph",
+      text: "This is a high-value typing drill because both forms sound similar in speech. Practice source-exact phrases such as di sekolah / ditulis, di bandar / dibina, di luar / digunakan.",
+    },
+
+    { type: "heading", text: "Reduplication and the Hyphen", id: "reduplication" },
+    {
+      type: "paragraph",
+      text: "DBP guidance says many full and rhythmic reduplications use a hyphen, for example ulang-alik, cerai-berai, kuih-muih, and saudara-mara. Partial reduplication of certain single roots can behave differently, as in lelaki or jejari.",
+    },
+    {
+      type: "paragraph",
+      text: "Typing practice should therefore include the hyphen as part of Malay spelling, not treat it as optional punctuation. Words such as jalan-jalan, bunga-bunga, rumah-rumah, and beramai-ramai are useful rhythm drills.",
+    },
+
+    { type: "heading", text: "Malay Affixes Create Long but Predictable Words", id: "affixes" },
+    {
+      type: "paragraph",
+      text: "Malay builds many words with prefixes, suffixes, and circumfixes such as meN-, ber-, ter-, di-, peN-, -kan, -i, and ke-...-an. Long forms are easier to type when you recognize the root and affix pattern.",
+    },
+    {
+      type: "paragraph",
+      text: "Practice words such as mengingatkan, pembangunan, memperhatikan, perkhidmatan, menggunakan, keberkesanan, dipertingkatkan, and memperkembangkan. Read the next morpheme while your fingers finish the current one.",
+    },
+
+    { type: "heading", text: "How WPM Works with Malay Text", id: "how-wpm-measured" },
+    {
+      type: "paragraph",
+      text: "Typing Globe uses a standardized character-based WPM convention. That makes scores internally comparable without claiming that every Malay word is five characters long.",
+    },
+
+    { type: "heading", text: "What Is a Good Malay Typing Speed?", id: "good-speed" },
+    {
+      type: "paragraph",
+      text: "There is no transparent national dataset supporting a universal Malay WPM ladder or claims that specific speeds meet most Malaysian administrative and customer-service job requirements.",
+    },
+    {
+      type: "paragraph",
+      text: "Use your first clean result as a baseline. If you begin at 36 WPM with 94% accuracy, first eliminate missing macrons and carons before increasing pace.",
+    },
+
+    { type: "heading", text: "Accuracy First, Then Speed", id: "accuracy-first" },
+    {
+      type: "paragraph",
+      text: "If digraphs, spacing, or affixes cause corrections, pushing WPM higher usually trains sloppy Malay. Slow, exact repetitions let correct patterns become automatic, and the pace shrinks once the movement is stable.",
+    },
+
+    { type: "heading", text: "A 6-Week Malay Typing Practice Plan", id: "six-week-plan" },
+    { type: "subheading", text: "Weeks 1-2: Build Clean Rumi Rhythm" },
+    {
+      type: "paragraph",
+      text: "Focus on normal touch typing plus gh, kh, ng, ny, and sy. Keep punctuation and capitalization exact.",
+    },
+
+    { type: "subheading", text: "Weeks 3-4: Add Hyphens and Affixes" },
+    {
+      type: "paragraph",
+      text: "Practice reduplication, di preposition vs. di- prefix, and longer affixed words. Keep a short error list and drill complete phrases.",
+    },
+
+    { type: "subheading", text: "Weeks 5-6: Add Malay-English Practical Text" },
+    {
+      type: "paragraph",
+      text: "Use longer passages and custom workplace or study material. Compare pure Malay and mixed-language sessions separately.",
+    },
+
+    { type: "heading", text: "A Simple 20-Minute Routine", id: "daily-routine" },
+    {
+      type: "paragraph",
+      text: "Warm up with common Malay words, drill one digraph group and one spacing rule, take one timed passage, then review spelling rather than only WPM.",
+    },
+
+    { type: "heading", text: "Common Malay Typing Mistakes to Watch", id: "common-mistakes" },
     {
       type: "list",
       items: [
-        "🏛️ Malaysian public-service and government clerical job seekers",
-        "🏦 Bank and call-center customer-service agents typing Malay daily",
-        "🎓 Students in Malaysia, Brunei, and Singapore practicing keyboard skills",
-        "💻 Data-entry and administrative-assistant applicants across Southeast Asia",
-        "🌏 Malay learners in Indonesia, Thailand, and beyond building fluency",
-        "📰 Content writers and journalists producing Bahasa Melayu copy",
-        "🇧🇳 Government and secretarial staff in Brunei typing official documents",
+        "Writing di rumah as dirumah or ditulis as di tulis",
+        "Dropping the h in gh or kh",
+        "Breaking familiar digraphs ng, ny, or sy",
+        "Omitting the hyphen in reduplicated forms that require it",
+        "Adding spaces around a reduplication hyphen",
+        "Treating unsupported WPM bands as official standards",
       ],
     },
-    { type: "heading", text: "Frequently Asked Questions", id: "faq" },
+
+    { type: "heading", text: "Frequently Asked Questions", id: "faq-section" },
     {
       type: "faq",
       items: [
         {
+          question: "Does Malay need a special keyboard?",
+          answer:
+            "For standard Rumi Malay, usually no. Microsoft maps ms-MY to the US keyboard, so ordinary Malay text can be typed on standard QWERTY hardware.",
+        },
+        {
+          question: "What are the main Malay digraphs?",
+          answer:
+            "DBP guidance identifies gh, kh, ng, ny, and sy as important digraphs in Malay spelling.",
+        },
+        {
+          question: "When is di written separately?",
+          answer:
+            "DBP says di is separate when it functions as a preposition before a place, such as di rumah, but joined when it is a passive prefix, such as ditulis or dibuat.",
+        },
+        {
+          question: "Do Malay reduplicated words use hyphens?",
+          answer:
+            "Many full and rhythmic reduplications do, such as rumah-rumah, ulang-alik, and saudara-mara. Some partial reduplication behaves differently, so follow the source and DBP spelling rules.",
+        },
+        {
+          question: "Is Malay typing the same as Indonesian typing?",
+          answer:
+            "The languages are closely related, but their standard vocabulary and spelling choices are not identical. Use the page that matches the source language.",
+        },
+        {
           question: "What is a good Malay typing speed?",
           answer:
-            "45–60 WPM covers most Malaysian office and administrative job requirements, and 60–70 WPM matches the pace of an experienced clerical officer or transcriptionist.",
-        },
-        {
-          question: "Do I need a special keyboard to type Malay?",
-          answer:
-            "No — Bahasa Melayu uses the standard Latin alphabet with no diacritics, so a regular QWERTY keyboard, the same one used for English, types Malay without any modification.",
-        },
-        {
-          question: "How is WPM calculated on this test?",
-          answer:
-            "Every five typed characters, including spaces, counts as one word — the standard convention used across most Latin-alphabet languages. Net WPM subtracts a penalty for uncorrected errors.",
-        },
-        {
-          question: "Is there an official Malay typing speed exam?",
-          answer:
-            "There is no single nationally famous certification, but Malaysia's Public Service Commission and many employers include Malay typing or data-entry components in clerical and administrative hiring assessments.",
-        },
-        {
-          question: "Is this Malay typing test free?",
-          answer: "Yes — completely free, no signup, no download, and unlimited retakes.",
+            "There is no transparent universal Malay WPM benchmark for every person or job. Use a personal baseline and cite specific employer or exam requirements only when they are actually published.",
         },
       ],
     },
+
     {
       type: "cta",
-      text: "Pilih tempoh masa dan mula menaip — lihat kelajuan WPM anda serta-merta.",
+      text: "Test Your Malay Typing Speed Now — Start the Malay Typing Test · Bahasa Melayu above and type at the pace that feels natural today. Check WPM and accuracy, then review whether your errors came from digraphs, di spacing, hyphenation, or longer affixed words. Return after focused practice using similar passages.",
     },
   ],
 };
