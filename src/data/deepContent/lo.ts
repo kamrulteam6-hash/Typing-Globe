@@ -1,13 +1,21 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Lao Typing Test — ວັດແທກຄວາມໄວພິມ ພາສາລາວ Free WPM Test",
+  seoTitle: "Free Lao Typing Test · ລາວ | WPM & Accuracy",
   seoDescription:
-    "Free Lao typing speed test — measure your WPM typing real Lao script sentences. Practice for office, government, and translation work in Laos. No signup needed.",
+    "Take a free Lao typing test and check WPM and accuracy. Practice Lao consonants, preposed vowels, tone marks ່ ້ ໊ ໋, combining marks and the Windows Lao keyboard.",
   researchedKeywords: [
     "lao typing test",
+    "lao typing speed test",
+    "lao WPM test",
+    "lao keyboard test",
+    "lao Unicode typing",
+    "ພາສາລາວ typing practice",
+    "ທົດສອບພິມພາສາລາວ",
+    "ຄວາມໄວພິມ",
+    "ແປ້ນພິມລາວ",
+    "ຝຶກພິມລາວ",
     "ພິມພາສາລາວ",
-    "lao keyboard typing practice",
     "ວັດແທກຄວາມໄວພິມ",
     "lao wpm test online",
     "lao script typing practice free",

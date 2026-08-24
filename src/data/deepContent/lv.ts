@@ -1,6 +1,33 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
+  seoTitle: "Free Latvian Typing Test · Latviešu | WPM & Accuracy",
+  seoDescription:
+    "Take a free Latvian typing test and check WPM and accuracy. Practice ā č ē ģ ī ķ ļ ņ š ū ž, Latvian Standard keyboard input and real Latviešu text.",
+  researchedKeywords: [
+    "latvian typing test",
+    "latvian typing speed test",
+    "latvian WPM test",
+    "latvian keyboard test",
+    "latviešu rakstīšanas ātruma tests",
+    "rakstīšanas ātrums",
+    "latviešu tastatūra",
+    "ātrrakstīšana",
+    "rakstīšanas vingrinājumi",
+  ],
+  blocks: [
+    {
+      type: "hero",
+      narrative: [
+        "Latvian typing becomes noticeably different from English as soon as the text fills with ā, č, ē, ģ, ī, ķ, ļ, ņ, š, ū, and ž. Those are not optional marks: they belong to the modern Latvian alphabet and can distinguish sounds, word forms, and spellings.",
+        "Fast and accurate Latvian typing is useful in office work, government administration, data entry, and customer support. Because Latvian requires letters that need specific keyboard access, character accuracy becomes as important as speed for meaningful text.",
+        "This test measures your Latvian typing speed with authentic Latvian text, giving you a live WPM and accuracy score you can trust.",
+      ],
+    },
+  ],
+};
+
+export default content;
   seoTitle: "Latvian Typing Test — Latviešu Rakstīšanas Ātruma Tests (WPM)",
   seoDescription:
     "Free Latvian typing speed test — measure your real WPM typing Latviešu sentences with ā, š, ž and other special characters. Practice for office and study. No signup.",

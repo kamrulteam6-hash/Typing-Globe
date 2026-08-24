@@ -1,13 +1,21 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Kannada Typing Test — ಕನ್ನಡ ಟೈಪಿಂಗ್ ಸ್ಪೀಡ್ ಟೆಸ್ಟ್ (WPM)",
+  seoTitle: "Free Kannada Typing Test · ಕನ್ನಡ | WPM & Accuracy",
   seoDescription:
-    "Free Kannada typing test — measure your real typing speed in ಕನ್ನಡ script. Practice for exams, jobs, and daily typing. No signup, instant results.",
+    "Take a free Kannada typing test and check WPM and accuracy. Practice vowel signs, virama, conjuncts, Kannada INSCRIPT and phonetic input with real ಕನ್ನಡ text.",
   researchedKeywords: [
     "kannada typing test",
+    "kannada typing speed test",
+    "kannada WPM test",
+    "kannada keyboard test",
+    "kannada INSCRIPT typing",
+    "kannada phonetic typing",
     "ಕನ್ನಡ ಟೈಪಿಂಗ್ ಟೆಸ್ಟ್",
-    "kannada typing speed test online",
+    "ಕನ್ನಡ ಟೈಪಿಂಗ್ ಸ್ಪೀಡ್",
+    "ಕನ್ನಡ ಕೀಬೋರ್ಡ್",
+    "ಟೈಪಿಂಗ್ ಅಭ್ಯಾಸ",
+    "ಕನ್ನಡ ಇನ್‌ಸ್ಕ್ರಿಪ್ಟ್",
     "kannada keyboard practice",
     "nudi kannada typing",
     "kannada typing test for government job",

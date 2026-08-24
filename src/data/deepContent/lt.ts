@@ -1,6 +1,33 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
+  seoTitle: "Free Lithuanian Typing Test · Lietuvių | WPM & Accuracy",
+  seoDescription:
+    "Take a free Lithuanian typing test and check WPM and accuracy. Practice ą č ę ė į š ų ū ž, Lithuanian vowel contrasts and Windows keyboard layouts.",
+  researchedKeywords: [
+    "lithuanian typing test",
+    "lithuanian typing speed test",
+    "lithuanian WPM test",
+    "lithuanian keyboard test",
+    "lietuvių rašymo greičio testas",
+    "rašymo greitis",
+    "lietuviška klaviatūra",
+    "greitas rašymas",
+    "rašymo pratimai",
+  ],
+  blocks: [
+    {
+      type: "hero",
+      narrative: [
+        "Lithuanian typing is full of characters that look close to ordinary Latin letters but carry real spelling information: ą, č, ę, ė, į, š, ų, ū, and ž. Add the distinct vowel letter y and long inflected word forms, and Lietuvių develops a very specific typing rhythm.",
+        "Fast and accurate Lithuanian typing is useful in office work, education, government administration, data entry, and customer support. Because Lithuanian spelling carries morphological and phonetic information in diacritics, character accuracy becomes as important as speed for meaningful text.",
+        "This test measures your Lithuanian typing speed with authentic Lithuanian text, giving you a live WPM and accuracy score you can trust.",
+      ],
+    },
+  ],
+};
+
+export default content;
   seoTitle: "Lithuanian Typing Test — Lietuvių Rašymo Greičio Testas (WPM)",
   seoDescription:
     "Free Lithuanian typing speed test — measure your real WPM typing Lietuvių sentences with ą, č, ę, š and other special letters. Practice for office and study. No signup.",

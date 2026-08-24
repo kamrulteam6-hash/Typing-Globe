@@ -1,6 +1,32 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
+  seoTitle: "Free Latin Typing Test · Latina | WPM & Accuracy",
+  seoDescription:
+    "Take a free Latin typing test and check WPM and accuracy. Practice Classical Latin spelling, I/V conventions, macrons, punctuation and scholarly transcription.",
+  researchedKeywords: [
+    "latin typing test",
+    "latin typing speed test",
+    "classical latin typing",
+    "latin WPM test",
+    "latin keyboard test",
+    "latin macron typing",
+    "latin transcription practice",
+    "probatio scribendi latine",
+  ],
+  blocks: [
+    {
+      type: "hero",
+      narrative: [
+        "Latin typing looks easy because the letters are familiar, but a serious Latin page has to make one choice explicit: which editorial convention is being typed? Classical inscriptions, school texts with macrons, modern scholarly editions, ecclesiastical Latin, and scientific names can all use slightly different letter and punctuation conventions.",
+        "Fast and accurate Latin typing is useful in academic study, scholarship, religious contexts, scientific nomenclature, and digital humanities work. Because different editions use different orthographic standards, character accuracy becomes tied to knowing which source convention you are reproducing.",
+        "This test measures your Latin typing speed with authentic Latin text in a clearly defined editorial convention, giving you a live WPM and accuracy score you can trust.",
+      ],
+    },
+  ],
+};
+
+export default content;
   seoTitle: "Latin Typing Test — Free WPM Test for Latina Sentences",
   seoDescription:
     "Free Latin typing speed test — practice typing classical Latin sentences and measure your real WPM. Built for students, classicists, and Latin learners. No signup.",

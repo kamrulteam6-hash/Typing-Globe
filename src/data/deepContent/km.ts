@@ -1,13 +1,21 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Khmer Typing Test — តេស្តល្បឿនវាយអក្សរខ្មែរ (WPM)",
+  seoTitle: "Free Khmer Typing Test · ខ្មែរ | WPM & Accuracy",
   seoDescription:
-    "Free Khmer typing test — measure your real typing speed in ខ្មែរ script. Practice for jobs and daily typing in Cambodia. No signup, instant results.",
+    "Take a free Khmer typing test and check WPM and accuracy. Practice Khmer Unicode, coeng/subscript consonants, dependent vowels, shifters and Khmer keyboard layouts.",
   researchedKeywords: [
     "khmer typing test",
+    "khmer typing speed test",
+    "khmer WPM test",
+    "khmer keyboard test",
+    "khmer Unicode typing",
+    "khmer NIDA keyboard practice",
     "តេស្តវាយអក្សរខ្មែរ",
-    "khmer typing speed test online",
+    "ល្បឿនវាយអក្សរ",
+    "ក្តារចុចខ្មែរ",
+    "វាយអក្សរខ្មែរ Unicode",
+    "អនុវត្តវាយអក្សរ",
     "khmer keyboard layout practice",
     "type khmer online free",
     "cambodia typing test",

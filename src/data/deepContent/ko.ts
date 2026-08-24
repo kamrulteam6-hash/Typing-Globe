@@ -1,13 +1,20 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Korean Typing Speed Test — 한글 타자 속도 테스트",
+  seoTitle: "Free Korean Typing Test · 한국어 | WPM & Accuracy",
   seoDescription:
-    "Free Korean typing speed test — 한글 타자 속도 테스트. Standard 두벌식 (Dubeolsik) keyboard. Check your WPM, 타수/분 & accuracy instantly. No signup.",
+    "Take a free Korean typing test and check WPM and accuracy. Practice Hangul syllable assembly, 2-set keyboard input, 받침, double consonants and Korean-English switching.",
   researchedKeywords: [
     "korean typing test",
     "korean typing speed test",
+    "hangul typing test",
+    "korean WPM test",
+    "korean keyboard test",
     "한글 타자 속도 테스트",
+    "타자 연습",
+    "한글 키보드",
+    "두벌식 타자",
+    "한국어 타이핑",
     "타자연습",
     "dubeolsik typing test",
     "두벌식 타자 연습",

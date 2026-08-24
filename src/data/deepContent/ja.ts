@@ -1,13 +1,22 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Japanese Typing Speed Test — 日本語タイピング速度テスト",
+  seoTitle: "Free Japanese Typing Test · 日本語 | WPM & Accuracy",
   seoDescription:
-    "Free Japanese typing speed test — 日本語タイピングテスト. Romaji & Kana input, full IME support. Check your WPM and 文字数/分 instantly. No signup needed.",
+    "Take a free Japanese typing test and check WPM and accuracy. Practice Romaji or Kana input, IME conversion, hiragana, katakana, kanji and Japanese punctuation.",
   researchedKeywords: [
     "japanese typing test",
     "japanese typing speed test",
-    "タイピング速度テスト",
+    "japanese WPM test",
+    "japanese IME typing test",
+    "romaji typing test",
+    "japanese typing practice",
+    "日本語タイピングテスト",
+    "タイピング速度",
+    "日本語入力",
+    "ローマ字入力",
+    "かな入力",
+    "文字入力",
     "日本語タイピングテスト",
     "romaji typing test",
     "japanese ime typing test",
