@@ -5,195 +5,388 @@ const content: LanguageDeepContent = {
   seoDescription:
     "Take a free Korean typing test and check WPM and accuracy. Practice Hangul syllable assembly, 2-set keyboard input, 받침, double consonants and Korean-English switching.",
   researchedKeywords: [
-    "korean typing test",
-    "korean typing speed test",
-    "hangul typing test",
-    "korean WPM test",
-    "korean keyboard test",
+    "Korean typing speed test",
+    "Hangul typing test",
+    "Korean WPM test",
+    "Korean keyboard test",
+    "한글 타자 속도",
     "한글 타자 속도 테스트",
     "타자 연습",
     "한글 키보드",
     "두벌식 타자",
     "한국어 타이핑",
-    "타자연습",
-    "dubeolsik typing test",
-    "두벌식 타자 연습",
-    "korean typing test online free",
-    "hangul typing test",
-    "topik typing practice",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
-        "Korean is spoken by over 77 million people across South Korea, North Korea, and Korean-speaking communities in the US, Japan, China, and beyond. And right now, the global appetite for Korean typing skills is growing faster than ever — driven by K-pop, K-drama, Korean gaming communities, TOPIK exam takers, and a booming demand for Korean content creators and translators worldwide.",
-        "Our free Korean typing speed test (한글 타자 속도 테스트) measures your real WPM and 타자 속도 (typing speed) in Hangul using the standard 두벌식 (Dubeolsik) keyboard layout — the same layout used on virtually every computer in South Korea. No signup. No installation. Just type and see your score instantly.",
-        "지금 바로 한글 타자 속도를 측정해보세요 — 테스트 시간을 선택하고 입력을 시작하면, WPM(분당 단어 수)과 정확도(정확률)가 즉시 표시됩니다.",
+        "Korean typing is satisfying because every keystroke visibly builds the word in front of you. You enter individual jamo, and the IME assembles them into Hangul syllable blocks in real time. Once that composition becomes automatic, Korean stops feeling like character construction and starts feeling like normal writing.",
+        "The right training target is not an invented office WPM table. It is clean jamo sequencing, stable 받침 handling, accurate double consonants and vowels, and confident switching between Hangul and English when real text requires both.",
       ],
     },
-    { type: "heading", text: "What Makes Korean Typing Uniquely Satisfying — and Challenging", id: "how-it-works" },
+
+    { type: "heading", text: "What Is a Korean Typing Test?", id: "what-is-korean-typing" },
     {
       type: "paragraph",
-      text: "Hangul is one of the most logically designed writing systems ever created — King Sejong's 15th century invention is phonetically consistent, systematic, and learnable in hours. But typing it involves a mechanical process that surprises even experienced typists from other languages: real-time syllable block assembly.",
+      text: "A Korean typing test measures how quickly and accurately you can enter 한국어 text through a Korean input method. Hangul is built from jamo, and the IME assembles those jamo into syllable blocks as you type.",
     },
     {
       type: "paragraph",
-      text: "Every Korean syllable is a block built from individual 자모 (jamo) — consonants and vowels. As you type each jamo, your IME assembles them live into a syllable block before your eyes. Here's how it works for the word 한국 (Korea):",
+      text: "Typing Globe's live Korean tool offers 15, 30, 60, and 120-second tests, easy, medium, and hard passages, one- or two-paragraph options, shuffle, custom text, WPM, and accuracy.",
     },
+
+    { type: "heading", text: "Hangul Syllables Are Built from Jamo", id: "hangul-jamo" },
+    {
+      type: "paragraph",
+      text: "Unicode describes modern Hangul syllables in terms of choseong, jungseong, and optional jongseong: an initial consonant, a vowel, and sometimes a final consonant. The IME combines these components into one square syllable block.",
+    },
+
+    { type: "heading", text: "Jamo Composition Stages", id: "jamo-composition-stages" },
     {
       type: "table",
-      headers: ["Keystroke", "What You Type", "What Appears on Screen"],
+      headers: ["Stage", "Jamo Role", "Example"],
       rows: [
-        ["Press R (ㅎ)", "First consonant (초성)", "ㅎ"],
-        ["Press k (ㅏ)", "First vowel (중성)", "하"],
-        ["Press s (ㄴ)", "Final consonant (종성)", "한"],
-        ["Press r (ㄱ)", "New syllable starts — ㄱ moves to next block", "한ㄱ"],
-        ["Press l (ㅜ)", "Vowel added", "한구"],
-        ["Press d (ㄱ)", "Final consonant added", "한국"],
+        ["초성", "initial consonant", "ㅎ"],
+        ["중성", "vowel", "ㅏ"],
+        ["종성", "optional final consonant", "ㄴ"],
+        ["Completed block", "assembled syllable", "한"],
       ],
     },
     {
       type: "paragraph",
-      text: "The block closes and opens in real time — the final character only appears when the block is complete. This is why Korean typing feels different from typing English or even Japanese: you're building characters live, not selecting them from a candidate list. Once your muscle memory kicks in, this process becomes completely automatic — and that's when your 한글 타자 속도 really takes off.",
+      text: "That real-time assembly is the defining mechanical difference from English typing. You press jamo keys, but the screen continuously rebuilds the current syllable block.",
     },
-    { type: "heading", text: "Dubeolsik vs Sebeolsik — 두벌식 vs 세벌식", id: "keyboard-layouts" },
+
+    { type: "heading", text: "받침: Final Consonants Need Their Own Rhythm", id: "batchim-final-consonants" },
     {
       type: "paragraph",
-      text: "There are two keyboard layouts for Korean — and choosing the right one matters before you start practicing.",
-    },
-    {
-      type: "table",
-      headers: ["Layout", "Korean Name", "How It Works", "Who Uses It"],
-      rows: [
-        ["2-Set / Dubeolsik", "두벌식", "Consonants on left, vowels on right — one jamo per key", "~99% of all Korean typists — South Korea's national standard"],
-        ["3-Set / Sebeolsik", "세벌식", "Separate keys for initial, medial, and final jamo — entire syllables per hand position", "~1% — niche ergonomic users and speed specialists"],
-      ],
+      text: "A jongseong, commonly called 받침, sits at the bottom of a syllable block. When the next keystroke begins a new syllable, the IME has to decide whether a consonant remains as a final or becomes the next initial based on the input sequence.",
     },
     {
       type: "paragraph",
-      text: "Dubeolsik is your answer — almost universally. It's the legal national standard in South Korea, it's pre-installed on every Korean device, it's what every employer tests on, and it's what your Korean friends use. The 세벌식 layout is ergonomically superior in theory — some specialists claim it reduces finger travel and strain — but it's so uncommon that practicing on it means you'll struggle on any borrowed keyboard or workplace computer.",
+      text: "Practice words such as 한국, 사람, 학교, 입력, 정확, 읽기, and 앉다. Do not stare at the final block after every key; learn the sequence that produces it.",
     },
+
+    { type: "heading", text: "Double Consonants Use Shift", id: "double-consonants-shift" },
     {
-      type: "callout",
-      icon: "⌨️",
-      title: "Dubeolsik home row",
-      text: "Left hand rests on ㅁ ㄴ ㅇ ㄹ (consonants), right hand on ㅗ ㅓ ㅏ ㅣ (vowels). The consonant-vowel split means your hands naturally alternate for most Korean words — giving Dubeolsik a rhythmic flow that experienced typists love.",
-    },
-    { type: "heading", text: "How to Enable Korean Keyboard — 한글 키보드 설정 방법", id: "keyboard-setup" },
-    {
-      type: "callout",
-      icon: "🖥️",
-      title: "Windows",
-      text: "Settings → Time & Language → Language → Add Korean (한국어) → Microsoft IME installs automatically. Toggle between English and Korean with 한/영 key (right Alt on standard keyboards) or Alt + Shift.",
-    },
-    {
-      type: "callout",
-      icon: "🍎",
-      title: "Mac",
-      text: "System Settings → Keyboard → Input Sources → + → select Korean (두벌식) → add. Switch inputs with Caps Lock (Mac's default Korean toggle).",
+      type: "paragraph",
+      text: "Modern Korean uses tense/double consonants such as ㄲ, ㄸ, ㅃ, ㅆ, and ㅉ. On the common Windows Korean keyboard, Shift is used with the related consonant keys to enter these forms.",
     },
     {
       type: "paragraph",
-      text: "Key shortcuts to know:",
+      text: "Useful drills include 꼭, 따로, 빨리, 쓰다, and 짜다. Treat the Shift movement as part of the word rather than a separate correction after a single consonant appears.",
     },
-    {
-      type: "table",
-      headers: ["Key", "Function"],
-      rows: [
-        ["한/영 (or Alt)", "Toggle Korean ↔ English mode"],
-        ["한자 (or Right Ctrl)", "Convert Hangul to Hanja (Chinese-origin Korean characters)"],
-        ["Shift + consonant", "Type double consonants — ㄲ, ㄸ, ㅃ, ㅆ, ㅉ"],
-        ["Backspace", "Delete last jamo (not full syllable block)"],
-      ],
-    },
-    { type: "heading", text: "Korean Typing Speed Benchmarks — 평균 타자 속도는?", id: "benchmarks" },
+
+    { type: "heading", text: "Compound Vowels Are Also Built from Key Sequences", id: "compound-vowels" },
     {
       type: "paragraph",
-      text: "Korean typing speed is measured in 타수/분 (keystrokes per minute) for formal Korean contexts and WPM for international comparison. Here's the full breakdown:",
+      text: "Vowel combinations such as ㅘ, ㅙ, ㅚ, ㅝ, ㅞ, ㅟ, and ㅢ are assembled from component vowel inputs in ordinary Korean typing. This adds a second kind of composition beyond final consonants.",
     },
-    {
-      type: "table",
-      headers: ["WPM", "타수/분 (approx.)", "Level", "수준", "Real-World Standard"],
-      rows: [
-        ["Below 20", "<100", "Beginner", "초보자", "Learning jamo positions and block assembly"],
-        ["20–35", "100–175", "Basic", "기초", "Casual KakaoTalk messages, social media"],
-        ["35–50", "175–250", "Average", "보통", "Typical Korean adult PC user"],
-        ["50–65", "250–325", "Good", "양호", "Office work standard — 사무직 기준"],
-        ["65–80", "325–400", "Professional", "전문가", "Data entry, editorial, translation roles"],
-        ["80–100", "400–500", "Fast", "빠름", "Senior professionals, Korean content creators"],
-        ["100+", "500+", "Elite", "최상위", "타자 대회 (typing competition) level"],
-      ],
-    },
-    {
-      type: "callout",
-      icon: "📊",
-      title: "Data point",
-      text: "Research on Korean typing shows the average adult Korean typist reaches around 40 WPM, while professional typists — 번역가, 기자, 데이터 입력 전문가 — typically achieve 65–75 WPM. For TOPIK IBT (Internet-Based Test) written sections, exam preparation sites recommend a minimum of 30–40 Korean characters per minute to complete essays comfortably within the time limit.",
-    },
-    { type: "heading", text: "Korean Typing Speed for Jobs and Exams — 직업별 타자 속도 기준", id: "job-requirements" },
-    {
-      type: "table",
-      headers: ["Role / 직업", "Min. WPM", "Min. 타수/분", "Notes"],
-      rows: [
-        ["사무직 / General office worker", "40–50 WPM", "200–250", "Korean companies standard — Naver, Kakao, Samsung internal tests"],
-        ["데이터 입력 / Data entry operator", "60–75 WPM", "300–375", "95%+ accuracy required alongside speed"],
-        ["비서 / Executive secretary", "55–70 WPM", "275–350", "Mixed Korean + English often required"],
-        ["번역가 / Translator", "55–70 WPM", "275–350", "Korean ↔ English, Korean ↔ Japanese pairs"],
-        ["기자 / Journalist / writer", "65–80 WPM", "325–400", "News portals — 조선일보, 중앙일보, Naver News"],
-        ["고객 서비스 / Customer support", "40–55 WPM", "200–275", "Real-time KakaoTalk and Naver chat support"],
-        ["TOPIK IBT 시험 준비", "30–40 chars/min", "—", "Written response sections — TOPIK Level 3–6"],
-        ["자막 제작 / Subtitle editor", "65–80 WPM", "325–400", "Korean subtitles for streaming — Netflix, Wavve, Tving"],
-      ],
-    },
-    { type: "heading", text: "Who Is This Test Built For?", id: "who-its-for" },
     {
       type: "paragraph",
-      text: "Our online Korean typing speed test (온라인 타자 검정) is built for anyone who types in Korean — from absolute beginners to professional typists:",
+      text: "Practice words containing these combinations until your hands recognize the component sequence automatically: 과, 왜, 외국, 워드, 웨이, 위, 의.",
     },
+
+    { type: "heading", text: "The Common 2-Set Keyboard Pattern", id: "two-set-keyboard" },
+    {
+      type: "paragraph",
+      text: "Korean PC typing commonly uses the two-set, or 두벌식, arrangement in which consonant and vowel keys are separated into groups. The live page currently claims exact 99% usage and calls it a legal standard; those precise claims should be removed unless a current primary source supports them.",
+    },
+    {
+      type: "paragraph",
+      text: "For Typing Globe, it is enough to say that two-set input is the conventional mainstream layout users are most likely to encounter, while other Korean layouts exist.",
+    },
+
+    { type: "heading", text: "Windows Uses Microsoft IME for Korean", id: "windows-ime" },
+    {
+      type: "paragraph",
+      text: "Microsoft's default ko-KR input profile uses Microsoft IME. Microsoft also lists the Korean keyboard identifier 00000412. Users can keep English input available and switch between Korean and Latin modes.",
+    },
+    {
+      type: "paragraph",
+      text: "Before a timed test, confirm that the IME is in Hangul mode. If you accidentally begin in English, the first few keystrokes can become Latin letters and make the score meaningless.",
+    },
+
+    { type: "heading", text: "Korean-English Switching Is a Real Workplace Skill", id: "korean-english-switching" },
+    {
+      type: "paragraph",
+      text: "Modern Korean documents often mix Hangul with English product names, URLs, file names, code, model numbers, and email addresses. Being able to switch input mode without losing punctuation or spacing is part of practical Korean keyboard fluency.",
+    },
+    {
+      type: "paragraph",
+      text: "Use Custom Typing Test to practice realistic mixed text if your work includes bilingual support, software, academic citations, or online content.",
+    },
+
+    { type: "heading", text: "Backspace and Composition Behavior", id: "backspace-composition" },
+    {
+      type: "paragraph",
+      text: "During active IME composition, Backspace behavior can differ from deleting a completed Latin character because the IME may remove the most recent jamo from the current syllable. That is useful, but it can also encourage excessive micro-correction.",
+    },
+    {
+      type: "paragraph",
+      text: "Practice clean sequences so you do not rely on constant rebuilding. A stable jamo pattern is faster than typing a block incorrectly and then dismantling it one component at a time.",
+    },
+
+    { type: "heading", text: "Spacing Matters in Korean", id: "spacing" },
+    {
+      type: "paragraph",
+      text: "Korean uses spaces between syntactic units more than Japanese or Chinese, but correct spacing is still a language skill rather than a simple 'space after every word' rule. A typing test should reproduce the source spacing exactly.",
+    },
+    {
+      type: "paragraph",
+      text: "Do not add or remove spaces because a phrase looks more natural to you. Exact transcription is the cleanest rule for a speed test.",
+    },
+
+    { type: "heading", text: "How WPM Relates to Korean Keystrokes", id: "wpm-keystrokes" },
+    {
+      type: "paragraph",
+      text: "Korean typing is sometimes discussed in keystrokes per minute, while international typing tools often use WPM. These measures are related but not identical because one visible Hangul syllable can require two, three, or more jamo keystrokes.",
+    },
+    {
+      type: "paragraph",
+      text: "Typing Globe should document its own WPM calculation and avoid presenting a simple 5× conversion as a universal Korean 타수/분 standard unless the counting method is explicitly matched.",
+    },
+
+    { type: "heading", text: "What Is a Good Korean Typing Speed?", id: "good-speed" },
+    {
+      type: "paragraph",
+      text: "The current page publishes precise WPM and 타수/분 bands, claims an average adult score, and assigns minimum speeds to Samsung, Naver, Kakao, journalists, translators, and TOPIK. Those claims are too specific without current primary evidence.",
+    },
+    {
+      type: "paragraph",
+      text: "Use a personal baseline instead. If you start at 38 WPM with 94% accuracy, reduce 받침, double-consonant, and mode-switch errors before pushing faster. For TOPIK or an employer, use the current official instructions for that specific assessment.",
+    },
+
+    { type: "heading", text: "TOPIK Typing: Do Not Invent a Speed Cutoff", id: "topik-typing" },
+    {
+      type: "paragraph",
+      text: "TOPIK IBT can involve typed responses, but a generic third-party recommendation should not be turned into an official characters-per-minute requirement. If Typing Globe wants an exam section, cite the current TOPIK instructions and describe only what they actually require.",
+    },
+
+    { type: "heading", text: "Accuracy First, Then Speed", id: "accuracy-first" },
+    {
+      type: "paragraph",
+      text: "Korean errors often come from one wrong jamo changing the whole syllable. Slow down enough to assemble the correct block, especially when double consonants, compound vowels, or 받침 are involved.",
+    },
+    {
+      type: "paragraph",
+      text: "Try \"정확하고 빠른 한글 입력은 꾸준한 연습으로 좋아집니다.\" Type it cleanly first, then increase pace without sacrificing the syllable blocks.",
+    },
+
+    { type: "heading", text: "A 6-Week Korean Typing Practice Plan", id: "six-week-plan" },
+    { type: "subheading", text: "Weeks 1-2: Jamo and Basic Blocks" },
+    {
+      type: "paragraph",
+      text: "Stay in one Korean layout, practice simple consonant-vowel blocks, and learn the core jamo positions without looking down.",
+    },
+    { type: "subheading", text: "Weeks 3-4: 받침, Double Consonants, Compound Vowels" },
+    {
+      type: "paragraph",
+      text: "Add final consonants, tense consonants, and compound vowels. Keep an error list of syllables that repeatedly break during composition.",
+    },
+    { type: "subheading", text: "Weeks 5-6: Mixed Text and Sustained Rhythm" },
+    {
+      type: "paragraph",
+      text: "Mix 60- and 120-second Korean passages with realistic Korean-English custom text. Review whether mode switching or punctuation causes more errors than Hangul itself.",
+    },
+
+    { type: "heading", text: "A Simple 20-Minute Routine", id: "daily-routine" },
+    {
+      type: "paragraph",
+      text: "Warm up with jamo and short syllables, drill one 받침 or compound-vowel pattern, take one timed passage, then review the exact syllables that failed.",
+    },
+    {
+      type: "paragraph",
+      text: "If errors cluster around one jamo or Shift consonant, isolate that movement. Do not solve every problem by retaking full tests.",
+    },
+
+    { type: "heading", text: "Complex Final Consonants Can Increase Error Rates", id: "complex-final-consonants" },
+    {
+      type: "paragraph",
+      text: "Some Korean syllables end in complex final consonants such as ㄳ, ㄵ, ㄶ, ㄺ, ㄻ, ㄼ, ㄽ, ㄾ, ㄿ, ㅀ, and ㅄ. The IME assembles these from component jamo sequences, so one wrong key can reshape the entire final block.",
+    },
+    {
+      type: "paragraph",
+      text: "Do not begin with rare finals if basic 받침 is still unstable. Add them gradually in real words and focus on the exact jamo sequence rather than memorizing the final square shape.",
+    },
+
+    { type: "heading", text: "Syllable Reflow Can Surprise Beginners", id: "syllable-reflow" },
+    {
+      type: "paragraph",
+      text: "While composing Hangul, the newest consonant can move from a final position into the next syllable when a vowel follows. That visual reflow is normal IME behavior, but it feels like the computer changed a character you had already typed.",
+    },
+    {
+      type: "paragraph",
+      text: "Practice slowly enough to watch several examples. Once you understand the rule, stop monitoring every intermediate shape and trust the jamo sequence.",
+    },
+
+    { type: "heading", text: "Korean Punctuation and Numbers Still Need Practice", id: "punctuation-numbers" },
+    {
+      type: "paragraph",
+      text: "Most modern Korean digital text uses familiar punctuation, Arabic numerals, parentheses, slashes, and quotation marks. Their key positions may feel simple compared with Hangul, but they interrupt the consonant-vowel rhythm and can expose accidental English-mode switches.",
+    },
+    {
+      type: "paragraph",
+      text: "Use custom passages with dates, prices, percentages, model numbers, email addresses, and Korean-English product names if your real work includes them.",
+    },
+
+    { type: "heading", text: "Hanja Conversion Is Optional, Not Core Typing Speed", id: "hanja-conversion" },
+    {
+      type: "paragraph",
+      text: "Microsoft keyboards can provide Hanja conversion, but ordinary modern Korean prose is primarily Hangul. Do not turn Hanja candidate selection into a required part of a basic Korean WPM benchmark unless the source passage actually contains Hanja.",
+    },
+    {
+      type: "paragraph",
+      text: "If your academic, legal, historical, or naming workflow uses Hanja, practice it separately because conversion adds a selection step that changes the task.",
+    },
+
+    { type: "heading", text: "Normalization Matters in Hangul Data", id: "normalization" },
+    {
+      type: "paragraph",
+      text: "Unicode can represent modern Hangul as precomposed syllables or as conjoining jamo sequences that are canonically related. Most users never need to think about this, but web applications do: comparison code should normalize text consistently so visually equivalent Hangul does not create false mismatches.",
+    },
+    {
+      type: "paragraph",
+      text: "For Typing Globe engineering, this is a backend QA issue rather than visible user instruction. Keep the source text in a consistent normalization form and test copy/paste behavior.",
+    },
+
+    { type: "heading", text: "Use Custom Text for Korean-English Workflows", id: "custom-text" },
+    {
+      type: "paragraph",
+      text: "Customer support, software, gaming, academic writing, and content creation often mix Korean with English. A custom passage lets you practice 한/영 switching in realistic places rather than toggling randomly.",
+    },
+    {
+      type: "paragraph",
+      text: "Keep a pure Korean passage as a stable benchmark. Mixed text is best treated as a separate practical skill because mode switching changes the keystroke workload.",
+    },
+
+    { type: "heading", text: "Common Korean Typing Mistakes to Watch", id: "common-mistakes" },
     {
       type: "list",
       items: [
-        "🎵 K-pop and K-drama fans worldwide who want to type Korean lyrics, fan comments, and subtitles fluently — the fastest-growing Korean typing audience globally",
-        "📚 TOPIK exam takers (TOPIK I and TOPIK II) preparing for the computer-based written response sections that require confident Hangul input",
-        "💼 Korean office job applicants — 사무직, 비서, 데이터 입력 roles where 타자 속도 검정 (typing speed certification) is part of the hiring process",
-        "✍️ Translators and localizers working on Korean ↔ English, Korean ↔ Japanese, Korean ↔ Chinese language pairs for entertainment, tech, and gaming industries",
-        "🎮 Korean gaming community — PC bang culture, Korean MMOs, and Esports communities where fast Korean chat is a social skill",
-        "🌍 Korean diaspora in the US, Japan, Australia, and Southeast Asia who type Korean daily and want to benchmark their 한글 타자 속도",
-        "🎓 Korean language learners — from beginner jamo practice through intermediate fluency, building keyboard confidence alongside vocabulary",
+        "Starting the test in English mode instead of Hangul mode",
+        "Misplacing a consonant as 받침 or the next syllable initial",
+        "Missing Shift on ㄲ, ㄸ, ㅃ, ㅆ, or ㅉ",
+        "Breaking compound vowels into the wrong sequence",
+        "Treating a visible syllable block as one keystroke",
+        "Converting WPM to 타수/분 with an unsupported universal formula",
+        "Publishing unsupported company/job/TOPIK speed thresholds as official standards",
       ],
     },
-    { type: "heading", text: "Frequently Asked Questions", id: "faq" },
+
+    { type: "heading", text: "Frequently Asked Questions", id: "faq-section" },
     {
       type: "faq",
       items: [
         {
+          question: "How does Korean typing build syllable blocks?",
+          answer:
+            "The IME combines jamo into a block with an initial consonant, vowel, and optional final consonant. Unicode describes these roles as choseong, jungseong, and jongseong.",
+        },
+        {
+          question: "What is 받침?",
+          answer:
+            "받침 is the final consonant position at the bottom of a Hangul syllable block. In Unicode terms it corresponds to the optional jongseong part of a modern syllable.",
+        },
+        {
+          question: "Does Windows use Microsoft IME for Korean?",
+          answer:
+            "Yes. Microsoft's default ko-KR profile uses Microsoft IME, and Microsoft lists the Korean keyboard identifier as 00000412.",
+        },
+        {
+          question: "Is Dubeolsik the only Korean keyboard?",
+          answer:
+            "No. Two-set input is the common mainstream pattern, but other Korean layouts exist. Typing Globe should avoid unsupported claims such as exact 99% usage unless sourced.",
+        },
+        {
+          question: "Is there an official Korean WPM requirement for TOPIK?",
+          answer:
+            "Do not assume one. Use the current official TOPIK instructions for the specific test version. Third-party typing recommendations are not official cutoffs.",
+        },
+        {
           question: "What is a good Korean typing speed?",
           answer:
-            "35–50 WPM (175–250 타수/분) is typical for the average Korean adult PC user. 50–65 WPM meets the office-work standard (사무직 기준), and 65+ WPM is professional-level — data entry, editorial, and translation roles. TOPIK IBT exam prep recommends at least 30–40 characters per minute.",
-        },
-        {
-          question: "Should I learn Dubeolsik or Sebeolsik?",
-          answer:
-            "Learn Dubeolsik (두벌식) — it's South Korea's national standard, pre-installed on virtually every device, and what every employer and Korean friend uses. Sebeolsik (세벌식) is a niche ergonomic layout used by less than 1% of typists; learning it means struggling on any borrowed or workplace keyboard.",
-        },
-        {
-          question: "How does Korean syllable block typing work?",
-          answer:
-            "Each Korean syllable is built live from individual jamo (consonants and vowels) as you type — the block closes and a new one opens automatically once a syllable is complete. Unlike Chinese or Japanese, there's no candidate-list selection step; the character assembles directly from your keystrokes.",
-        },
-        {
-          question: "How is WPM calculated on this Korean typing test?",
-          answer: "Every five typed characters counts as one word, the same international convention used across languages — we also show 타수/분 (keystrokes per minute), the formal Korean metric, alongside your WPM.",
-        },
-        {
-          question: "Is this Korean typing test free?",
-          answer: "Yes — completely free, no signup, no installation, and no limit on how many times you can test.",
+            "There is no transparent universal Korean WPM benchmark for every person or job. Use a personal baseline and compare similar tests over time.",
         },
       ],
     },
+
+    { type: "heading", text: "Test Your Typing Speed Now", id: "cta-heading" },
     {
       type: "cta",
-      text: "테스트 시간을 위에서 선택하세요 — 30초, 1분, 5분 — 그리고 바로 입력을 시작하세요. WPM, 타수/분, 정확도(정확률)가 테스트 완료 후 즉시 표시됩니다. Pick your duration, start typing, and get your 한글 WPM result in seconds.",
+      text: "Start the Korean Typing Test · 한국어 above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then review the language-specific characters, sequences, or keyboard movements that interrupted your rhythm. Return after a few focused practice sessions and test again using the same layout, duration, and similar difficulty. The goal is not to beat an invented national average. It is to make your typing cleaner, steadier, and more comfortable every time you come back.",
+    },
+  ],
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": ["SoftwareApplication", "WebApplication"],
+      "@id": "https://www.typingglobe.com/test/korean-typing-test#app",
+      name: "Korean Typing Test",
+      url: "https://www.typingglobe.com/test/korean-typing-test",
+      description:
+        "Take a free Korean typing test and check WPM and accuracy. Practice Hangul syllable assembly, 2-set keyboard input, 받침, double consonants and Korean-English switching.",
+      applicationCategory: "EducationalApplication",
+      operatingSystem: "Web",
+      isAccessibleForFree: true,
+      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      inLanguage: ["en", "ko"],
+      publisher: { "@type": "Organization", name: "Typing Globe", url: "https://www.typingglobe.com/" },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.typingglobe.com/test/korean-typing-test#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How does Korean typing build syllable blocks?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The IME combines jamo into a block with an initial consonant, vowel, and optional final consonant. Unicode describes these roles as choseong, jungseong, and jongseong.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is 받침?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "받침 is the final consonant position at the bottom of a Hangul syllable block. In Unicode terms it corresponds to the optional jongseong part of a modern syllable.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does Windows use Microsoft IME for Korean?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Microsoft's default ko-KR profile uses Microsoft IME, and Microsoft lists the Korean keyboard identifier as 00000412.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is Dubeolsik the only Korean keyboard?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. Two-set input is the common mainstream pattern, but other Korean layouts exist. Typing Globe should avoid unsupported claims such as exact 99% usage unless sourced.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is there an official Korean WPM requirement for TOPIK?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Do not assume one. Use the current official TOPIK instructions for the specific test version. Third-party typing recommendations are not official cutoffs.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is a good Korean typing speed?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "There is no transparent universal Korean WPM benchmark for every person or job. Use a personal baseline and compare similar tests over time.",
+          },
+        },
+      ],
     },
   ],
 };

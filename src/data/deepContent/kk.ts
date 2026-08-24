@@ -20,8 +20,7 @@ const content: LanguageDeepContent = {
       type: "hero",
       narrative: [
         "Kazakh typing feels familiar to Russian Cyrillic users until the language-specific letters begin appearing every few words. The difference between қ and к, ң and н, or і and и is not cosmetic; accurate Қазақша needs the correct Kazakh character every time.",
-        "Fast and accurate Kazakh typing is useful in office work, government administration, data entry, and customer support. Because Kazakh Cyrillic contains letters that Russian typists may not reach automatically, character accuracy becomes as important as speed for meaningful text.",
-        "This test measures your Kazakh typing speed with authentic Kazakh text, giving you a live WPM and accuracy score you can trust.",
+        "Start the test with the current Cyrillic layout you actually use. That keeps the score grounded in real Kazakh typing instead of a speculative future alphabet or a Russian-keyboard workaround.",
       ],
     },
 
@@ -286,9 +285,82 @@ const content: LanguageDeepContent = {
       ],
     },
 
+    { type: "heading", text: "Test Your Typing Speed Now", id: "cta-heading" },
     {
       type: "cta",
-      text: "Test Your Typing Speed Now — Start the Kazakh Typing Test · Қазақша above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then review the language-specific characters, sequences, or keyboard movements that interrupted your rhythm. Return after a few focused practice sessions and test again using the same layout, duration, and similar difficulty.",
+      text: "Start the Kazakh Typing Test · Қазақша above and type at the pace that feels natural today. Check WPM and accuracy when the test ends, then review the language-specific characters, sequences, or keyboard movements that interrupted your rhythm. Return after a few focused practice sessions and test again using the same layout, duration, and similar difficulty. The goal is not to beat an invented national average. It is to make your typing cleaner, steadier, and more comfortable every time you come back.",
+    },
+  ],
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": ["SoftwareApplication", "WebApplication"],
+      "@id": "https://www.typingglobe.com/test/kazakh-typing-speed-test#app",
+      name: "Kazakh Typing Test",
+      url: "https://www.typingglobe.com/test/kazakh-typing-speed-test",
+      description:
+        "Take a free Kazakh typing test and check WPM and accuracy. Practice Ә Ғ Қ Ң Ө Ұ Ү Һ І, Kazakh Cyrillic, vowel harmony and the Windows Kazakh keyboard.",
+      applicationCategory: "EducationalApplication",
+      operatingSystem: "Web",
+      isAccessibleForFree: true,
+      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      inLanguage: ["en", "kk"],
+      publisher: { "@type": "Organization", name: "Typing Globe", url: "https://www.typingglobe.com/" },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://www.typingglobe.com/test/kazakh-typing-speed-test#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Which letters are unique to Kazakh Cyrillic?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The main Kazakh-specific letters in the current 42-letter Cyrillic alphabet are Ә ә, Ғ ғ, Қ қ, Ң ң, Ө ө, Ұ ұ, Ү ү, Һ һ, and І і.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is Kazakh already using a Latin alphabet?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Kazakhstan has an official policy direction toward a Latin-based alphabet, but current government guidance says the phased transition will proceed after the alphabet and spelling rules are formally approved. Cyrillic remains the current practical standard.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does Windows have a Kazakh keyboard?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Microsoft provides the Kazakh keyboard with KLID 0000043F, and the kk-KZ Windows input profile maps to it.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is the Kazakh letter h a Latin h?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. The Kazakh Cyrillic alphabet uses Һ/һ, Cyrillic shha. A Latin h is a different character.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do I need a special physical keyboard?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. Add the Kazakh input layout in your operating system. The physical keycaps do not have to show Kazakh letters, although a diagram or stickers can help while learning.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is a good Kazakh typing speed?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "There is no transparent universal Kazakh WPM benchmark for every person or job. Use a personal baseline and compare similar tests over time; use a specific employer's published requirement when one exists.",
+          },
+        },
+      ],
     },
   ],
 };
