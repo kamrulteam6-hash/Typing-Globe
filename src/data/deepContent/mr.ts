@@ -1,13 +1,21 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Marathi Typing Test — मराठी टायपिंग टेस्ट, Check Your WPM Free",
+  seoTitle: "Free Marathi Typing Test · मराठी | WPM & Accuracy",
   seoDescription:
-    "Free Marathi typing test in Devanagari script. Measure your real WPM, practice for MSCIT and government typing exams, and improve मराठी typing speed instantly.",
+    "Take a free Marathi typing test and check WPM and accuracy. Practice Devanagari matras, halant, conjuncts, ळ/ऱ, Marathi INSCRIPT and phonetic input.",
   researchedKeywords: [
     "marathi typing test",
+    "marathi typing speed test",
+    "marathi WPM test",
+    "marathi keyboard test",
+    "marathi INSCRIPT typing",
+    "marathi phonetic typing",
     "मराठी टायपिंग टेस्ट",
-    "marathi typing speed test online",
+    "मराठी टायपिंग स्पीड",
+    "मराठी कीबोर्ड",
+    "मराठी टायपिंग सराव",
+    "देवनागरी टायपिंग",
     "mscit typing test marathi",
     "marathi typing wpm",
     "devanagari typing test",

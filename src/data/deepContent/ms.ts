@@ -1,13 +1,21 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Malay Typing Test — Ujian Kelajuan Menaip Bahasa Melayu (WPM)",
+  seoTitle: "Free Malay Typing Test · Bahasa Melayu | WPM & Accuracy",
   seoDescription:
-    "Free Malay typing speed test — measure your real WPM typing Bahasa Melayu sentences. Practice for office, government, and school use in Malaysia, Brunei & Singapore.",
+    "Take a free Malay typing test and check WPM and accuracy. Practice DBP Rumi spelling, digraphs gh kh ng ny sy, reduplication, hyphens and Malay-English text.",
   researchedKeywords: [
     "malay typing test",
-    "ujian menaip bahasa melayu",
-    "malay wpm test online",
+    "malay typing speed test",
+    "bahasa melayu WPM test",
+    "malay keyboard test",
+    "malay typing practice",
+    "rumi typing test",
+    "ujian kelajuan menaip",
+    "kelajuan menaip",
+    "latihan menaip Bahasa Melayu",
+    "papan kekunci Melayu",
+    "menaip pantas",
     "bahasa melayu typing practice",
     "malaysia typing speed test",
     "ujian kelajuan menaip",

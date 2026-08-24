@@ -1,13 +1,21 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Norwegian Typing Test — Norsk Skrivetest, Check Your WPM Free",
+  seoTitle: "Free Norwegian Typing Test · Norsk | WPM & Accuracy",
   seoDescription:
-    "Free Norwegian typing test with æ, ø, å. Measure your real WPM instantly, practice for office and data-entry jobs, no signup, no download required.",
+    "Take a free Norwegian typing test and check WPM and accuracy. Practice æ, ø, å, Bokmål/Nynorsk spelling, compounds and the Windows Norwegian keyboard.",
   researchedKeywords: [
     "norwegian typing test",
+    "norwegian typing speed test",
+    "norwegian WPM test",
+    "norwegian keyboard test",
+    "bokmål typing",
+    "nynorsk typing",
     "norsk skrivetest",
-    "typing speed test norwegian",
+    "skrivehastighet",
+    "norsk tastatur",
+    "skriveøvelse",
+    "touchmetoden",
     "wpm test norsk",
     "norwegian keyboard æøå",
     "skrivehastighet test",

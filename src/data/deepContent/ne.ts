@@ -1,13 +1,21 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Nepali Typing Test — नेपाली टाइपिङ टेस्ट, Check Your WPM Free",
+  seoTitle: "Free Nepali Typing Test · नेपाली | WPM & Accuracy",
   seoDescription:
-    "Free Nepali typing test in Devanagari script. Check your real WPM, practice for Nepal government Kharidar and Lok Sewa typing requirements, no signup needed.",
+    "Take a free Nepali typing test and check WPM and accuracy. Practice Devanagari matras, halant, conjuncts, Nepali keyboard input and Lok Sewa-style skill preparation.",
   researchedKeywords: [
     "nepali typing test",
+    "nepali typing speed test",
+    "nepali WPM test",
+    "nepali keyboard test",
+    "nepali Unicode typing",
+    "नेपाली typing practice",
     "नेपाली टाइपिङ टेस्ट",
-    "nepali typing speed test online",
+    "नेपाली टाइपिङ स्पिड",
+    "नेपाली किबोर्ड",
+    "देवनागरी टाइपिङ",
+    "नेपाली टाइपिङ अभ्यास",
     "lok sewa aayog typing test",
     "nepali typing wpm",
     "devanagari typing practice",

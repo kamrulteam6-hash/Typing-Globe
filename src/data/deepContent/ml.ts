@@ -1,13 +1,21 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Malayalam Typing Test — മലയാളം ടൈപ്പിംഗ് സ്പീഡ് ടെസ്റ്റ് (WPM)",
+  seoTitle: "Free Malayalam Typing Test · മലയാളം | WPM & Accuracy",
   seoDescription:
-    "Free Malayalam typing speed test — measure your real WPM typing Malayalam script sentences. Practice for Kerala government jobs, office work & PSC exams. No signup.",
+    "Take a free Malayalam typing test and check WPM and accuracy. Practice vowel signs, chandrakkala, conjuncts, chillus, Malayalam INSCRIPT and phonetic input.",
   researchedKeywords: [
     "malayalam typing test",
+    "malayalam typing speed test",
+    "malayalam WPM test",
+    "malayalam keyboard test",
+    "malayalam Unicode typing",
+    "മലയാളം typing practice",
     "മലയാളം ടൈപ്പിംഗ് ടെസ്റ്റ്",
-    "malayalam typing speed test online",
+    "ടൈപ്പിംഗ് സ്പീഡ്",
+    "മലയാളം കീബോർഡ്",
+    "ഇൻസ്ക്രിപ്റ്റ് മലയാളം",
+    "മലയാളം ഫോണറ്റിക്",
     "kerala psc typing test malayalam",
     "malayalam keyboard typing practice",
     "malayalam wpm test",
