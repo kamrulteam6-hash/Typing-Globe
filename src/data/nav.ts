@@ -30,7 +30,11 @@ export const footerLinks = {
     { label: "Exam Hall", href: "/government-exam-typing-test" },
   ],
   Company: [
-    { label: "About", href: "/about-typing-speed" },
+    { label: "About Us", href: "/about-us" },
+    { label: "Pricing", href: "/pricing" },
+    { label: "Contact", href: "/contact" },
+    { label: "Privacy Policy", href: "/privacy-policy" },
+    { label: "Terms of Service", href: "/terms-of-service" },
     { label: "Browser Extension", href: "/typing-test-extension" },
   ],
   Popular: popularCodes.map((code) => {
