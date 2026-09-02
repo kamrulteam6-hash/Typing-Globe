@@ -1,143 +1,85 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Slovak Typing Test — Test Rýchlosti Písania na Klávesnici (WPM)",
+  seoTitle: "Free Slovak Typing Test · Slovenčina | WPM & Accuracy",
   seoDescription:
-    "Free Slovak typing test — measure your real WPM typing á, ä, č, ľ, š, ž and more. Practice for office jobs, admin roles, and school in Slovakia.",
+    "Take a free Slovak typing test and check WPM and accuracy. Practice Slovak diacritics, the QWERTZ keyboard, and real Slovenčina text.",
   researchedKeywords: [
-    "slovak typing test",
-    "test rychlosti pisania",
-    "pisanie na klavesnici test",
-    "slovenska klavesnica",
-    "wpm test slovencina",
-    "kolko slov za minutu",
-    "test desaťprstovej metódy",
-    "online test pisania zadarmo",
+    "Slovak typing speed test",
+    "Slovak WPM test",
+    "Slovak keyboard test",
+    "test rýchlosti písania",
+    "cvičenie písania na klávesnici",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
-        "Slovak is the native language of roughly 5 million people, spoken primarily in Slovakia, with smaller established communities in the Czech Republic, Hungary, Serbia, and among Slovak diaspora populations in the United States and Canada. It is closely related to Czech, and the two remain largely mutually intelligible.",
-        "Slovakia does not run a single nationwide typing certification, but keyboarding is still taken seriously: secondary vocational schools (obchodná akadémia, business academies) commonly teach desaťprstová metóda — the ten-finger touch-typing method — as part of administrative and business coursework, and administrative, secretarial, and data-entry job postings across Slovakia frequently list a target typing speed. For the country's growing shared-services and BPO sector centered around Bratislava and Košice, Slovak-language typing speed is a real, practical hiring factor.",
-        "This test gives you a live, honest read on your Slovak WPM and accuracy, diacritics and all, the same way those employers and schools measure it.",
+        "Slovak uses one of the larger diacritic sets among Latin-script European languages, combining carons, acute accents, and the distinctive circumflex-like mark on ô into a single writing system. That density of accented characters, paired with the QWERTZ keyboard layout used across Slovakia, makes Slovak typing noticeably different in rhythm from plain English typing.",
+        "This test measures how quickly and accurately you can type real Slovak sentences, including its full range of accented letters.",
       ],
     },
-    { type: "heading", text: "How Slovak Typing Speed Is Measured", id: "wpm-explained" },
+
+    { type: "heading", text: "Slovak's Three Families of Diacritics", id: "diacritic-families" },
     {
       type: "paragraph",
-      text: "Slovak typing speed is generally measured in WPM (slov za minútu), using the standard convention where five characters count as one word — a natural fit for Slovak, since its average word length is close to other Central European languages. Business-academy typing courses in Slovakia have historically also referenced úhozy za minútu (keystrokes per minute) when grading ten-finger method drills, but WPM is the metric most job postings and online tests use today.",
+      text: "Slovak marks long vowels with an acute accent (á, é, í, ó, ú, ý), marks softened consonants with a caron (č, š, ž, ď, ľ, ň, ť), and uses a unique diphthong mark on ô. Each of these is a distinct letter carrying real spelling and grammatical information — not a stylistic flourish — and confusing an accented letter with its plain counterpart changes the word, for example mesto (town) versus mestó, or vidiek (countryside) with a genuinely different consonant if ď is dropped to d.",
     },
-    { type: "heading", text: "Keyboard Layout and Special Characters", id: "keyboard" },
+
+    { type: "heading", text: "Ô Is a Genuinely Distinctive Slovak Letter", id: "o-circumflex" },
     {
       type: "paragraph",
-      text: "The Slovak keyboard (QWERTZ-based, like the Czech layout) rearranges several keys compared to a US QWERTY layout and dedicates number-row keys to Slovak's many diacritical letters — á, ä, č, ď, é, í, ĺ, ľ, ň, ó, ô, ŕ, š, ť, ú, ý, ž — rather than relying on dead-key sequences for most of them.",
+      text: "The letter ô, marking a diphthong sound roughly like 'uo,' is largely unique to Slovak among major Latin-script languages and appears in common words such as môj (my) and stôl (table). Because it doesn't have an obvious equivalent in neighboring languages, it's worth deliberate practice rather than assuming intuition from other Slavic or Central European typing experience will transfer automatically.",
     },
-    {
-      type: "table",
-      headers: ["Character", "How to Type It"],
-      rows: [
-        ["á, é, í, ý, ú, ó (acute vowels)", "Dedicated number-row keys on the Slovak QWERTZ layout"],
-        ["č, š, ž, ľ, ť, ď, ň (caron/soft consonants)", "Dedicated keys or shifted number-row keys on the Slovak layout"],
-        ["ä (a with diaeresis)", "Dedicated key on the Slovak layout"],
-        ["ô (o with circumflex)", "Dedicated key on the Slovak layout"],
-        ["Slovak diacritics on a non-Slovak keyboard (Windows)", "Add the Slovak input language, or use Alt numeric codes as a fallback"],
-        ["Slovak diacritics on Mac", "System Settings → Keyboard → Input Sources → add Slovak, then type via the mapped keys"],
-      ],
-    },
-    {
-      type: "table",
-      headers: ["Task", "Windows", "Mac"],
-      rows: [
-        ["Add Slovak keyboard", "Settings → Time & Language → Language & region → Add a language → Slovenčina → Add keyboard", "System Settings → Keyboard → Input Sources → Edit → + → Slovak"],
-        ["Switch input language quickly", "Win + Space", "Control + Space"],
-      ],
-    },
-    { type: "heading", text: "Slovak Typing Speed Benchmarks (WPM)", id: "benchmarks" },
-    {
-      type: "table",
-      headers: ["WPM", "Level", "Real-World Context"],
-      rows: [
-        ["Below 20 WPM", "Beginner", "Still learning finger placement on the QWERTZ layout"],
-        ["20–35 WPM", "Below Average", "Functional, but slower than most office-job expectations"],
-        ["35–45 WPM", "Average", "Typical for an untrained adult typist"],
-        ["45–60 WPM", "Good", "Meets most administrative and customer-service job postings"],
-        ["60–75 WPM", "Professional", "Comparable to graduates of ten-finger touch-typing (desaťprstová metóda) courses"],
-        ["75+ WPM", "Expert", "Fast, accurate typing suited to transcription and high-volume data entry"],
-      ],
-    },
-    { type: "heading", text: "Real Jobs That Value Slovak Typing Speed", id: "requirements" },
-    {
-      type: "table",
-      headers: ["Country", "Role or Exam", "Typical Requirement"],
-      rows: [
-        ["Slovakia", "Administratívny pracovník / sekretárka postings", "Job ads commonly specify a target WPM or emphasize \"rýchle a presné písanie\" (fast, accurate typing)"],
-        ["Slovakia", "Business academies (obchodné akadémie)", "Ten-finger touch-typing (desaťprstová metóda) is a graded practical skill in the curriculum"],
-        ["Slovakia", "BPO and shared-services centers (Bratislava, Košice)", "Typing tests are a standard part of hiring for Slovak-language support and back-office roles"],
-        ["Diaspora (Czech Republic, UK, USA)", "Bilingual administrative and translation work", "Slovak typing speed matters for remote support serving Slovak-speaking clients"],
-      ],
-    },
-    { type: "heading", text: "Slovak Around the World", id: "diaspora" },
-    {
-      type: "table",
-      headers: ["Country / Region", "Context"],
-      rows: [
-        ["Slovakia", "Home to the vast majority of native Slovak speakers"],
-        ["Czech Republic", "Large Slovak-speaking minority, aided by strong mutual intelligibility with Czech"],
-        ["United States & Canada", "Established Slovak diaspora communities dating back over a century"],
-        ["Serbia (Vojvodina)", "A historic Slovak minority with its own schools and press"],
-      ],
-    },
+
+    { type: "heading", text: "Slovak Uses a QWERTZ Keyboard", id: "keyboard" },
     {
       type: "paragraph",
-      text: "Slovak has a rich modern literary tradition, from the 19th-century national-revival poetry of Ľudovít Štúr's era to contemporary novelists writing in the standardized Slovak established in the mid-1800s. Typing Slovak accurately means handling one of Europe's densest sets of diacritics correctly — a genuine test of both speed and precision.",
+      text: "The standard Slovak keyboard layout belongs to the QWERTZ family, sharing the Y/Z position swap found in German and neighboring Central European layouts, with dedicated keys and Alt Gr combinations for the diacritic letters. Typists who move between an English QWERTY layout and Slovak QWERTZ often see Y/Z slip-ups even after years of experience — this is a muscle-memory collision between two layouts, not a sign of weak Slovak, and confirming the active input language before a timed test helps avoid it.",
     },
-    { type: "heading", text: "Who Is This Test Built For", id: "who-its-for" },
+
+    { type: "heading", text: "Capital Diacritics Are Used Constantly", id: "capitals" },
     {
-      type: "list",
-      items: [
-        "🏢 Administrative and secretarial job applicants across Slovakia",
-        "🎓 Business-academy students practicing the ten-finger touch-typing method",
-        "📞 BPO and shared-services candidates in Bratislava and Košice",
-        "💻 Data-entry and back-office staff processing Slovak documents",
-        "🌍 Slovak diaspora in the Czech Republic, USA, or Canada keeping their written Slovak sharp",
-        "✍️ Translators and writers working with Slovak text daily",
-        "⌨️ Anyone learning the QWERTZ layout and Slovak diacritics for the first time",
-      ],
+      type: "paragraph",
+      text: "Uppercase forms such as Á, Č, Ľ, Ô, Š, and Ž appear regularly in names, headings, and sentence beginnings, and should be typed with the same accuracy as their lowercase counterparts rather than simplified because the capital form takes an extra keystroke.",
     },
+
+    { type: "heading", text: "What Is a Good Slovak Typing Speed?", id: "good-speed" },
+    {
+      type: "paragraph",
+      text: "There is no published, verifiable universal benchmark for Slovak typing speed. Use your own first clean result as a baseline, and for a specific exam or employer's requirement, rely on that source's actual published rule rather than a generic number.",
+    },
+
     { type: "heading", text: "Frequently Asked Questions", id: "faq" },
     {
       type: "faq",
       items: [
         {
+          question: "How many types of diacritics does Slovak use?",
+          answer:
+            "Three main families: acute accents for long vowels (á, é, í, ó, ú, ý), carons for softened consonants (č, š, ž, ď, ľ, ň, ť), and the unique circumflex-like mark on ô.",
+        },
+        {
+          question: "What is special about the letter ô?",
+          answer:
+            "It marks a diphthong sound and is largely unique to Slovak among major Latin-script languages, appearing in common words like môj and stôl.",
+        },
+        {
+          question: "Does Slovak use QWERTY or QWERTZ?",
+          answer:
+            "QWERTZ, the same family used in German and other Central European layouts, which swaps the Y and Z positions found on a US QWERTY keyboard.",
+        },
+        {
           question: "What is a good Slovak typing speed?",
           answer:
-            "45–60 WPM covers most administrative and customer-service job postings in Slovakia. 60–75 WPM is competitive for BPO and shared-services roles, and 75+ WPM is considered expert-level.",
-        },
-        {
-          question: "How do I type Slovak diacritics without a Slovak keyboard?",
-          answer:
-            "Add the Slovak input language in your operating system's keyboard settings — it maps á, ä, č, ď, é, í, ĺ, ľ, ň, ó, ô, ŕ, š, ť, ú, ý, and ž to dedicated keys. Windows also supports Alt numeric codes as a fallback.",
-        },
-        {
-          question: "Is the Slovak keyboard the same as the Czech keyboard?",
-          answer:
-            "They're both QWERTZ-based and look similar, but several diacritic and punctuation keys are mapped differently between the Slovak and Czech layouts, so switching between them can trip up even fluent typists.",
-        },
-        {
-          question: "How is WPM calculated on this test?",
-          answer:
-            "Every five typed characters, including spaces and punctuation, counts as one word. Net WPM subtracts a penalty for uncorrected errors, including incorrect diacritics.",
-        },
-        {
-          question: "Is this typing test free?",
-          answer: "Yes — completely free, no signup, no download, and you can take it as many times as you want.",
+            "There is no verified universal benchmark. Track your own progress over time and use a specific employer or exam's published requirement when one actually exists.",
         },
       ],
     },
+
     {
       type: "cta",
-      text: "Vyber si dĺžku testu, začni písať, a sleduj svoju rýchlosť WPM a presnosť v reálnom čase.",
+      text: "Vyberte si svoj čas, začnite písať a hneď uvidíte svoju rýchlosť a presnosť.",
     },
   ],
 };

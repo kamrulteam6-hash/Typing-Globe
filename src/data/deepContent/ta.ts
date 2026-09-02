@@ -1,154 +1,86 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "தமிழ் தட்டச்சு சோதனை — Tamil Typing Speed Test (Free, Tamil99, TNPSC Practice)",
+  seoTitle: "Free Tamil Typing Test · தமிழ் | WPM & Accuracy",
   seoDescription:
-    "Free Tamil typing speed test on the Tamil99 keyboard. Check your WPM for TNPSC, government exams, and office jobs across Tamil Nadu & Sri Lanka — no signup.",
+    "Take a free Tamil typing test and check WPM and accuracy. Practice Tamil vowel signs, pulli, conjuncts, and Tamil99 or phonetic keyboard input.",
   researchedKeywords: [
-    "தமிழ் தட்டச்சு சோதனை",
-    "tamil typing test",
-    "tamil99 keyboard typing test",
-    "tnpsc typist typing test tamil",
-    "tamil typing speed test for govt jobs",
-    "tamil typing practice online free",
-    "sri lanka tamil typist exam",
+    "Tamil typing speed test",
+    "Tamil WPM test",
+    "Tamil keyboard test",
+    "Tamil99 typing",
+    "தமிழ் தட்டச்சு பயிற்சி",
+    "தமிழ் தட்டச்சு வேகம்",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
-        "Tamil has around 80–90 million speakers worldwide, making it one of the most widely spoken languages of South Asia and, unusually for a language with a written history stretching back over two thousand years, still very much a living, everyday language — an official language of Tamil Nadu and Puducherry in India, of Sri Lanka, and of Singapore, with sizable communities in Malaysia, Canada, the UK, and beyond.",
-        "For most people searching for a Tamil typing test, the goal is practical: Tamil Nadu's TNPSC recruitment exams require a certified typewriting qualification for Typist and Junior Assistant posts, Sri Lanka's provincial public service commissions run their own Tamil typing tests for clerical roles in the Northern and Eastern provinces, and Tamil-language media, translation, and customer-support work all depend on the same keyboard fluency.",
-        "This test scores real Tamil Unicode text using the Tamil99 layout, the government-approved standard built into Windows and macOS. Free, no signup.",
+        "Tamil is written in its own script, one of the oldest continuously used writing systems in the world, with a smaller consonant inventory than most other Indic scripts but its own distinctive vowel-sign and pulli (virama-equivalent) system. Because Tamil doesn't use conjunct ligatures the way Devanagari or Telugu do, consonant clusters are shown differently — through the pulli mark rather than fused shapes.",
+        "This test measures how quickly and accurately you can type real Tamil text, including its vowel signs and pulli-marked consonant clusters.",
       ],
     },
-    { type: "heading", text: "Why Tamil Typing Speed Matters", id: "why-it-matters" },
+
+    { type: "heading", text: "Tamil Vowel Signs Attach Around the Consonant", id: "vowel-signs" },
     {
       type: "paragraph",
-      text: "Tamil is the working language of government offices, courts, schools, and a large share of print, digital, and film media across Tamil Nadu and Sri Lanka's Tamil-majority provinces. Because Tamil Nadu's civil-service recruitment explicitly requires a typewriting certificate as part of eligibility for many clerical posts, Tamil typing speed is a direct, testable qualification rather than a soft skill — the same is true, at a smaller scale, for Sri Lanka's provincial administration in Jaffna, Batticaloa, and other Tamil-speaking districts.",
+      text: "Tamil consonants carry an inherent vowel by default, and dependent vowel signs modify that vowel by attaching before, after, above, or below the consonant depending on which vowel sign it is. As with other Indic scripts, the typing sequence follows the input method's logical order rather than the final visual position, so learning that sequence — not guessing from what you see on screen — is the core Tamil typing skill.",
     },
-    { type: "heading", text: "How Tamil Typing Speed Is Measured", id: "wpm-explained" },
+
+    { type: "heading", text: "Pulli Marks a Bare Consonant", id: "pulli" },
     {
       type: "paragraph",
-      text: "This test applies the standard five-characters-per-word formula to the real Tamil Unicode sequence you type. Net WPM — gross WPM minus a penalty for uncorrected errors — is the number that matters, and it mirrors how government exams like TNPSC's typewriting test are actually scored: as a net speed over a timed passage, with errors reducing your final result directly.",
+      text: "Tamil uses a small dot called pulli (or the virama-equivalent) above a consonant to show that it has no vowel attached — functionally similar to virama in other Indic scripts, but without producing the fused conjunct ligatures seen in Devanagari or Telugu. A pulli-marked consonant is a real, distinct character in the text, and dropping it changes the word even when the surrounding letters are correct.",
     },
-    {
-      type: "table",
-      headers: ["Metric", "How It Works"],
-      rows: [
-        ["Gross WPM", "Total characters typed ÷ 5, divided by minutes elapsed"],
-        ["Net WPM", "Gross WPM minus an error penalty — matches TNPSC and Sri Lankan government scoring"],
-        ["Accuracy", "Government typing certificates typically require 90–95%+ accuracy to qualify"],
-      ],
-    },
-    { type: "heading", text: "Tamil Keyboard Layout: Tamil99", id: "keyboard" },
+
+    { type: "heading", text: "Tamil Has a Smaller Consonant Set Than Sanskrit-Derived Scripts", id: "consonant-set" },
     {
       type: "paragraph",
-      text: "Tamil script builds syllables from 12 vowels and 18 consonants (plus Grantha letters for loanwords), combining consonants with vowel markers. Tamil99, approved by the Tamil Nadu government in 1999 and built natively into Windows since Windows 10, is the standard keyboard for this: you type the consonant first, then the vowel marker, in that spoken order, and the system automatically assembles the correct visual combination — even when the vowel marker appears before or around the consonant in the rendered syllable.",
+      text: "Because Tamil developed its own script tradition somewhat independently of the Sanskrit-heavy conjunct system used in scripts like Devanagari, it uses fewer base consonant letters, with certain letters covering multiple related sounds depending on position. This makes the alphabet itself relatively compact, but it also means correct spelling relies more on knowing Tamil-specific conventions than transferring assumptions from Hindi or other Indic-script languages.",
     },
-    {
-      type: "table",
-      headers: ["Input Concept", "How Tamil99 Handles It"],
-      rows: [
-        ["Consonant + vowel syllable", "Always typed consonant-then-vowel, regardless of visual order in the rendered glyph"],
-        ["Pulli (் vowel-suppression mark)", "Dedicated key; marks a bare consonant with no vowel"],
-        ["Grantha letters (ஸ ஷ ஜ ஹ க்ஷ)", "Mapped for Sanskrit-derived loanwords"],
-        ["Āytham (ஃ)", "Dedicated key for this Tamil-specific character"],
-      ],
-    },
-    {
-      type: "list",
-      items: [
-        "Windows: Settings → Time & Language → Language & Region → Add a language → Tamil. Windows 10 and later include Tamil99 natively alongside Tamil (India) and Tamil (Sri Lanka) variants.",
-        "Mac: System Settings → Keyboard → Input Sources → + → add Tamil. macOS provides syllable-assembly support matching Tamil99 logic.",
-        "Tamil99 requires no special hardware — it works on any standard QWERTY keyboard as a software key mapping.",
-      ],
-    },
-    { type: "heading", text: "Tamil Typing Speed Benchmarks", id: "benchmarks" },
-    {
-      type: "table",
-      headers: ["WPM", "Level", "Real-World Context"],
-      rows: [
-        ["Below 15 WPM", "Beginner (தொடக்க நிலை)", "Still building Tamil99 finger placement and syllable habits"],
-        ["15–25 WPM", "Basic (அடிப்படை)", "Comfortable casual Tamil messaging"],
-        ["25–30 WPM", "Average (சராசரி)", "Meets the TNPSC Lower/Junior Grade typewriting threshold"],
-        ["30–45 WPM", "Good (நல்ல)", "Standard professional office typing"],
-        ["45+ WPM", "Advanced (மேம்பட்ட)", "Meets or exceeds the TNPSC Higher/Senior Grade threshold"],
-        ["65+ WPM", "Expert (நிபுணர்)", "Elite-level speed among career typists and stenographers"],
-      ],
-    },
-    { type: "heading", text: "Tamil Typing Requirements for Jobs and Exams", id: "jobs" },
+
+    { type: "heading", text: "Tamil99 and Phonetic Keyboard Layouts", id: "keyboard" },
     {
       type: "paragraph",
-      text: "The Tamil Nadu Public Service Commission (TNPSC) requires candidates for Typist and related clerical posts to hold a Government Technical Examination certificate in Typewriting, at Lower/Junior Grade (30 WPM) or Higher/Senior Grade (45 WPM) — the Senior Grade certificate in both Tamil and English is generally the minimum for competitive Typist recruitment, scored as net speed over a timed passage with the backspace key disabled, so every error counts directly against the score. In Sri Lanka, the Department of Examinations and provincial Public Service Commissions — particularly in the Northern and Eastern Provinces — run their own Tamil typing tests for Typist, Stenographer, and Office Assistant posts, generally around 25–30 WPM with 90%+ accuracy.",
+      text: "Tamil99 is a widely used standardized keyboard layout designed specifically for Tamil, mapping consonants and vowel signs to fixed key positions. Phonetic transliteration tools are also common, letting typists enter Tamil sounds using Latin letters and select the correct Tamil candidate — a genuinely different physical task from Tamil99's direct key-position typing, so keep practice and progress tracking tied to one method.",
     },
-    {
-      type: "table",
-      headers: ["Role / Context", "Typical Requirement"],
-      rows: [
-        ["TNPSC Typist / Junior Assistant (Lower Grade)", "30 WPM Tamil typewriting certificate"],
-        ["TNPSC Typist (Higher/Senior Grade, competitive)", "45 WPM Tamil typewriting certificate"],
-        ["Sri Lanka government Typist/Stenographer posts", "25–30 WPM with 90%+ accuracy"],
-        ["Tamil-language media & content creation", "No fixed government threshold; set by employer"],
-      ],
-    },
-    { type: "heading", text: "Tamil Across Borders", id: "diaspora" },
+
+    { type: "heading", text: "What Is a Good Tamil Typing Speed?", id: "good-speed" },
     {
       type: "paragraph",
-      text: "Tamil Nadu is home to the largest concentration of Tamil speakers — around 76 million — but Tamil is genuinely multi-country: roughly 4.7 million speakers in Sri Lanka (about 15% of the population), an official language of Singapore, and significant communities in Malaysia (historically tied to colonial-era plantation migration), alongside a global diaspora shaped in more recent decades by Sri Lanka's civil war, spread across Canada, the UK, and Australia.",
+      text: "There is no published, verifiable universal benchmark for Tamil typing speed. Use your own first clean result as a baseline, and for a specific exam or employer's requirement, rely on that source's actual published rule rather than a generic number.",
     },
-    {
-      type: "callout",
-      icon: "📜",
-      title: "A classical language still spoken daily",
-      text: "Tamil has continuous written attestation back to roughly 300 BCE and was the first language India designated a Classical Language, in 2004 — yet unlike many classical languages, it remains an everyday first language for tens of millions rather than surviving only in academic or liturgical use.",
-    },
-    { type: "heading", text: "Who This Test Is Built For", id: "who-its-for" },
-    {
-      type: "list",
-      items: [
-        "🏛️ TNPSC exam candidates preparing for Typist and Junior Assistant posts",
-        "🇱🇰 Sri Lankan Tamil typist and stenographer candidates in the Northern & Eastern Provinces",
-        "🎓 Students in Tamil-medium schools across Tamil Nadu and Sri Lanka",
-        "📰 Journalists and content creators in Tamil print, digital, and film media",
-        "🌐 Translators and localization professionals working with Tamil",
-        "💻 Data-entry and administrative staff in Tamil-speaking government offices",
-        "🌍 The Tamil diaspora in Singapore, Malaysia, Canada, the UK, and Australia",
-      ],
-    },
+
     { type: "heading", text: "Frequently Asked Questions", id: "faq" },
     {
       type: "faq",
       items: [
         {
-          question: "What Tamil typing speed do I need for TNPSC exams?",
+          question: "What is pulli in Tamil?",
           answer:
-            "TNPSC Typist and related posts require a Government Technical Examination certificate in Typewriting — Lower/Junior Grade at 30 WPM, or Higher/Senior Grade at 45 WPM, which is generally the minimum for competitive recruitment. The test is scored as net speed with the backspace key disabled.",
+            "Pulli is a small dot placed above a consonant to show it has no attached vowel, similar in function to virama in other Indic scripts, but Tamil doesn't form fused conjunct ligatures the way Devanagari or Telugu do.",
         },
         {
-          question: "What is Tamil99 and do I need special software?",
+          question: "Does Tamil have fewer letters than Hindi?",
           answer:
-            "Tamil99 is the Tamil Nadu government-approved keyboard layout, built natively into Windows 10 and later and supported on macOS. No special hardware is needed — you type the consonant, then the vowel marker, and the system assembles the correct syllable automatically.",
+            "Tamil uses a smaller set of base consonant letters than Sanskrit-heavy scripts like Devanagari, with some letters covering multiple related sounds depending on position in the word.",
         },
         {
-          question: "What Tamil typing speed does Sri Lanka's public service require?",
+          question: "What is Tamil99?",
           answer:
-            "Sri Lanka's Department of Examinations and provincial Public Service Commissions, particularly in the Northern and Eastern Provinces, generally require around 25–30 WPM with 90%+ accuracy for Typist, Stenographer, and Office Assistant posts.",
+            "Tamil99 is a widely used standardized keyboard layout designed specifically for typing Tamil, mapping consonants and vowel signs to fixed key positions.",
         },
         {
-          question: "How does this test calculate WPM for Tamil?",
+          question: "What is a good Tamil typing speed?",
           answer:
-            "Every five typed characters, including spaces, counts as one word — the standard convention. Net WPM subtracts a penalty for uncorrected errors, matching how TNPSC and Sri Lankan government exams score typing tests.",
-        },
-        {
-          question: "Is this Tamil typing test free?",
-          answer: "Yes — completely free, with no signup and no download required.",
+            "There is no verified universal benchmark. Track your own progress over time and use a specific employer or exam's published requirement when one actually exists.",
         },
       ],
     },
+
     {
       type: "cta",
-      text: "உங்கள் சோதனை காலஅளவைத் தேர்ந்தெடுத்து தட்டச்சு செய்யத் தொடங்குங்கள் — choose your test duration and start typing to see your real WPM and accuracy instantly.",
+      text: "உங்கள் நேரத்தைத் தேர்ந்தெடுக்கவும், தட்டச்சு செய்யத் தொடங்கவும், உங்கள் வேகத்தையும் துல்லியத்தையும் உடனே பாருங்கள்.",
     },
   ],
 };

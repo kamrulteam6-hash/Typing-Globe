@@ -3,150 +3,83 @@ import { LanguageDeepContent } from "@/data/deepContent/types";
 const content: LanguageDeepContent = {
   seoTitle: "Free Croatian Typing Test · Hrvatski | WPM & Accuracy",
   seoDescription:
-    "Take our free Croatian typing test to check WPM and accuracy. Practice Hrvatski with č, ć, đ, š, ž and the Croatian keyboard layout.",
+    "Take a free Croatian typing test and check WPM and accuracy. Practice č, ć, đ, š, ž, the Croatian keyboard, and real Hrvatski text.",
   researchedKeywords: [
-    "croatian typing test",
-    "croatian typing speed test",
-    "croatian wpm test",
-    "croatian keyboard test",
-    "croatian typing practice",
+    "Croatian typing speed test",
+    "Croatian WPM test",
+    "Croatian keyboard test",
     "test brzine tipkanja",
-    "test tipkanja hrvatski",
-    "brzina tipkanja",
-    "vježbanje tipkanja",
-    "hrvatska tipkovnica",
-    "test brzine pisanja",
-    "wpm test hrvatski",
-    "hrvatska tipkovnica",
-    "kucanje na hrvatskom",
-    "typing test hrvatski jezik",
-    "brzina tipkanja online",
+    "vježbe tipkanja hrvatski",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
-        "Croatian (Hrvatski) is spoken natively by roughly 5.5 million people, most of them in Croatia, with sizeable minority communities in Bosnia and Herzegovina, Serbia (Vojvodina), Montenegro, and across a large diaspora in Germany, Austria, the United States, Canada, and Australia. It's a South Slavic language, closely related to Bosnian, Serbian, and Montenegrin, and written exclusively in the Latin alphabet with a set of distinctive diacritic letters.",
-        "There's no single famous national typing exam in Croatia the way some countries have civil-service typing tests, but keyboard speed still matters in very concrete ways: administrative and clerical roles in Croatian companies and public institutions, customer-support and call-center jobs serving the domestic market, data-entry positions, and translation or localization work between Croatian and English or German. As Croatia's economy leans further into tourism, EU-integrated business services, and remote work since joining the eurozone and Schengen area, fast, accurate Croatian typing is a practical everyday skill rather than a certification requirement.",
-        "This test measures exactly that — how fast and accurately you can type real Croatian sentences, diacritics included, the way you'd actually type them at a desk or a keyboard shortcut away from a deadline.",
+        "Croatian adds five diacritic letters to the Latin alphabet, and two of them — č and ć — look almost identical but represent genuinely different sounds. That single distinction accounts for a large share of everyday Croatian typing mistakes, since a font at normal reading size can make the two accents hard to tell apart at a glance.",
+        "This test measures how quickly and accurately you can type real Croatian sentences, including its full set of diacritic letters.",
       ],
     },
-    { type: "heading", text: "How Croatian Typing Speed Is Measured", id: "wpm-explained" },
+
+    { type: "heading", text: "Č and Ć: Two Distinct Letters That Look Alike", id: "c-caron-vs-acute" },
     {
       type: "paragraph",
-      text: "Croatian typing speed is measured in WPM (words per minute), the same standard used internationally: every five typed characters, including spaces and punctuation, counts as one \"word.\" Because Croatian words are often slightly longer than English ones and every diacritic letter (č, ć, đ, š, ž) still counts as a single character, WPM scores translate cleanly and comparably to English-language typing benchmarks.",
+      text: "Č carries a caron and represents a harder sound, while ć carries an acute accent and represents a softer sound — and Croatian has minimal pairs that depend entirely on this distinction, such as kuča (a made-up but illustrative contrast) versus kuća (house). Because the caron and acute accent look similar in many fonts, this is the single most common Croatian typing error, and it's worth deliberate practice with real word pairs rather than treating the two marks as interchangeable.",
     },
-    { type: "heading", text: "Keyboard Layout and Special Characters", id: "keyboard" },
+
+    { type: "heading", text: "Đ Represents a Distinct Consonant", id: "dj-crossbar" },
     {
       type: "paragraph",
-      text: "Croatian uses a dedicated QWERTZ-based keyboard layout (Hrvatska tipkovnica), similar in structure to the German and Central European layouts, with the five diacritic letters — č, ć, đ, š, ž — placed on dedicated keys rather than requiring dead-key combinations. Typists switching from a US QWERTY layout will also notice Y and Z swapped, matching the German QWERTZ convention.",
+      text: "Đ (crossed d) marks its own consonant sound and appears in common words like đak (student) and rođendan (birthday). It has no visual similarity trap the way č/ć does, but it's easy to fall back to a plain d under time pressure, which — like the other diacritics — is a genuine spelling error rather than a stylistic simplification.",
     },
-    {
-      type: "table",
-      headers: ["Character", "How to Type It"],
-      rows: [
-        ["č / Č, ć / Ć", "Dedicated keys on the Croatian QWERTZ layout, right of L and next to the Enter key"],
-        ["š / Š", "Dedicated key on the Croatian layout, where [ sits on a US keyboard"],
-        ["ž / Ž", "Dedicated key on the Croatian layout, where \\ sits on a US keyboard"],
-        ["đ / Đ", "Dedicated key on the Croatian layout, next to the L key"],
-        ["Any diacritic on a US keyboard (Windows)", "Add the Croatian keyboard layout, or use Alt-code / character map input"],
-        ["Any diacritic on Mac (US layout)", "Add Croatian input source in System Settings, or use Option-key accent combinations where available"],
-      ],
-    },
-    {
-      type: "table",
-      headers: ["Task", "Windows", "Mac"],
-      rows: [
-        ["Add Croatian keyboard", "Settings → Time & Language → Language & region → Add a language → Hrvatski → Add keyboard", "System Settings → Keyboard → Input Sources → Edit → + → Croatian"],
-        ["Switch input language quickly", "Win + Space", "Control + Space"],
-      ],
-    },
-    { type: "heading", text: "Croatian Typing Speed Benchmarks (WPM)", id: "benchmarks" },
-    {
-      type: "table",
-      headers: ["WPM", "Level", "Real-World Context"],
-      rows: [
-        ["Below 20 WPM", "Beginner", "Still locating diacritic keys and building finger placement"],
-        ["20–35 WPM", "Below Average", "Functional but slower than typical office-job expectations"],
-        ["35–45 WPM", "Average", "Typical for an adult who types daily without formal training"],
-        ["45–60 WPM", "Good", "Comfortable for administrative and customer-service work"],
-        ["60–75 WPM", "Professional", "Solid mark of a trained, accurate typist"],
-        ["75+ WPM", "Expert", "Fast enough for transcription and high-volume data entry"],
-      ],
-    },
-    { type: "heading", text: "Jobs Where Croatian Typing Speed Matters", id: "requirements" },
-    {
-      type: "table",
-      headers: ["Country", "Role or Exam", "Typical Requirement"],
-      rows: [
-        ["Croatia", "Administrativni referent / Office administrator", "Fast, accurate typing expected; no universal certified minimum, but employers screen speed and accuracy"],
-        ["Croatia", "Data entry and back-office processing roles", "Speed and low error rate valued, especially in banking and insurance back offices"],
-        ["Croatia", "Customer support / call center (domestic and outsourced)", "Typing while on calls or chat is a core part of the job"],
-        ["Germany, Austria, diaspora communities", "Bilingual administrative or translation roles", "Croatian typing fluency alongside German or English is a hiring advantage"],
-      ],
-    },
-    { type: "heading", text: "Croatian Around the World", id: "diaspora" },
-    {
-      type: "table",
-      headers: ["Country / Region", "Context"],
-      rows: [
-        ["Croatia", "Official language, spoken by nearly the entire population of roughly 3.9 million"],
-        ["Bosnia and Herzegovina", "One of three official languages, spoken by a substantial Croat community"],
-        ["Germany & Austria", "Large Croatian guest-worker (Gastarbeiter) diaspora communities dating back decades"],
-        ["United States, Canada & Australia", "Sizeable Croatian immigrant communities with heritage-language schools and media"],
-        ["Serbia (Vojvodina) & Montenegro", "Recognized Croatian minority communities"],
-      ],
-    },
+
+    { type: "heading", text: "Š and Ž Complete the Diacritic Set", id: "s-z-caron" },
     {
       type: "paragraph",
-      text: "Croatian has a long literary tradition, from Renaissance-era Dubrovnik writers like Marin Držić to modern novelists such as Miroslav Krleža, and it shares deep linguistic roots with the wider South Slavic literary and oral storytelling tradition. That heritage, paired with a phonetic writing system where letters are pronounced consistently, makes Croatian text well suited to focused typing practice.",
+      text: "Š and ž, both marked with a caron, round out Croatian's five special letters and appear constantly in ordinary text — šuma (forest), život (life). Practicing them inside real words rather than as isolated symbols builds the habit of reaching for the accented form automatically.",
     },
-    { type: "heading", text: "Who Is This Test Built For", id: "who-its-for" },
+
+    { type: "heading", text: "The Croatian Keyboard Layout", id: "keyboard" },
     {
-      type: "list",
-      items: [
-        "🏢 Office and administrative workers across Croatia",
-        "🎧 Customer-support and call-center agents typing in Croatian daily",
-        "💻 Data-entry and back-office staff at Croatian banks and companies",
-        "🌍 Diaspora Croatians in Germany, Austria, the US, and Australia keeping their typing fluent",
-        "🎓 Students and language learners practicing č, ć, đ, š, ž placement",
-        "📝 Translators and localizers working between Croatian and English or German",
-        "⌨️ Anyone switching from a US keyboard who wants to master the Croatian layout",
-      ],
+      type: "paragraph",
+      text: "The standard Croatian keyboard layout belongs to the QWERTZ family and provides dedicated keys for č, ć, đ, š, and ž, avoiding the need for Alt codes during regular typing. Switching between an English QWERTY layout and Croatian QWERTZ can produce occasional Y/Z slip-ups even for experienced typists — confirming the active input language before a timed test helps rule that out as the source of an error.",
     },
+
+    { type: "heading", text: "What Is a Good Croatian Typing Speed?", id: "good-speed" },
+    {
+      type: "paragraph",
+      text: "There is no published, verifiable universal benchmark for Croatian typing speed. Use your own first clean result as a baseline, and for a specific exam or employer's requirement, rely on that source's actual published rule rather than a generic number.",
+    },
+
     { type: "heading", text: "Frequently Asked Questions", id: "faq" },
     {
       type: "faq",
       items: [
         {
+          question: "What is the difference between č and ć?",
+          answer:
+            "Č uses a caron and represents a harder sound, while ć uses an acute accent and represents a softer sound. They are genuinely different letters, and the visual similarity between the two marks is the most common source of Croatian typing errors.",
+        },
+        {
+          question: "What does đ represent in Croatian?",
+          answer:
+            "Đ, a d with a crossbar, marks its own distinct consonant sound and appears in common words like đak and rođendan. It is a separate letter, not a stylized d.",
+        },
+        {
+          question: "Does Croatian use QWERTY or QWERTZ?",
+          answer:
+            "The standard Croatian keyboard layout is QWERTZ, which swaps the Y and Z positions found on a US QWERTY keyboard and provides direct keys for č, ć, đ, š, and ž.",
+        },
+        {
           question: "What is a good Croatian typing speed?",
           answer:
-            "45–60 WPM is considered solid for everyday office and administrative work, while 60+ WPM marks a genuinely fast, professional-level typist.",
-        },
-        {
-          question: "Do I need a special keyboard to type Croatian diacritics?",
-          answer:
-            "Not necessarily. You can add the Croatian keyboard layout in your operating system's language settings, which places č, ć, đ, š, and ž on dedicated keys, or use character map/Alt-code entry on a standard layout.",
-        },
-        {
-          question: "How is WPM calculated on this test?",
-          answer:
-            "Every five typed characters — including spaces and punctuation — counts as one word. The score reported is net WPM, which subtracts a penalty for uncorrected errors.",
-        },
-        {
-          question: "Is there an official Croatian typing certification exam?",
-          answer:
-            "There's no single nationwide certified typing exam like some countries have. Speed and accuracy are typically assessed informally by employers during hiring for administrative, data-entry, and customer-service roles.",
-        },
-        {
-          question: "Is this typing test free?",
-          answer: "Yes — completely free, with no signup, no download, and unlimited retakes.",
+            "There is no verified universal benchmark. Track your own progress over time and use a specific employer or exam's published requirement when one actually exists.",
         },
       ],
     },
+
     {
       type: "cta",
-      text: "Odaberi trajanje testa, počni tipkati, i pogledaj svoj WPM i točnost odmah.",
+      text: "Odaberite svoje vrijeme, počnite tipkati i odmah pogledajte svoju brzinu i točnost.",
     },
   ],
 };

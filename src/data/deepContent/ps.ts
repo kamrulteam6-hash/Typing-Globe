@@ -1,140 +1,85 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Pashto Typing Test — پښتو ټایپنګ ازموینه, Check Your WPM Free",
+  seoTitle: "Free Pashto Typing Test · پښتو | WPM & Accuracy",
   seoDescription:
-    "Free Pashto typing test in Arabic-derived RTL script. Measure your real WPM, practice Pashto keyboard layout, no signup, no download required.",
+    "Take a free Pashto typing test and check WPM and accuracy. Practice Pashto-specific letters, right-to-left script, and the Windows Pashto keyboard.",
   researchedKeywords: [
-    "pashto typing test",
+    "Pashto typing speed test",
+    "Pashto WPM test",
+    "Pashto keyboard test",
     "پښتو ټایپنګ ازموینه",
-    "pashto typing speed test online",
-    "pashto keyboard layout",
-    "pashto typing wpm",
-    "afghan typing test",
-    "pashto unicode typing practice",
-    "free pashto typing test",
+    "پښتو د لیکلو چټکتیا",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
-        "Pashto is spoken by an estimated 40 to 60 million people, primarily across Afghanistan, where it is one of two official languages alongside Dari, and in the Pashtun-majority regions of northwestern Pakistan, particularly Khyber Pakhtunkhwa and the tribal districts. Large Pashto-speaking diaspora communities also live in the Gulf states, the UK, and North America, largely as a result of decades of conflict-driven migration from Afghanistan.",
-        "There's no single widely known formal Pashto typing certification, but typing speed still matters practically: for translators and interpreters working with Afghan and Pakistani institutions, for Pashto-language media and radio staff producing daily content, and for the growing number of data-entry, customer-support, and administrative roles that require digital literacy in Pashto script, especially in diaspora resettlement and NGO work.",
-        "This test measures your live typing speed on real Pashto sentences, in the right-to-left Arabic-derived script used across Afghanistan and Pashtun Pakistan.",
+        "Pashto is written right to left in a modified Perso-Arabic script, extending the standard Arabic and Persian letter set with several characters unique to Pashto sounds. Because embedded numbers and Latin text still run left to right, Pashto typing regularly involves the same bidirectional text handling seen in other RTL scripts.",
+        "This test measures how quickly and accurately you can type real Pashto text, including its extra consonant letters and correct right-to-left punctuation.",
       ],
     },
-    { type: "heading", text: "How Pashto Typing Speed Is Measured", id: "wpm-explained" },
+
+    { type: "heading", text: "Pashto Adds Letters Beyond Standard Arabic and Persian", id: "extra-letters" },
     {
       type: "paragraph",
-      text: "Pashto typing speed is measured in WPM (words per minute), the same international standard used across most languages. Since Pashto is written right-to-left and uses letters that change shape depending on their position in a word, unfamiliar typists often type more slowly at first while adjusting to both the script direction and its contextual letterforms, before speeding up with practice.",
+      text: "Pashto's alphabet builds on the Perso-Arabic base and adds letters for sounds not present in Arabic or Persian, including retroflex consonants such as ټ, ډ, ړ, ڼ, and the distinctive ږ, ښ. These are not decorative variants of similar-looking Arabic letters — they represent genuinely different Pashto sounds, and substituting a visually similar Arabic or Persian letter changes the written word.",
     },
-    { type: "heading", text: "Keyboard Layout and Special Characters", id: "keyboard" },
+
+    { type: "heading", text: "Right-to-Left Text with Embedded Numbers", id: "rtl-numbers" },
     {
       type: "paragraph",
-      text: "Pashto uses a script derived from Arabic and shares much of its alphabet with Urdu and Persian, but adds several unique letters for sounds not found in Arabic. It's typed right-to-left using a dedicated Pashto keyboard layout, and most modern operating systems include native RTL text support so Pashto flows and displays correctly alongside any left-to-right text on the same page.",
+      text: "Pashto script runs right to left, but numerals, and any embedded Latin text such as a brand name or URL, display left to right within the line. This mixed-direction behavior is handled automatically by the Unicode Bidirectional Algorithm, and it's normal — not a sign of a typing error — when a number or English word appears to interrupt the visual flow of an otherwise right-to-left sentence.",
     },
-    {
-      type: "table",
-      headers: ["Character", "Note"],
-      rows: [
-        ["ړ ، ږ ، ښ ، ډ ، ټ ، ڼ ، ګ (Pashto-specific letters)", "Additional letters beyond the standard Arabic alphabet, positioned on the dedicated Pashto keyboard layout"],
-        ["Right-to-left flow", "Handled automatically by the OS once the Pashto layout and locale are active"],
-        ["Letter shaping", "Letters connect and change shape based on position in a word, applied automatically by the font rendering engine, not typed manually"],
-      ],
-    },
-    {
-      type: "table",
-      headers: ["Task", "Windows", "Mac"],
-      rows: [
-        ["Add Pashto keyboard", "Settings → Time & Language → Language & region → Add a language → Pashto → Add keyboard", "System Settings → Keyboard → Input Sources → Edit → + → Pashto"],
-        ["Switch input language quickly", "Win + Space", "Control + Space"],
-      ],
-    },
-    { type: "heading", text: "Pashto Typing Speed Benchmarks (WPM)", id: "benchmarks" },
-    {
-      type: "table",
-      headers: ["WPM", "Level", "Real-World Context"],
-      rows: [
-        ["Below 10 WPM", "Beginner", "Still adjusting to right-to-left flow and the Pashto keyboard layout"],
-        ["10–18 WPM", "Below Average", "Can type basic Pashto text but slowly"],
-        ["18–25 WPM", "Average", "Comfortable everyday typing speed for most Pashto computer users"],
-        ["25–35 WPM", "Good", "Solid speed for administrative, translation, and media work"],
-        ["35–45 WPM", "Professional", "Fast, reliable typing suited to journalism and interpretation roles"],
-        ["45+ WPM", "Expert", "Advanced professional Pashto typist territory"],
-      ],
-    },
-    { type: "heading", text: "Real Roles That Value Pashto Typing Speed", id: "requirements" },
-    {
-      type: "table",
-      headers: ["Country", "Role or Exam", "Typical Requirement"],
-      rows: [
-        ["Afghanistan", "Government administrative and clerical positions", "Practical Pashto typing proficiency commonly expected alongside Dari"],
-        ["Afghanistan & Pakistan", "Pashto-language radio, TV, and print journalism", "Fast, accurate Pashto typing for deadline-driven content production"],
-        ["Pakistan (Khyber Pakhtunkhwa)", "Local government and education-sector clerical roles", "Pashto typing skill valued for regional administrative work"],
-        ["Diaspora (Gulf, UK, US)", "Translation, interpretation, and NGO resettlement support roles", "Pashto typing and reading fluency required for casework documentation"],
-      ],
-    },
-    { type: "heading", text: "Pashto Around the World", id: "diaspora" },
-    {
-      type: "table",
-      headers: ["Country / Region", "Context"],
-      rows: [
-        ["Afghanistan", "One of two official national languages, spoken widely in the south and east"],
-        ["Pakistan (Khyber Pakhtunkhwa, tribal districts)", "Home to tens of millions of Pashto speakers, the language's second major population center"],
-        ["Gulf states (UAE, Saudi Arabia)", "Large Afghan and Pakistani Pashtun labor migrant communities"],
-        ["United Kingdom & United States", "Established Pashto-speaking diaspora communities, many resettled through recent decades of migration"],
-      ],
-    },
+
+    { type: "heading", text: "The Windows Pashto Keyboard", id: "keyboard" },
     {
       type: "paragraph",
-      text: "Pashto has a centuries-old oral and written poetic tradition, most famously carried by Khushal Khan Khattak, the 17th-century warrior-poet often called the father of Pashto literature, and the language's distinctive tappa folk-verse form continues to shape Pashto music and storytelling today.",
+      text: "Windows provides a dedicated Pashto keyboard layout, giving direct access to both the shared Perso-Arabic letters and Pashto's additional consonants without relying on Character Map or copy-paste. Setting the correct input language before starting a timed test matters — an unintended Arabic or Persian layout will make Pashto-specific letters difficult or impossible to reach cleanly.",
     },
-    { type: "heading", text: "Who Is This Test Built For", id: "who-its-for" },
+
+    { type: "heading", text: "Pashto Punctuation Follows Its Own Conventions", id: "punctuation" },
     {
-      type: "list",
-      items: [
-        "🌍 Pashto diaspora members in the Gulf, UK, and US keeping their script skills sharp",
-        "🗣️ Translators and interpreters working between Pashto and other languages",
-        "📻 Pashto-language journalists and media professionals",
-        "🎓 Students learning Pashto who want to build right-to-left keyboard fluency",
-        "🤝 NGO and resettlement caseworkers documenting in Pashto",
-        "💼 Administrative professionals in Afghanistan and Pakistan's Pashtun regions",
-        "⌨️ Anyone new to right-to-left typing looking to practice the Pashto layout",
-      ],
+      type: "paragraph",
+      text: "Much Pashto punctuation is shared with Arabic and Persian, including the reversed comma (،) and question mark (؟) used in RTL text. Reproducing the source exactly — rather than substituting a plain English comma or question mark from habit — keeps a typing test measuring real Pashto text rather than a Latin-punctuation approximation of it.",
     },
+
+    { type: "heading", text: "What Is a Good Pashto Typing Speed?", id: "good-speed" },
+    {
+      type: "paragraph",
+      text: "There is no published, verifiable universal benchmark for Pashto typing speed. Use your own first clean result as a baseline, and for a specific exam or employer's requirement, rely on that source's actual published rule rather than a generic number.",
+    },
+
     { type: "heading", text: "Frequently Asked Questions", id: "faq" },
     {
       type: "faq",
       items: [
         {
+          question: "Does Pashto have letters that Arabic doesn't?",
+          answer:
+            "Yes. Pashto adds retroflex and other Pashto-specific consonants such as ټ, ډ, ړ, ږ, ښ, and ڼ, representing sounds that don't exist in standard Arabic or Persian.",
+        },
+        {
+          question: "Why do numbers appear left to right in Pashto text?",
+          answer:
+            "Pashto script is right to left, but numerals and embedded Latin text display left to right within the same line. This is normal Unicode bidirectional behavior, not an error.",
+        },
+        {
+          question: "Does Windows have a Pashto keyboard?",
+          answer:
+            "Yes, Windows provides a dedicated Pashto keyboard layout with direct access to both shared Perso-Arabic letters and Pashto-specific consonants.",
+        },
+        {
           question: "What is a good Pashto typing speed?",
           answer:
-            "25–35 WPM is solid for everyday and administrative work, while 35–45 WPM marks fast, professional-level typing suited to journalism and translation roles. These benchmarks follow the same WPM standard used internationally.",
-        },
-        {
-          question: "Do I need a special keyboard to type in Pashto?",
-          answer:
-            "You'll need to add the Pashto keyboard layout in your device's language settings, which handles the right-to-left script direction and the letters unique to Pashto beyond the standard Arabic alphabet, such as ړ, ږ, ښ, ډ, ټ, ڼ, and ګ.",
-        },
-        {
-          question: "Why does Pashto typing feel slower at first?",
-          answer:
-            "Right-to-left script direction and Pashto's contextual letterforms, where letters connect and change shape depending on position in a word, take some adjustment for new typists. Speed typically improves quickly with regular practice.",
-        },
-        {
-          question: "How is WPM calculated on this test?",
-          answer:
-            "Every five typed characters counts as one word, and net WPM subtracts a penalty for uncorrected errors, so the score reflects real, usable typing output.",
-        },
-        {
-          question: "Is this Pashto typing test free?",
-          answer: "Yes, it's completely free, with no signup or download required, and no limit on retakes.",
+            "There is no verified universal benchmark. Track your own progress over time and use a specific employer or exam's published requirement when one actually exists.",
         },
       ],
     },
+
     {
       type: "cta",
-      text: "خپل وخت وټاکئ، ټایپ کول پیل کړئ، او خپل WPM او دقت سمدلاسه وګورئ.",
+      text: "خپل وخت وټاکئ، ليکل پيل کړئ، او خپل WPM او دقت سمدستي وګورئ.",
     },
   ],
 };

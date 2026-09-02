@@ -1,142 +1,85 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Slovenian Typing Test — Test Hitrosti Tipkanja (WPM)",
+  seoTitle: "Free Slovenian Typing Test · Slovenščina | WPM & Accuracy",
   seoDescription:
-    "Free Slovenian typing test — measure your real WPM typing č, š, ž correctly. Practice for office jobs and school assignments across Slovenia.",
+    "Take a free Slovenian typing test and check WPM and accuracy. Practice č, š, ž, the Slovenian QWERTZ keyboard, and real Slovenian text.",
   researchedKeywords: [
-    "slovenian typing test",
+    "Slovenian typing speed test",
+    "Slovenian WPM test",
+    "Slovenian keyboard test",
     "test hitrosti tipkanja",
-    "tipkanje na tipkovnici test",
-    "slovenska tipkovnica",
-    "wpm test slovenscina",
-    "koliko besed na minuto",
-    "hitro tipkanje vaje",
-    "brezplacen test tipkanja",
+    "vaje za tipkanje",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
-        "Slovenian is spoken natively by roughly 2.5 million people, the overwhelming majority in Slovenia, where it is the sole official language. Smaller Slovenian-speaking minorities exist just across the borders in Italy (Friuli-Venezia Giulia), Austria (Carinthia), and Hungary, along with diaspora communities in the United States, Argentina, and Australia built up through 19th and 20th century emigration.",
-        "Slovenia has no single national typing certification exam, but keyboard skill still shows up in practical ways: administrative, secretarial, and customer-service job listings (tajnica, administrativni delavec, referent) often specify a typing-speed expectation, vocational and business secondary schools include tipkanje (typing) or informatika coursework covering the ten-finger method, and Slovenia's active outsourcing and shared-services sector around Ljubljana and Maribor screens candidates on typing tests for Slovenian-language roles.",
-        "This test measures your Slovenian typing the same practical way — live WPM and accuracy on real sentences, including č, š, and ž.",
+        "Slovenian uses the Latin alphabet with just three added letters — č, š, and ž — making it visually simpler than many of its Slavic neighbors, but the QWERTZ keyboard layout and Slovenian's grammatical case system still shape typing rhythm in ways that differ from English.",
+        "This test measures how quickly and accurately you can type real Slovenian sentences, including its three accented consonants and correct keyboard layout.",
       ],
     },
-    { type: "heading", text: "How Slovenian Typing Speed Is Measured", id: "wpm-explained" },
+
+    { type: "heading", text: "Č, Š, and Ž Are Full Alphabet Letters", id: "carons" },
     {
       type: "paragraph",
-      text: "Slovenian typing speed is measured in WPM (besed na minuto), following the standard international convention where every five typed characters counts as one word. Because Slovenian only adds three diacritical letters to the Latin alphabet — č, š, and ž — typing tests in Slovenian tend to track closely with results in other Latin-script European languages, once the extra keys are learned.",
+      text: "Slovenian's alphabet adds č, š, and ž — each carrying a caron — to the base Latin set. These are not decorative variants of c, s, and z; they represent distinct sounds and changing one for the other alters the word. Common words such as čas (time), šola (school), and žena (woman) are useful for building the habit of reaching for the accented form automatically rather than falling back to the plain consonant.",
     },
-    { type: "heading", text: "Keyboard Layout and Special Characters", id: "keyboard" },
+
+    { type: "heading", text: "Slovenian Uses a QWERTZ Keyboard", id: "keyboard" },
     {
       type: "paragraph",
-      text: "The Slovenian keyboard layout is a QWERTZ variant, similar in structure to the Croatian and Central European layouts, with dedicated keys for č, š, and ž placed on the right side of the letter rows. Punctuation and symbol positions also differ from a US QWERTY layout.",
+      text: "The standard Slovenian keyboard layout belongs to the QWERTZ family, sharing the Y/Z swap found in German and several other Central European layouts, along with dedicated keys for č, š, and ž. Typists who move frequently between an English QWERTY layout and Slovenian QWERTZ can develop Y/Z slip-ups even after years of practice — this is a muscle-memory collision between two layouts, not a language weakness, and confirming the active input language before a timed test helps avoid it.",
     },
-    {
-      type: "table",
-      headers: ["Character", "How to Type It"],
-      rows: [
-        ["č / Č", "Dedicated key on the Slovenian QWERTZ layout, right of the L key"],
-        ["š / Š", "Dedicated key on the Slovenian QWERTZ layout, right of the P key"],
-        ["ž / Ž", "Dedicated key on the Slovenian QWERTZ layout, right of the M key"],
-        ["č, š, ž on a non-Slovenian keyboard (Windows)", "Add the Slovenian input language, or use Alt numeric codes as a fallback"],
-        ["č, š, ž on Mac", "System Settings → Keyboard → Input Sources → add Slovenian, then use the mapped keys"],
-      ],
-    },
-    {
-      type: "table",
-      headers: ["Task", "Windows", "Mac"],
-      rows: [
-        ["Add Slovenian keyboard", "Settings → Time & Language → Language & region → Add a language → Slovenščina → Add keyboard", "System Settings → Keyboard → Input Sources → Edit → + → Slovenian"],
-        ["Switch input language quickly", "Win + Space", "Control + Space"],
-      ],
-    },
-    { type: "heading", text: "Slovenian Typing Speed Benchmarks (WPM)", id: "benchmarks" },
-    {
-      type: "table",
-      headers: ["WPM", "Level", "Real-World Context"],
-      rows: [
-        ["Below 20 WPM", "Beginner", "Still adjusting to the QWERTZ layout and the č/š/ž keys"],
-        ["20–35 WPM", "Below Average", "Workable but slower than most office-job screens"],
-        ["35–45 WPM", "Average", "Typical for an untrained adult typist"],
-        ["45–60 WPM", "Good", "Meets most administrative and customer-service job postings"],
-        ["60–75 WPM", "Professional", "Competitive for shared-services and outsourcing roles"],
-        ["75+ WPM", "Expert", "Fast, accurate typing suited to transcription and high-volume data entry"],
-      ],
-    },
-    { type: "heading", text: "Real Jobs That Value Slovenian Typing Speed", id: "requirements" },
-    {
-      type: "table",
-      headers: ["Country", "Role or Exam", "Typical Requirement"],
-      rows: [
-        ["Slovenia", "Tajnica / Administrativni delavec postings", "Job ads frequently note \"hitro in natančno tipkanje\" (fast and accurate typing) as a requirement"],
-        ["Slovenia", "Vocational and business secondary schools", "Typing/informatika coursework covers the ten-finger touch-typing method as a practical skill"],
-        ["Slovenia", "Shared-services and outsourcing centers (Ljubljana, Maribor)", "Typing assessments are a standard part of hiring for Slovenian-language back-office roles"],
-        ["Cross-border (Italy, Austria)", "Bilingual administrative and translation work", "Slovenian typing speed matters for roles serving the Slovenian-speaking minority communities"],
-      ],
-    },
-    { type: "heading", text: "Slovenian Around the World", id: "diaspora" },
-    {
-      type: "table",
-      headers: ["Country / Region", "Context"],
-      rows: [
-        ["Slovenia", "Home to the vast majority of native Slovenian speakers"],
-        ["Italy (Friuli-Venezia Giulia)", "Recognized Slovenian-speaking minority with bilingual schools"],
-        ["Austria (Carinthia)", "Historic Slovenian-speaking minority community"],
-        ["United States & Argentina", "Established Slovenian diaspora communities from earlier waves of emigration"],
-      ],
-    },
+
+    { type: "heading", text: "Capital Accented Letters Keep Their Marks", id: "capitals" },
     {
       type: "paragraph",
-      text: "Slovenian is one of the few languages to preserve grammatical dual number in everyday use, a feature that traces back to Proto-Slavic and gives the language a distinctive rhythm on the page. Slovenian literature's foundational figure is the Romantic poet France Prešeren, whose work remains central to national identity and Slovenian schooling today.",
+      text: "Uppercase Č, Š, and Ž are used in names, headings, and sentence beginnings exactly like their lowercase counterparts, and should never be simplified to plain C, S, or Z just because the capital form takes an extra keystroke. Practicing proper names and headings, not just lowercase prose, helps keep this instinct sharp under time pressure.",
     },
-    { type: "heading", text: "Who Is This Test Built For", id: "who-its-for" },
+
+    { type: "heading", text: "Slovenian Case Endings Affect Word Length", id: "case-endings" },
     {
-      type: "list",
-      items: [
-        "🏢 Administrative and secretarial job applicants across Slovenia",
-        "🎓 Vocational and business-school students practicing touch-typing",
-        "📞 Shared-services and outsourcing candidates in Ljubljana and Maribor",
-        "💻 Data-entry and back-office staff processing Slovenian documents",
-        "🌍 Slovenian-speaking minority communities in Italy and Austria keeping their written Slovenian sharp",
-        "✍️ Translators and writers working with Slovenian text daily",
-        "⌨️ Anyone learning the QWERTZ layout and the č, š, ž keys for the first time",
-      ],
+      type: "paragraph",
+      text: "Slovenian is a heavily inflected language, marking grammatical case, number (including a distinct dual form for exactly two items), and gender through word endings. This produces longer, more varied word forms than English, so reading the stem and ending as one unit — rather than typing letter by letter — becomes an important skill as passages get longer.",
     },
+
+    { type: "heading", text: "What Is a Good Slovenian Typing Speed?", id: "good-speed" },
+    {
+      type: "paragraph",
+      text: "There is no published, verifiable universal benchmark for Slovenian typing speed. Use your own first clean result as a baseline, and for a specific exam or employer's requirement, rely on that source's actual published rule rather than a generic number.",
+    },
+
     { type: "heading", text: "Frequently Asked Questions", id: "faq" },
     {
       type: "faq",
       items: [
         {
+          question: "Which special letters does Slovenian use?",
+          answer:
+            "Slovenian adds č, š, and ž to the standard Latin alphabet. They are distinct letters, not optional accents, and changing them alters the word.",
+        },
+        {
+          question: "Does Slovenian use QWERTY or QWERTZ?",
+          answer:
+            "The standard Slovenian keyboard layout is QWERTZ, which swaps the Y and Z positions found on a US QWERTY keyboard and adds dedicated keys for č, š, and ž.",
+        },
+        {
+          question: "Why do Slovenian words look long sometimes?",
+          answer:
+            "Slovenian marks grammatical case, number, and gender through word endings, including a distinct dual form for exactly two of something, which naturally produces longer inflected forms than English.",
+        },
+        {
           question: "What is a good Slovenian typing speed?",
           answer:
-            "45–60 WPM covers most administrative and customer-service job postings in Slovenia. 60–75 WPM is competitive for shared-services and outsourcing roles, and 75+ WPM is considered expert-level.",
-        },
-        {
-          question: "How do I type č, š, and ž without a Slovenian keyboard?",
-          answer:
-            "Add the Slovenian input language in your operating system's keyboard settings — it places č, š, and ž on dedicated keys. Windows also supports Alt numeric codes as a fallback.",
-        },
-        {
-          question: "Is the Slovenian keyboard the same as other Central European QWERTZ layouts?",
-          answer:
-            "It's structurally similar to the Croatian layout, but exact key placements and some punctuation symbols differ, so it's worth adding the specific Slovenian layout rather than assuming a neighboring one will match.",
-        },
-        {
-          question: "How is WPM calculated on this test?",
-          answer:
-            "Every five typed characters, including spaces and punctuation, counts as one word. Net WPM subtracts a penalty for uncorrected errors, including missed diacritics.",
-        },
-        {
-          question: "Is this typing test free?",
-          answer: "Yes — completely free, no signup, no download, and you can retake it as many times as you like.",
+            "There is no verified universal benchmark. Track your own progress over time and use a specific employer or exam's published requirement when one actually exists.",
         },
       ],
     },
+
     {
       type: "cta",
-      text: "Izberi dolžino testa, začni tipkati, in spremljaj svojo hitrost WPM ter natančnost v realnem času.",
+      text: "Izberite svoj čas, začnite tipkati in takoj poglejte svojo hitrost ter natančnost.",
     },
   ],
 };

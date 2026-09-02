@@ -1,134 +1,86 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Punjabi Typing Test — ਪੰਜਾਬੀ ਟਾਈਪਿੰਗ ਟੈਸਟ, Check Your WPM Free",
+  seoTitle: "Free Punjabi Typing Test · ਪੰਜਾਬੀ | WPM & Accuracy",
   seoDescription:
-    "Free Punjabi typing test in Gurmukhi script. Check your real WPM, practice for Punjab government typing exams, no signup or download required.",
+    "Take a free Punjabi typing test and check WPM and accuracy. Practice Gurmukhi vowel signs, tippi, addak, and the Punjabi INSCRIPT keyboard.",
   researchedKeywords: [
-    "punjabi typing test",
+    "Punjabi typing speed test",
+    "Gurmukhi typing test",
+    "Punjabi WPM test",
+    "Punjabi keyboard test",
     "ਪੰਜਾਬੀ ਟਾਈਪਿੰਗ ਟੈਸਟ",
-    "punjabi typing speed test online",
-    "gurmukhi typing test",
-    "punjab government typing test",
-    "punjabi typing wpm",
-    "punjabi unicode typing practice",
-    "free punjabi typing test",
+    "ਪੰਜਾਬੀ ਟਾਈਪਿੰਗ ਸਪੀਡ",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
-        "Punjabi is spoken by more than 125 million people worldwide, making it one of the most-spoken languages on earth. It is the official language of Punjab, India, written there in the Gurmukhi script, while in Pakistani Punjab it is written in Shahmukhi, a Perso-Arabic script, though it remains India's Punjab that hosts most formal Punjabi-language typing infrastructure. Beyond South Asia, Punjabi has one of the largest diaspora footprints of any Indian language, with major communities in Canada, the UK, and the US.",
-        "Typing speed in Punjabi matters concretely for government hiring in Punjab, India, where clerical and secretariat recruitment through the Punjab Subordinate Services Selection Board (PSSSB) and similar bodies often requires a Punjabi typing test in Gurmukhi script as part of the selection process. Beyond government roles, Punjabi typing fluency is valued in journalism, translation, and the sizable Punjabi-language media and publishing industry, as well as in customer service roles serving the large Punjabi-speaking diaspora in Canada and the UK.",
-        "This test measures your live typing speed on real Punjabi sentences in Gurmukhi script, the same script used across Punjab's schools, offices, and exams.",
+        "Punjabi in India is written in Gurmukhi, a Brahmi-derived abugida developed and standardized for the Sikh scriptures. Like other Indic scripts, consonants carry an inherent vowel that is modified, replaced, or removed by attached signs — but Gurmukhi has its own distinctive marks, including tippi and addak, that don't exist in Devanagari or other related scripts.",
+        "This test measures how quickly and accurately you can produce real Gurmukhi text, including vowel signs, nasalization marks, and consonant gemination.",
       ],
     },
-    { type: "heading", text: "How Punjabi Typing Speed Is Measured", id: "wpm-explained" },
+
+    { type: "heading", text: "Gurmukhi Vowel Signs and Their Positions", id: "vowel-signs" },
     {
       type: "paragraph",
-      text: "Punjabi typing speed is measured in WPM (words per minute) on modern tests, though Punjab's government typing exams have traditionally scored candidates on words typed correctly from a fixed passage within a set time. Because Gurmukhi, like other Indic scripts, combines consonants and vowel signs into conjunct forms, a Punjabi 'word' typically takes more keystrokes than an English word, so Punjabi WPM benchmarks tend to run lower than English ones for comparable effort.",
+      text: "Gurmukhi dependent vowel signs (lāga mātrā) attach above, below, before, or after their base consonant. Some signs are typed after the consonant even though they visually appear elsewhere, because Unicode stores Indic text in logical rather than purely visual order. Learning the input sequence used by your keyboard — rather than trying to type what you see from left to right — is the foundation of accurate Gurmukhi typing.",
     },
-    { type: "heading", text: "Keyboard Layout and Special Characters", id: "keyboard" },
+
+    { type: "heading", text: "Tippi and Bindi Mark Nasalization", id: "tippi-bindi" },
     {
       type: "paragraph",
-      text: "In India, Punjabi is typed in Gurmukhi script, most commonly using either the INSCRIPT layout (India's standard keyboard layout for Indic scripts) or phonetic typing tools like Google Input Tools, where typists enter Punjabi sounds using Roman letters that are converted automatically into Gurmukhi. In Pakistan, Punjabi is instead typed in Shahmukhi, a right-to-left script closely related to the Urdu keyboard layout.",
+      text: "Gurmukhi uses two distinct marks for nasal sounds: tippi (a small mark used after certain short vowels) and bindi (used after long vowels and independent vowel letters). They are not interchangeable, and choosing the wrong one changes correct spelling. Words such as ਸਿੰਘ (Singh, using tippi) and ਨਾਂ (name, using bindi) are useful examples for practicing the distinction.",
     },
-    {
-      type: "table",
-      headers: ["Task", "Windows", "Mac"],
-      rows: [
-        ["Add Punjabi (Gurmukhi) keyboard", "Settings → Time & Language → Language & region → Add a language → Punjabi (India) → Add keyboard", "System Settings → Keyboard → Input Sources → Edit → + → Punjabi"],
-        ["Add Punjabi (Shahmukhi, Pakistan)", "Add Urdu-compatible or Shahmukhi keyboard via language settings, using right-to-left input", "Add an Urdu/Shahmukhi-compatible input source"],
-        ["Switch input language quickly", "Win + Space", "Control + Space"],
-        ["Phonetic typing (no layout needed)", "Google Input Tools browser extension", "Google Input Tools or a compatible Gurmukhi phonetic input source"],
-      ],
-    },
-    { type: "heading", text: "Punjabi Typing Speed Benchmarks (WPM)", id: "benchmarks" },
-    {
-      type: "table",
-      headers: ["WPM", "Level", "Real-World Context"],
-      rows: [
-        ["Below 10 WPM", "Beginner", "Still learning Gurmukhi key placement or phonetic conversion patterns"],
-        ["10–18 WPM", "Below Average", "Can type basic Punjabi text but slowly"],
-        ["18–25 WPM", "Average", "Comfortable everyday typing speed for most Punjabi computer users"],
-        ["25–35 WPM", "Good", "Meets typical Punjab government clerical and data-entry expectations"],
-        ["35–45 WPM", "Professional", "Competitive for PSSSB and similar state typing exams"],
-        ["45+ WPM", "Expert", "Fast, accurate professional Gurmukhi typist territory"],
-      ],
-    },
-    { type: "heading", text: "Real Jobs and Exams That Require Punjabi Typing Speed", id: "requirements" },
-    {
-      type: "table",
-      headers: ["Country", "Role or Exam", "Typical Requirement"],
-      rows: [
-        ["India (Punjab)", "PSSSB clerical and junior assistant recruitment", "Punjabi (Gurmukhi) typing test on a fixed passage, scored for speed and accuracy"],
-        ["India (Punjab)", "State secretariat and revenue department roles", "Punjabi typing proficiency commonly required alongside English or Hindi"],
-        ["India (Punjab)", "Journalism at Punjabi-language newspapers and media", "Fast, accurate Punjabi typing for daily reporting"],
-        ["Canada & United Kingdom", "Community services, interpretation, and customer support roles", "Punjabi typing and language fluency valued given large diaspora populations"],
-      ],
-    },
-    { type: "heading", text: "Punjabi Around the World", id: "diaspora" },
-    {
-      type: "table",
-      headers: ["Country / Region", "Context"],
-      rows: [
-        ["Punjab, India", "Official state language, written in Gurmukhi, used in government, courts, and education"],
-        ["Punjab, Pakistan", "Widely spoken, written in the Shahmukhi (Perso-Arabic) script rather than Gurmukhi"],
-        ["Canada", "One of the largest Punjabi-speaking diaspora populations outside South Asia, especially in British Columbia and Ontario"],
-        ["United Kingdom", "Large, long-established Punjabi community, particularly in the West Midlands and London"],
-        ["United States", "Significant Punjabi diaspora, especially in California's Central Valley"],
-      ],
-    },
+
+    { type: "heading", text: "Addak Marks Consonant Gemination", id: "addak" },
     {
       type: "paragraph",
-      text: "Punjabi's literary and spiritual tradition runs deep, anchored by the Guru Granth Sahib, the central scripture of Sikhism written largely in Gurmukhi, and carried forward by Sufi and folk poets like Bulleh Shah and Waris Shah, whose verse remains widely read and recited across Punjab today.",
+      text: "Addak is a Gurmukhi-specific sign placed above and before a consonant to show that the consonant is doubled in pronunciation, as in ਪੱਕਾ (pakkā, ripe/solid). It has no direct equivalent in Devanagari, where gemination is instead shown by writing a conjunct. Because addak is easy to skip at speed, it's worth deliberately practicing words that contain it rather than treating it as optional decoration.",
     },
-    { type: "heading", text: "Who Is This Test Built For", id: "who-its-for" },
+
+    { type: "heading", text: "Punjabi INSCRIPT Keyboard Layout", id: "keyboard" },
     {
-      type: "list",
-      items: [
-        "🏛️ PSSSB and Punjab government job aspirants preparing for typing tests",
-        "💼 Clerical and secretariat exam candidates across Punjab, India",
-        "📰 Punjabi journalists and content writers producing daily copy",
-        "🎓 Students and teachers building Gurmukhi keyboard fluency",
-        "🌍 Punjabi diaspora members in Canada, the UK, and the US keeping their script skills sharp",
-        "💻 Data-entry and translation professionals typing in Punjabi",
-        "🙏 Anyone reading or transcribing Gurmukhi religious and literary texts",
-      ],
+      type: "paragraph",
+      text: "Punjabi is typically typed using the INSCRIPT layout, the standardized fixed-key approach shared across India's Indic scripts. Windows includes a dedicated Punjabi keyboard, and phonetic transliteration tools are also widely used, letting typists enter Punjabi sounds using Latin letters and choose the correct Gurmukhi candidate from suggestions.",
     },
+
+    { type: "heading", text: "What Is a Good Punjabi Typing Speed?", id: "good-speed" },
+    {
+      type: "paragraph",
+      text: "There is no published, verifiable universal benchmark for Punjabi typing speed. Use your own first clean result as a baseline, and for a specific exam or employer's requirement, rely on that source's actual published rule rather than a generic figure.",
+    },
+
     { type: "heading", text: "Frequently Asked Questions", id: "faq" },
     {
       type: "faq",
       items: [
         {
+          question: "What is the difference between tippi and bindi?",
+          answer:
+            "Both mark nasalization, but tippi follows certain short vowels while bindi follows long vowels and independent vowel letters. They are not interchangeable, and using the wrong one is a real spelling error.",
+        },
+        {
+          question: "What does addak do in Gurmukhi?",
+          answer:
+            "Addak marks that the following consonant is doubled in pronunciation, as in ਪੱਕਾ. It is a Gurmukhi-specific sign with no direct Devanagari equivalent.",
+        },
+        {
+          question: "Do I need a special keyboard for Punjabi?",
+          answer:
+            "Yes. Windows includes a dedicated Punjabi INSCRIPT keyboard layout, and phonetic transliteration tools are also commonly used.",
+        },
+        {
           question: "What is a good Punjabi typing speed?",
           answer:
-            "25–35 WPM is good for everyday and clerical work, while 35–45 WPM is competitive for PSSSB and similar Punjab government typing exams. Punjabi WPM tends to run lower than English WPM because Gurmukhi's conjunct characters need more keystrokes per word.",
-        },
-        {
-          question: "Do I need a special keyboard to type in Punjabi?",
-          answer:
-            "No. In India, you can add the Punjabi (Gurmukhi) INSCRIPT layout in your device's language settings, or use phonetic typing tools like Google Input Tools. In Pakistan, Punjabi is typed in Shahmukhi using an Urdu-compatible right-to-left layout.",
-        },
-        {
-          question: "What's the difference between Gurmukhi and Shahmukhi Punjabi?",
-          answer:
-            "Gurmukhi is the script used to write Punjabi in India, reading left to right, and is what this test uses. Shahmukhi is the Perso-Arabic script used to write Punjabi in Pakistan, reading right to left. They represent the same spoken language in two different writing systems.",
-        },
-        {
-          question: "How is WPM calculated on this test?",
-          answer:
-            "Every five typed characters counts as one word, and net WPM subtracts a penalty for uncorrected errors, so the score reflects real, usable typing output.",
-        },
-        {
-          question: "Is this Punjabi typing test free?",
-          answer: "Yes, it's completely free, with no signup or download required, and no limit on retakes.",
+            "There is no verified universal benchmark. Track your own progress over time and use a specific employer or exam's published requirement when one actually exists.",
         },
       ],
     },
+
     {
       type: "cta",
-      text: "ਆਪਣਾ ਸਮਾਂ ਚੁਣੋ, ਟਾਈਪ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ, ਅਤੇ ਆਪਣੀ WPM ਅਤੇ ਸ਼ੁੱਧਤਾ ਤੁਰੰਤ ਵੇਖੋ.",
+      text: "ਆਪਣਾ ਸਮਾਂ ਚੁਣੋ, ਟਾਈਪ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ, ਅਤੇ ਤੁਰੰਤ ਆਪਣੀ WPM ਅਤੇ ਸਟੀਕਤਾ ਵੇਖੋ।",
     },
   ],
 };

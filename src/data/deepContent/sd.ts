@@ -1,141 +1,85 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Sindhi Typing Test — سنڌي ٽائپنگ اسپيڊ ٽيسٽ",
+  seoTitle: "Free Sindhi Typing Test · سنڌي | WPM & Accuracy",
   seoDescription:
-    "Free Sindhi typing test — measure your real typing speed in Sindhi Arabic script. Practice for office jobs and school in Sindh, Pakistan and India.",
+    "Take a free Sindhi typing test and check WPM and accuracy. Practice Sindhi-specific implosive letters, right-to-left script, and the Sindhi keyboard.",
   researchedKeywords: [
-    "sindhi typing test",
-    "sindhi typing speed test",
-    "sindhi keyboard online",
-    "sindhi typing test online free",
-    "type sindhi online",
+    "Sindhi typing speed test",
+    "Sindhi WPM test",
+    "Sindhi keyboard test",
     "سنڌي ٽائپنگ ٽيسٽ",
-    "sindhi unicode keyboard",
-    "sindhi type karan jo test",
+    "سنڌي لکڻ جي رفتار",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
-        "Sindhi is spoken natively by roughly 25-30 million people, the majority in Sindh province, Pakistan, where it holds official provincial status, and by several million more in India, largely among Sindhi Hindu communities who resettled there after 1947 and often write the language in the Devanagari script instead. Smaller Sindhi-speaking communities also exist across the Gulf, the UK, and North America.",
-        "In Sindh, typing speed matters for concrete, everyday reasons: government offices, courts, and educational institutions conduct official business in Sindhi, so administrative, clerical, and data-entry roles across the province expect staff to type Sindhi text accurately, and Sindhi-medium schools and universities include Sindhi typing as part of computer-literacy coursework. As more Sindhi-language media, publishing, and government documentation moves onto Unicode-based digital systems, fast and accurate Sindhi typing has become a genuinely useful, marketable skill.",
-        "This test measures your Sindhi typing live, right to left, giving you an honest, real-time read on your speed and accuracy in the script.",
+        "Sindhi is written right to left in an extended Perso-Arabic script that adds a distinctive set of implosive consonant letters not found in Arabic, Persian, or Urdu. These extra letters make Sindhi's alphabet one of the largest among Perso-Arabic-based writing systems, and they are genuinely separate sounds — not stylistic variants of existing Arabic letters.",
+        "This test measures how quickly and accurately you can type real Sindhi text, including its implosive consonants and correct right-to-left punctuation.",
       ],
     },
-    { type: "heading", text: "How Sindhi Typing Speed Is Measured", id: "wpm-explained" },
+
+    { type: "heading", text: "Sindhi's Implosive Consonants Are Unique Letters", id: "implosive-consonants" },
     {
       type: "paragraph",
-      text: "Sindhi typing speed is generally measured in WPM, applying the standard five-characters-per-word convention to Sindhi's Arabic-derived script. Because Sindhi's script includes extra letters beyond standard Arabic and Urdu to represent implosive and additional consonant sounds unique to the language, typing speed is closely tied to familiarity with the extended Sindhi keyboard layout, not just general Arabic-script typing experience.",
+      text: "Sindhi adds a set of implosive consonants — sounds produced with an inward rather than outward airflow — represented by dedicated letters such as ڄ, ٻ, ڏ, ڳ, and ڱ. These are not decorative marks on ordinary Arabic letters; they are distinct characters representing sounds unique to Sindhi and closely related languages. Substituting a similar-looking standard Arabic letter changes the word and is a real spelling error, not a stylistic shortcut.",
     },
-    { type: "heading", text: "Keyboard Layout and Special Characters", id: "keyboard" },
+
+    { type: "heading", text: "Right-to-Left Text with Embedded Numbers", id: "rtl-numbers" },
     {
       type: "paragraph",
-      text: "Sindhi in Pakistan is written right-to-left in a script derived from Perso-Arabic, extended with additional letters — such as ڄ, ٺ, ٽ, ڀ, ڍ, ڊ, ڏ, ڦ, ڇ, ڳ, and ڱ — to capture sounds not present in standard Arabic or Urdu. A dedicated Sindhi Unicode keyboard layout maps these extra characters to specific keys, distinct from a standard Urdu or Arabic keyboard. In India, some Sindhi speakers instead write the language in Devanagari script, using a standard Hindi-style keyboard layout.",
+      text: "Like other Perso-Arabic scripts, Sindhi runs right to left while numerals and any embedded Latin text display left to right within the same line. This mixed-direction behavior, governed by the Unicode Bidirectional Algorithm, is normal and expected — a number appearing to interrupt the visual flow of a Sindhi sentence is not a typing mistake.",
     },
-    {
-      type: "table",
-      headers: ["Character", "How to Type It"],
-      rows: [
-        ["ڄ, ٺ, ٽ, ڀ, ڍ, ڊ, ڏ, ڦ, ڇ, ڳ, ڱ (Sindhi-specific letters)", "Dedicated keys on the Sindhi Unicode keyboard layout, distinct from Urdu/Arabic layouts"],
-        ["Standard Arabic-derived letters shared with Urdu", "Same general key positions as the Urdu keyboard layout"],
-        ["Right-to-left text direction", "Handled automatically by the OS once the Sindhi keyboard/input language is active"],
-        ["Devanagari Sindhi (India)", "Standard Hindi/Devanagari keyboard layout, used by Sindhi speakers writing in Devanagari script"],
-      ],
-    },
-    {
-      type: "table",
-      headers: ["Task", "Windows", "Mac"],
-      rows: [
-        ["Add Sindhi keyboard", "Settings → Time & Language → Language & region → Add a language → سنڌي → Add keyboard", "System Settings → Keyboard → Input Sources → Edit → + → Sindhi (if available) or a third-party Sindhi Unicode input method"],
-        ["Switch input language quickly", "Win + Space", "Control + Space"],
-      ],
-    },
-    { type: "heading", text: "Sindhi Typing Speed Benchmarks (WPM)", id: "benchmarks" },
-    {
-      type: "table",
-      headers: ["WPM", "Level", "Real-World Context"],
-      rows: [
-        ["Below 15 WPM", "Beginner", "Still learning the right-to-left layout and Sindhi-specific letters"],
-        ["15–25 WPM", "Below Average", "Functional but slower than most clerical job screens"],
-        ["25–35 WPM", "Average", "Typical for someone comfortable with everyday Sindhi typing"],
-        ["35–45 WPM", "Good", "Meets most government and data-entry job expectations in Sindh"],
-        ["45–55 WPM", "Professional", "Comparable to trained clerical typists working in Sindhi"],
-        ["55+ WPM", "Expert", "Fast, accurate typing suited to transcription and high-volume documentation work"],
-      ],
-    },
-    { type: "heading", text: "Real Jobs That Value Sindhi Typing Speed", id: "requirements" },
-    {
-      type: "table",
-      headers: ["Country", "Role or Exam", "Typical Requirement"],
-      rows: [
-        ["Pakistan (Sindh)", "Provincial government clerical and administrative roles", "Sindhi typing proficiency is valued given the language's official provincial status"],
-        ["Pakistan (Sindh)", "Sindhi-medium school and university computer courses", "Sindhi typing is taught as part of computer-literacy coursework"],
-        ["Pakistan (Sindh)", "Sindhi-language media, publishing, and translation work", "Fast, accurate Sindhi typing supports digital content production"],
-        ["India", "Sindhi-Hindu community organizations and cultural institutions", "Devanagari-script Sindhi typing is useful for community publishing and record-keeping"],
-      ],
-    },
-    { type: "heading", text: "Sindhi Around the World", id: "diaspora" },
-    {
-      type: "table",
-      headers: ["Country / Region", "Context"],
-      rows: [
-        ["Pakistan (Sindh province)", "Home to the majority of native Sindhi speakers, written in Perso-Arabic script"],
-        ["India", "Several million Sindhi speakers, largely Hindu communities who resettled after 1947, often writing in Devanagari"],
-        ["Gulf countries (UAE, Oman, Saudi Arabia)", "Sindhi-speaking migrant worker and business communities"],
-        ["United Kingdom & North America", "Established Sindhi diaspora communities with active cultural organizations"],
-      ],
-    },
+
+    { type: "heading", text: "The Sindhi Keyboard Layout", id: "keyboard" },
     {
       type: "paragraph",
-      text: "Sindhi has one of the richest Sufi poetic traditions in South Asia, most famously embodied in the Shah Jo Risalo, the collected verse of 18th-century mystic poet Shah Abdul Latif Bhittai, still recited and sung across Sindh today. Typing Sindhi accurately means correctly forming its extended set of Arabic-derived letters, several of which exist in no other regional script.",
+      text: "A dedicated Sindhi keyboard layout provides direct access to both the shared Perso-Arabic letters and Sindhi's additional implosive consonants, avoiding the need for Character Map or copy-paste workarounds. Confirming that the correct Sindhi input language is active before a timed test matters, since an Arabic or Urdu layout will not include Sindhi-specific letters in their expected positions.",
     },
-    { type: "heading", text: "Who Is This Test Built For", id: "who-its-for" },
+
+    { type: "heading", text: "Sindhi Punctuation Follows Perso-Arabic Conventions", id: "punctuation" },
     {
-      type: "list",
-      items: [
-        "🏛️ Government and clerical job applicants across Sindh province, Pakistan",
-        "🎓 Students learning Sindhi typing as part of school and university coursework",
-        "💻 Data-entry and administrative staff processing Sindhi-language documents",
-        "📰 Sindhi-language journalists, publishers, and content creators",
-        "🌍 Sindhi diaspora in the Gulf, UK, or North America keeping their written Sindhi sharp",
-        "✍️ Writers and translators working with Sindhi text daily",
-        "⌨️ Anyone building keyboard fluency in the Sindhi Arabic script for the first time",
-      ],
+      type: "paragraph",
+      text: "Sindhi shares much of its punctuation with Arabic and Urdu, including the reversed comma (،) and question mark (؟) used in right-to-left text. Reproducing the exact punctuation shown in the source, rather than substituting familiar English marks, keeps the test measuring genuine Sindhi text.",
     },
+
+    { type: "heading", text: "What Is a Good Sindhi Typing Speed?", id: "good-speed" },
+    {
+      type: "paragraph",
+      text: "There is no published, verifiable universal benchmark for Sindhi typing speed. Use your own first clean result as a baseline, and for a specific exam or employer's requirement, rely on that source's actual published rule rather than a generic number.",
+    },
+
     { type: "heading", text: "Frequently Asked Questions", id: "faq" },
     {
       type: "faq",
       items: [
         {
+          question: "What makes Sindhi's alphabet different from Urdu's?",
+          answer:
+            "Sindhi adds a set of implosive consonant letters, such as ڄ, ٻ, ڏ, ڳ, and ڱ, representing sounds that don't exist in Urdu, Arabic, or Persian.",
+        },
+        {
+          question: "Why do numbers appear left to right in Sindhi text?",
+          answer:
+            "Sindhi script is right to left, but numerals and embedded Latin text display left to right within the same line. This is normal Unicode bidirectional behavior, not an error.",
+        },
+        {
+          question: "Does Sindhi have its own keyboard layout?",
+          answer:
+            "Yes, a dedicated Sindhi keyboard layout gives direct access to both shared Perso-Arabic letters and Sindhi's unique implosive consonants.",
+        },
+        {
           question: "What is a good Sindhi typing speed?",
           answer:
-            "35–45 WPM meets most government and data-entry job expectations in Sindh. 45+ WPM is considered professional-level, comparable to trained clerical typists.",
-        },
-        {
-          question: "Is the Sindhi keyboard the same as the Urdu keyboard?",
-          answer:
-            "They share many letters, but Sindhi has extra characters — such as ڄ, ٺ, ٽ, ڀ, ڍ, ڏ, ڦ, ڇ, ڳ, and ڱ — for sounds not found in Urdu, so a dedicated Sindhi Unicode keyboard layout is needed to type it correctly.",
-        },
-        {
-          question: "Why does Sindhi typing feel different from left-to-right languages?",
-          answer:
-            "Sindhi, in its Pakistani Perso-Arabic form, is written right to left. Once you add the Sindhi input language on Windows or Mac, the operating system handles the right-to-left text direction automatically as you type.",
-        },
-        {
-          question: "How is typing speed calculated on this test?",
-          answer:
-            "The test measures words per minute based on characters typed in real time, including corrections. Net WPM subtracts a penalty for uncorrected errors so it reflects real, usable output.",
-        },
-        {
-          question: "Is this typing test free?",
-          answer: "Yes — completely free, no signup, no download, and no limit on how many times you can practice.",
+            "There is no verified universal benchmark. Track your own progress over time and use a specific employer or exam's published requirement when one actually exists.",
         },
       ],
     },
+
     {
       type: "cta",
-      text: "پنھنجي ٽيسٽ جو ٽائيم چونڊيو، ٽائپ ڪرڻ شروع ڪريو، ۽ پنھنجي رفتار ۽ درستگي جيئري ڏسو.",
+      text: "پنهنجو وقت چونڊيو، ٽائيپ ڪرڻ شروع ڪريو، ۽ فوري طور تي پنهنجي WPM ۽ صحت ڏسو.",
     },
   ],
 };

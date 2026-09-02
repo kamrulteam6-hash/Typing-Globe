@@ -1,142 +1,86 @@
 import { LanguageDeepContent } from "@/data/deepContent/types";
 
 const content: LanguageDeepContent = {
-  seoTitle: "Serbian Typing Test — Тест Брзине Куцања (Ćirilica & Latinica)",
+  seoTitle: "Free Serbian Typing Test · Српски | WPM & Accuracy",
   seoDescription:
-    "Free Serbian typing test — measure your real WPM in both Cyrillic (ćirilica) and Latin (latinica) script. Practice for office jobs across Serbia.",
+    "Take a free Serbian typing test and check WPM and accuracy. Practice Serbian Cyrillic, the Latin/Cyrillic digraphia, and the Serbian keyboard.",
   researchedKeywords: [
-    "serbian typing test",
-    "test brzine kucanja",
-    "test kucanja srpski",
-    "ćirilica test kucanja",
-    "srpska tastatura",
-    "wpm test srpski jezik",
-    "koliko reci u minuti",
-    "besplatan test kucanja online",
+    "Serbian typing speed test",
+    "Serbian Cyrillic typing test",
+    "Serbian WPM test",
+    "Serbian keyboard test",
+    "тест брзине куцања",
+    "вежбе куцања",
   ],
   blocks: [
     {
       type: "hero",
       narrative: [
-        "Serbian is spoken natively by around 9-12 million people, primarily in Serbia, where it is the official language written in both Cyrillic (ćirilica) and Latin (latinica) script, and by significant communities in Bosnia and Herzegovina, Montenegro, and Kosovo, plus diaspora populations across Western Europe, the United States, and Australia.",
-        "Serbia has no single national typing-certification exam, but keyboard skill still counts in practical ways: administrative and secretarial job listings (sekretarica, administrativni radnik, referent) frequently name a typing-speed expectation, business and vocational schools teach desetoprstno kucanje (ten-finger typing) as part of informatics coursework, and both public institutions — which by law give official preference to Cyrillic — and private companies, which lean heavily on Latin script day-to-day, need staff comfortable typing accurately in whichever script the document calls for.",
-        "This test lets you practice and measure your speed in Serbian using either script, the same way real documents and job screens actually work.",
+        "Serbian is unusual among modern languages in that it is officially written in two distinct scripts — Cyrillic and Latin — with a genuinely one-to-one correspondence between them, meaning any Serbian text can be transliterated to the other script without ambiguity. Cyrillic remains the constitutionally designated script, while Latin sees heavy everyday use, especially online.",
+        "This test measures how quickly and accurately you can type real Serbian text, in whichever script your passage uses.",
       ],
     },
-    { type: "heading", text: "How Serbian Typing Speed Is Measured", id: "wpm-explained" },
+
+    { type: "heading", text: "Serbian's Latin and Cyrillic Scripts Map One-to-One", id: "digraphia" },
     {
       type: "paragraph",
-      text: "Serbian typing speed is measured in WPM (reči u minuti), using the standard convention where five characters equal one word. Because Serbian is digraphic — every text can be written in either Cyrillic or Latin script — typing speed is effectively the same skill measured twice: fluency depends on which script and keyboard layout you're most practiced with, not on the language itself.",
+      text: "Unlike languages where transliteration is approximate, Serbian's Latin alphabet was specifically designed so every Cyrillic letter has exactly one Latin equivalent and vice versa — а/a, б/b, ђ/đ, and so on through the full alphabet. That precision means a Serbian typing test should treat Cyrillic and Latin as two genuinely different keyboard tasks rather than casually equivalent versions of the same text, since the physical keys and layout differ even though the underlying language does not.",
     },
-    { type: "heading", text: "Keyboard Layout and Special Characters", id: "keyboard" },
+
+    { type: "heading", text: "Serbian Cyrillic Has Letters Not Found in Russian", id: "cyrillic-letters" },
     {
       type: "paragraph",
-      text: "Serbian typists commonly switch between two keyboard layouts: Serbian Latin (QWERTZ-based, with dedicated keys for č, ć, š, ž, and đ) and Serbian Cyrillic, which maps the Cyrillic alphabet onto a standard keyboard using a JCUKEN-style arrangement common to Slavic Cyrillic layouts. Most computers and phones let you toggle between the two instantly once both are installed.",
+      text: "Serbian Cyrillic includes letters absent from Russian and other Slavic Cyrillic alphabets, such as љ, њ, ћ, and џ, each representing a single sound that would otherwise require a digraph. A Russian-trained Cyrillic typist does not automatically have Serbian muscle memory, particularly for these additional letters, so practicing them inside real words — such as љубав (love), њива (field), ћирилица (Cyrillic), and џеп (pocket) — builds accuracy faster than treating Serbian Cyrillic as identical to Russian.",
     },
-    {
-      type: "table",
-      headers: ["Character / Script", "How to Type It"],
-      rows: [
-        ["č, ć, š, ž, đ (Latin diacritics)", "Dedicated keys on the Serbian Latin QWERTZ layout"],
-        ["Cyrillic letters (а, б, в, г...)", "Dedicated keys on the Serbian Cyrillic layout, mapped similarly to Russian JCUKEN"],
-        ["Switching between Cyrillic and Latin", "Toggle between the two installed keyboard layouts via the OS language switcher"],
-        ["Serbian script on a non-Serbian keyboard (Windows)", "Add both Serbian (Latin) and Serbian (Cyrillic) input languages"],
-        ["Serbian script on Mac", "System Settings → Keyboard → Input Sources → add Serbian (Latin) and Serbian (Cyrillic)"],
-      ],
-    },
-    {
-      type: "table",
-      headers: ["Task", "Windows", "Mac"],
-      rows: [
-        ["Add Serbian keyboards", "Settings → Time & Language → Language & region → Add a language → Srpski → Add keyboard (choose Latin and/or Cyrillic)", "System Settings → Keyboard → Input Sources → Edit → + → Serbian"],
-        ["Switch input language quickly", "Win + Space", "Control + Space"],
-      ],
-    },
-    { type: "heading", text: "Serbian Typing Speed Benchmarks (WPM)", id: "benchmarks" },
-    {
-      type: "table",
-      headers: ["WPM", "Level", "Real-World Context"],
-      rows: [
-        ["Below 20 WPM", "Beginner", "Still adjusting to the layout, in either script"],
-        ["20–35 WPM", "Below Average", "Workable but slower than most office-job screens"],
-        ["35–45 WPM", "Average", "Typical for an untrained adult typist"],
-        ["45–60 WPM", "Good", "Meets most administrative and customer-service job postings"],
-        ["60–75 WPM", "Professional", "Comparable to trained ten-finger typists (desetoprstno kucanje)"],
-        ["75+ WPM", "Expert", "Fast, accurate typing suited to transcription and high-volume data entry"],
-      ],
-    },
-    { type: "heading", text: "Real Jobs That Value Serbian Typing Speed", id: "requirements" },
-    {
-      type: "table",
-      headers: ["Country", "Role or Exam", "Typical Requirement"],
-      rows: [
-        ["Serbia", "Public administration and government clerical roles", "Cyrillic typing is often expected, given its official/preferred status in state documents"],
-        ["Serbia", "Private-sector administrative and secretarial postings", "Latin-script typing speed is commonly listed, alongside general computer literacy"],
-        ["Serbia", "Business and vocational schools", "Ten-finger touch-typing (desetoprstno kucanje) is taught as a practical informatics skill"],
-        ["Bosnia & Herzegovina, Montenegro", "Cross-border administrative and translation work", "Comfort with both scripts is a practical advantage in regional roles"],
-      ],
-    },
-    { type: "heading", text: "Serbian Around the World", id: "diaspora" },
-    {
-      type: "table",
-      headers: ["Country / Region", "Context"],
-      rows: [
-        ["Serbia", "Home to the largest population of native Serbian speakers, using both Cyrillic and Latin script"],
-        ["Bosnia & Herzegovina", "Significant Serbian-speaking population, primarily in Republika Srpska"],
-        ["Montenegro", "Closely related speech community with shared linguistic roots"],
-        ["Germany, Austria, Switzerland, USA", "Large Serbian diaspora communities built through decades of emigration"],
-      ],
-    },
+
+    { type: "heading", text: "Serbian Latin Digraphs Represent Single Sounds", id: "latin-digraphs" },
     {
       type: "paragraph",
-      text: "Serbian's dual-script tradition is itself a point of cultural pride, rooted in the 19th-century language reforms of Vuk Karadžić, who standardized the modern Cyrillic Serbian alphabet on a strictly phonetic \"write as you speak\" principle. Serbian oral epic poetry, passed down for centuries, remains a touchstone of the language's literary heritage alongside its modern novelists and poets.",
+      text: "In the Latin alphabet, the sounds represented by single Cyrillic letters љ, њ, and џ become the two-character digraphs lj, nj, and dž. These are meaningful spelling units, not accidental letter pairs, and should be typed and read as single sounds — dropping one character from lj or nj changes the word.",
     },
-    { type: "heading", text: "Who Is This Test Built For", id: "who-its-for" },
+
+    { type: "heading", text: "Keeping One Script Consistent for Practice", id: "keyboard" },
     {
-      type: "list",
-      items: [
-        "🏛️ Government and public-administration job applicants typing in Cyrillic",
-        "🏢 Private-sector administrative and secretarial candidates typing in Latin script",
-        "🎓 Students practicing ten-finger touch-typing (desetoprstno kucanje) in either script",
-        "💻 Data-entry and back-office staff processing Serbian documents",
-        "🌍 Serbian diaspora in Germany, Austria, or the USA keeping their written Serbian sharp",
-        "✍️ Writers and journalists switching fluently between ćirilica and latinica",
-        "⌨️ Anyone building keyboard fluency in both Serbian scripts",
-      ],
+      type: "paragraph",
+      text: "Because Serbian Cyrillic and Latin require different keyboard layouts, switching between them mid-practice will disrupt your typing rhythm and make progress harder to track. Choose the script you actually need — Cyrillic for formal, legal, or constitutionally mandated contexts, Latin for the script you'll likely encounter most in everyday digital text — and keep your benchmark consistent within that script.",
     },
+
+    { type: "heading", text: "What Is a Good Serbian Typing Speed?", id: "good-speed" },
+    {
+      type: "paragraph",
+      text: "There is no published, verifiable universal benchmark for Serbian typing speed in either script. Use your own first clean result as a baseline, and for a specific exam or employer's requirement, rely on that source's actual published rule rather than a generic number.",
+    },
+
     { type: "heading", text: "Frequently Asked Questions", id: "faq" },
     {
       type: "faq",
       items: [
         {
+          question: "Does Serbian use Cyrillic or Latin?",
+          answer:
+            "Both, officially and equally. Cyrillic is the constitutionally designated script, while Latin sees very heavy everyday use, especially in digital communication.",
+        },
+        {
+          question: "Are lj, nj, and dž separate letters?",
+          answer:
+            "In the Latin alphabet, yes — they function as single-sound digraphs corresponding to the Cyrillic letters љ, њ, and џ. Dropping one character from the pair changes the spelling.",
+        },
+        {
+          question: "Is Serbian Cyrillic the same as Russian Cyrillic?",
+          answer:
+            "No. Serbian Cyrillic includes letters not found in Russian, such as љ, њ, ћ, and џ, so Russian typing fluency doesn't automatically transfer.",
+        },
+        {
           question: "What is a good Serbian typing speed?",
           answer:
-            "45–60 WPM covers most administrative and customer-service job postings in Serbia, in either script. 60–75 WPM is comparable to trained ten-finger typists, and 75+ WPM is expert-level.",
-        },
-        {
-          question: "Should I learn to type in Cyrillic or Latin script?",
-          answer:
-            "Both are useful. Cyrillic is the constitutionally preferred script for official Serbian government documents, while Latin script dominates in everyday private-sector, digital, and informal use — most fluent typists are comfortable in both.",
-        },
-        {
-          question: "How do I switch between Cyrillic and Latin keyboards?",
-          answer:
-            "Add both Serbian (Cyrillic) and Serbian (Latin) as input languages in your operating system's keyboard settings, then use the language-switcher shortcut (Win + Space on Windows, Control + Space on Mac) to toggle instantly.",
-        },
-        {
-          question: "How is WPM calculated on this test?",
-          answer:
-            "Every five typed characters, including spaces and punctuation, counts as one word. Net WPM subtracts a penalty for uncorrected errors so it reflects real, usable output.",
-        },
-        {
-          question: "Is this typing test free?",
-          answer: "Yes — completely free, no signup, no download, and you can retake it as many times as you like.",
+            "There is no verified universal benchmark. Track your own progress over time and use a specific employer or exam's published requirement when one actually exists.",
         },
       ],
     },
+
     {
       type: "cta",
-      text: "Изабери дужину теста, почни да куцаш, и прати своју брзину и тачност уживо.",
+      text: "Изаберите своје време, почните да куцате и одмах погледајте своју брзину и тачност.",
     },
   ],
 };
