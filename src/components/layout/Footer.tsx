@@ -32,8 +32,6 @@ export function Footer() {
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
             <span>Autosaved Typing</span>
             <span>·</span>
-            <span>Free Typing Certificate</span>
-            <span>·</span>
             <span>70 Global Languages</span>
           </div>
         </div>

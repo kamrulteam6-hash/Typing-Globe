@@ -255,14 +255,8 @@ export function MockExamRunner({ exam }: { exam: MockExam }) {
           Try Again
         </button>
         <Link
-          href="/typing-certificate"
-          className="rounded-lg border border-primary/40 bg-primary/10 px-5 py-2.5 text-sm font-semibold text-primary hover:bg-primary/20"
-        >
-          🎓 Get a Verified Certificate
-        </Link>
-        <Link
           href="/government-exam-typing-test"
-          className="rounded-lg border border-border px-5 py-2.5 text-sm font-semibold text-muted hover:text-foreground"
+          className="rounded-lg border border-primary/40 bg-primary/10 px-5 py-2.5 text-sm font-semibold text-primary hover:bg-primary/20"
         >
           More Mock Exams
         </Link>

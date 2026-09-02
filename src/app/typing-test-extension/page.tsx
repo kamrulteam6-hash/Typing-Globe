@@ -48,12 +48,6 @@ const features = [
       "A daily streak counter, a weekly recap of your sessions, and a keyboard heatmap that shows exactly which keys trip you up most.",
   },
   {
-    icon: "🔗",
-    title: "Certificate Status, Synced",
-    description:
-      "Log into typingglobe.com in your browser and the extension automatically shows your certificate status — no separate sign-in required.",
-  },
-  {
     icon: "🔍",
     title: "Omnibox Shortcuts",
     description: `Type "globe" + Tab in your address bar, then a language name to jump straight to that typing test — no clicking required.`,
@@ -79,7 +73,7 @@ const faqItems = [
   {
     question: "Does the ambient tracker work without an internet connection?",
     answer:
-      "Yes — the popup drill, ambient tracker, streak, and heatmap all run entirely offline using your browser's local storage. An internet connection is only needed to sync your certificate status from typingglobe.com.",
+      "Yes — the popup drill, ambient tracker, streak, and heatmap all run entirely offline using your browser's local storage.",
   },
   {
     question: "Does the extension read what I type on other sites?",

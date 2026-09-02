@@ -415,20 +415,6 @@ export default function ExamHallPage() {
         </div>
 
         <div>
-          <SeoHeading id="vs-certificate">Government Mock Tests vs. Typing Certificate</SeoHeading>
-          <p className="mt-3 leading-relaxed text-muted">
-            An exam mock answers a narrow question: can you meet the practice rules for a particular recruitment skill test?
-            A general typing certificate answers a different question by documenting a broader typing result. One should not
-            be presented as a substitute for the other when an official recruitment board requires its own skill test.
-          </p>
-          <p className="mt-3 leading-relaxed text-muted">
-            Use Exam Hall when your priority is SSC, RRB, court, public-service, or employer-style practice. Use the Typing
-            Certificate when you want an additional general credential for your own records or applications that accept
-            independent proof. Always follow the hiring authority's stated documentation rules.
-          </p>
-        </div>
-
-        <div>
           <SeoHeading id="common-mistakes">Common Government Typing-Test Mistakes</SeoHeading>
           <ul className="mt-4 flex flex-col gap-3">
             {[

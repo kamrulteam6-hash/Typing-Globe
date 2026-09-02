@@ -9,7 +9,6 @@ import type { PromoVariant } from "./tiptap/promoCard";
 const VARIANTS: { key: PromoVariant; label: string }[] = [
   { key: "test", label: "Test" },
   { key: "practice", label: "Practice" },
-  { key: "certificate", label: "Certificate" },
   { key: "game", label: "Game" },
   { key: "course", label: "Course" },
 ];
@@ -33,8 +32,6 @@ export function PromoPicker({ editor, onClose }: { editor: Editor | null; onClos
     } else if (variant === "game") {
       const game = games.find((g) => g.slug === gameSlug) ?? games[0];
       attrs = { variant, href: `/game/${game.slug}`, label: `Play ${game.title}`, icon: game.icon };
-    } else if (variant === "certificate") {
-      attrs = { variant, href: "/typing-certificate", label: "Get Your Free Typing Certificate", icon: "🎓" };
     } else {
       attrs = { variant, href: "/english-typing-course", label: "Start the 30-Day Typing Course", icon: "📅" };
     }
