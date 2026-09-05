@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPublishedPostBySlug, getRelatedPosts } from "@/lib/blog/queries";
@@ -73,8 +74,14 @@ export default async function BlogPostPage({
       </div>
 
       {post.cover_image_url && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={post.cover_image_url} alt="" className="mb-10 w-full rounded-2xl object-cover" />
+        <Image
+          src={post.cover_image_url}
+          alt={post.title}
+          width={1200}
+          height={630}
+          className="mb-10 w-full rounded-2xl object-cover"
+          priority
+        />
       )}
 
       <PostContent html={post.content_html} />

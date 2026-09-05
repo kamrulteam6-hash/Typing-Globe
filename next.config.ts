@@ -1,6 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "wgjzgirgrbrlasixbcmu.supabase.co",
+        pathname: "/storage/v1/object/public/blog-images/**",
+      },
+    ],
+  },
   async redirects() {
     return [
       // Old auto-generated Bengali slug -> new keyword-research-backed canonical slug.

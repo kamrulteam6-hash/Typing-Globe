@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
@@ -9,8 +10,14 @@ export function FeaturedPostCard({ post }: { post: BlogPost }) {
     <Link href={`/blog/${post.slug}`}>
       <Card hover className="mb-10 grid gap-0 overflow-hidden !p-0 sm:grid-cols-2">
         {post.cover_image_url && (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img src={post.cover_image_url} alt="" className="h-56 w-full object-cover sm:h-full" />
+          <div className="relative h-56 w-full sm:h-full">
+            <Image
+              src={post.cover_image_url}
+              alt={post.title}
+              fill
+              className="object-cover"
+            />
+          </div>
         )}
         <div className="flex flex-col justify-center p-8">
           <Badge tone={post.accent} className="mb-3 w-fit">
