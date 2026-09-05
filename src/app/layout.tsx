@@ -45,12 +45,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        {/* Google AdSense */}
-        <Script
+        {/* Google AdSense — plain <script> tag (not next/script) so the
+            literal tag is present in the server-rendered HTML for the
+            AdSense site-verification crawler. */}
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1010914018637240"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
         />
 
         {/* Google Analytics */}
