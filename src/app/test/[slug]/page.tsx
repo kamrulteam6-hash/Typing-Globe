@@ -7,6 +7,7 @@ import { SectionLabel } from "@/components/ui/Card";
 import { TypingTest } from "@/components/TypingTest";
 import { LanguageSeoContent } from "@/components/seo/LanguageSeoContent";
 import { DeepContentRenderer } from "@/components/seo/DeepContentRenderer";
+import { RelatedLanguageLinks } from "@/components/seo/RelatedLanguageLinks";
 import { getDeepContent } from "@/data/deepContent";
 
 export function generateStaticParams() {
@@ -100,6 +101,8 @@ export default async function TestPage({
       )}
 
       {deep ? <DeepContentRenderer content={deep} /> : <LanguageSeoContent lang={lang} />}
+
+      {lang.hasRealTest && <RelatedLanguageLinks lang={lang} mode="test" />}
 
       {deep?.schemas?.map((schema, i) => (
         <script

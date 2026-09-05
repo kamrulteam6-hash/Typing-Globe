@@ -6,6 +6,7 @@ import { Flag } from "@/components/ui/Flag";
 import { SectionLabel } from "@/components/ui/Card";
 import { TypingTest } from "@/components/TypingTest";
 import { LanguageSeoContent } from "@/components/seo/LanguageSeoContent";
+import { RelatedLanguageLinks } from "@/components/seo/RelatedLanguageLinks";
 
 export function generateStaticParams() {
   return languages.map((lang) => ({ slug: lang.practiceSlug }));
@@ -78,6 +79,8 @@ export default async function PracticePage({
       )}
 
       <LanguageSeoContent lang={lang} variant="compact" />
+
+      {lang.hasRealTest && <RelatedLanguageLinks lang={lang} mode="practice" />}
     </div>
   );
 }
